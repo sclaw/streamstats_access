@@ -7,7 +7,7 @@ import csv
 from http.cookies import SimpleCookie
 
 
-IN_PATH = r"C:\Users\Kensf\Documents\StreamStats\access_r&d\round_2\round_2.shp"
+IN_PATH = r"C:\Users\Kensf\Documents\StreamStats\LAM\batches\round1\round1.shp"
 
 
 class RegressionPoint:
@@ -205,7 +205,7 @@ def generate_flowstats(session, queues, include_flow_types=True):
 
     t1 = time.perf_counter()
     try:
-        flow_response = session.get(point.flow_url, params=flow_params, timeout=61)
+        flow_response = session.get(point.flow_url, params=flow_params, timeout=61, cookies=point.cookies)
     except requests.exceptions.ReadTimeout:
         print(f'timeout on {point.name}')
         point.attempts += 1
@@ -282,8 +282,8 @@ def export_watersheds(point, out_path):
 
     # Create line geometry
     ring = ogr.Geometry(ogr.wkbLinearRing)
-    for point in point.watershed:
-        ring.AddPoint(*point)
+    for p in point.watershed:
+        ring.AddPoint(*p)
     poly = ogr.Geometry(ogr.wkbPolygon)
     poly.AddGeometry(ring)
 
@@ -313,12 +313,12 @@ def export_flowstats(point, out_dir):
                              point.region_name,
                              point.area_percent,
                              point.area,
-                             stat['Label'],
+                             stat['code'],
                              stat['Name'],
                              stat['Value'],
-                             stat['Units'],
-                             stat['lower'],
-                             stat['upper']])
+                             None, # todo: fix
+                             None,
+                             None])
 
 
 def export_parameters(point, out_dir):
@@ -362,8 +362,8 @@ def run_batch(rcode, unique_field, in_path):
             point = queue_cluster['export_queue'][0]
             export_outlets(point, working_directory)
             export_watersheds(point, working_directory)
-            export_watersheds(point, working_directory)
             export_flowstats(point, working_directory)
+            export_parameters(point, working_directory)
             del queue_cluster['export_queue'][0]
 
         if not queue_cluster['input_queue'] and not queue_cluster['flowstat_queue'] and not queue_cluster['export_queue']:
@@ -371,7 +371,7 @@ def run_batch(rcode, unique_field, in_path):
 
 
 def main():
-    run_batch('VT', 'Name', IN_PATH)
+    run_batch('VT', 'Code', IN_PATH)
 
 
 if __name__ == '__main__':
