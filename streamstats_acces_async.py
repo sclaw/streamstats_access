@@ -8,7 +8,7 @@ from http.cookies import SimpleCookie
 import asyncio
 
 
-IN_PATH = r"C:\Users\Kensf\Documents\StreamStats\LAM\batches\round1\round1.shp"
+IN_PATH = r"C:\Users\klawson1\OneDrive - University of Vermont\Scott\CIROH\floodplains\study_sites\Study Sites\streamstats\batch_pts.shp"
 
 
 class RegressionPoint:
@@ -392,7 +392,7 @@ async def run_batch(rcode, unique_field, in_path):
 
 
 def main():
-    asyncio.run(run_batch('VT', 'Code', IN_PATH))
+    asyncio.run(run_batch('VT', 'ReachID', IN_PATH))
 
 
 if __name__ == '__main__':

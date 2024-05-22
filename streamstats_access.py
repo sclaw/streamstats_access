@@ -7,7 +7,7 @@ import csv
 from http.cookies import SimpleCookie
 
 
-IN_PATH = r"C:\Users\Kensf\Documents\StreamStats\LAM\batches\round1\round1.shp"
+IN_PATH = r"C:\Users\klawson1\OneDrive - University of Vermont\Scott\CIROH\floodplains\study_sites\Study Sites\streamstats\bruso\bruso.shp"
 
 
 class RegressionPoint:
@@ -371,7 +371,7 @@ def run_batch(rcode, unique_field, in_path):
 
 
 def main():
-    run_batch('VT', 'Code', IN_PATH)
+    run_batch('VT', 'REACH', IN_PATH)
 
 
 if __name__ == '__main__':
