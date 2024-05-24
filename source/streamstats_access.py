@@ -1,13 +1,24 @@
 import time
 import logging
 import requests
-from osgeo import ogr, osr
+import geopandas as gpd
 import os
 import csv
 from http.cookies import SimpleCookie
+import json
 
 
-IN_PATH = r"C:\Users\klawson1\OneDrive - University of Vermont\Scott\CIROH\floodplains\study_sites\Study Sites\streamstats\bruso\bruso.shp"
+IN_PATH = r"C:\Users\klawson1\OneDrive - University of Vermont\Desktop\vt_ss\vt_streamstats_batch\sample\mettawee\in_pts.shp"
+# Service URLS
+StreamStatsServiceURLS = {
+    'watershed': 'https://streamstats.usgs.gov/streamstatsservices/watershed.geojson',
+    'basinCharacteristics': 'https://prodwebb.streamstats.usgs.gov/streamstatsservices/parameters.json'
+    }
+NSSServiceURlS = {
+    'regressionRegions': 'https://streamstats.usgs.gov/nssservices/regressionregions/bylocation',
+    'scenarios': 'https://streamstats.usgs.gov/nssservices/scenarios',
+    'computeFlowStats': 'https://streamstats.usgs.gov/nssservices/scenarios/estimate'
+}
 
 
 class RegressionPoint:
@@ -54,20 +65,19 @@ class RegressionPoint:
 
     def append_watershed(self, response):
         # Parse and add cookies
-        cookie = SimpleCookie()
-        cookie.load(response.headers['set-cookie'])
-        self.cookies = {key: value.value for key, value in cookie.items()}
+        self.cookies = response.cookies
 
         # Determine server from header
         self.server_name = response.headers['USGSWiM-HostName'].lower()
         self.flow_url = self.flow_base_url.format(self.server_name)
 
         # Parse response content
-        json = response.json()
-        self.workspace_id = json['workspaceID']
-        self.watershed = json['featurecollection'][1]['feature']['features'][0]['geometry']['coordinates'][0]
+        resp_json = json.loads(response.content.decode('utf-8'))
+        self.workspace_id = resp_json['workspaceID']
+        self.watershed = resp_json['featurecollection'][1]['feature']['features'][0]['geometry']['coordinates'][0]
+        self.wshedjson = resp_json['featurecollection'][1]['feature']['features'][0]['geometry']
 
-        for param in json['parameters']:
+        for param in resp_json['parameters']:
             if param['name'] == 'OUTLETX':
                 self.outlet_x = param['value']
             if param['name'] == 'OUTLETY':
@@ -128,6 +138,14 @@ def shp_to_list(shp_path, unique_field, ignore_list):
         if id_code not in ignore_list:
             point_list.append(RegressionPoint(id_code, geom.GetX(), geom.GetY(), crs))
 
+    return point_list
+
+def load_inputs(path, unique_field, ignore_list):
+    in_file = gpd.read_file(path).to_crs('EPSG:4326')
+    in_file = in_file.set_index(unique_field)
+    in_file = in_file[~in_file.index.isin(ignore_list)]
+    crs = in_file.crs.srs.split(':')[1]
+    point_list = [RegressionPoint(i, in_file.loc[i].geometry.x, in_file.loc[i].geometry.y, crs) for i in in_file.index]
     return point_list
 
 
@@ -197,10 +215,22 @@ def generate_flowstats(session, queues, include_flow_types=True):
         return
     logging.info(f'Calculating flowstats for {point.workspace_id}')
 
+    try:
+        region_response = session.post(url=NSSServiceURlS['regressionRegions'], json=point.wshedjson)
+        if region_response.status_code == 200:
+            regressionRegions = json.loads(region_response.content.decode('utf-8'))
+            regressionRegionCodes = [sub['code'] for sub in regressionRegions ] # this will be used in step 3
+        else:
+            raise RuntimeError('Error.')
+    
+    
+    except:
+        pass
+
     flow_params = {
         'rcode': str(point.rcode).upper(),
         'workspaceID': str(point.workspace_id).upper(),
-        'includeflowtypes': str(include_flow_types).lower()
+        'includeparameters': str(include_flow_types).lower()
     }
 
     t1 = time.perf_counter()
@@ -342,7 +372,8 @@ def run_batch(rcode, unique_field, in_path):
 
     # Import data
     ignore_list = get_previously_computed(working_directory)
-    point_inputs = shp_to_list(in_path, unique_field, ignore_list)
+    point_inputs = load_inputs(in_path, unique_field, ignore_list)
+    # point_inputs = shp_to_list(in_path, unique_field, ignore_list)
 
     # Create queues
     queue_cluster = {'input_queue': point_inputs, 'flowstat_queue': list(), 'export_queue': list(), 'error_list': list()}
@@ -371,7 +402,7 @@ def run_batch(rcode, unique_field, in_path):
 
 
 def main():
-    run_batch('VT', 'REACH', IN_PATH)
+    run_batch('VT', 'Name', IN_PATH)
 
 
 if __name__ == '__main__':

@@ -1,0 +1,3725 @@
+INFO:root:Run started 2024-05-22 20:51:24
+INFO:root:Run started 2024-05-22 20:51:35
+INFO:root:Delineating watershed for point @ x = 440274.896900177 and y = 117615.9811000824
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): streamstats.usgs.gov:443
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "GET /streamstatsservices/watershed.geojson?rcode=VT&xlocation=440274.896900177&ylocation=117615.9811000824&crs=32145&includeparameters=True&includeflowtypes=False&includefeatures=True&simplify=True HTTP/1.1" 200 10674
+DEBUG:root:04300101000071 took 49.489 seconds for delineation attempt 0
+INFO:root:Calculating flowstats for VT20240522205140413000
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): prodwebb.streamstats.usgs.gov:443
+DEBUG:urllib3.connectionpool:https://prodwebb.streamstats.usgs.gov:443 "GET /streamstatsservices/flowstatistics.json?rcode=VT&workspaceID=VT20240522205140413000&includeflowtypes=true HTTP/1.1" 500 1208
+DEBUG:root:04300101000071 took 0.396 seconds for flowstats attempt 0
+INFO:root:Delineating watershed for point @ x = 427103.45469999313 and y = 119228.6466999054
+INFO:root:Run started 2024-05-22 20:53:23
+INFO:root:Delineating watershed for point @ x = 440274.896900177 and y = 117615.9811000824
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): streamstats.usgs.gov:443
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "GET /streamstatsservices/watershed.geojson?rcode=VT&xlocation=440274.896900177&ylocation=117615.9811000824&crs=32145&includeparameters=True&includeflowtypes=False&includefeatures=True&simplify=True HTTP/1.1" 200 3050
+DEBUG:root:04300101000071 took 34.772 seconds for delineation attempt 0
+INFO:root:Delineating watershed for point @ x = 427103.45469999313 and y = 119228.6466999054
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "GET /streamstatsservices/watershed.geojson?rcode=VT&xlocation=427103.45469999313&ylocation=119228.6466999054&crs=32145&includeparameters=True&includeflowtypes=False&includefeatures=True&simplify=True HTTP/1.1" 200 2133
+DEBUG:root:04300101000087 took 25.488 seconds for delineation attempt 0
+INFO:root:Run started 2024-05-22 21:02:44
+INFO:root:Delineating watershed for point @ x = 440274.896900177 and y = 117615.9811000824
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): streamstats.usgs.gov:443
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "GET /streamstatsservices/watershed.geojson?rcode=VT&xlocation=440274.896900177&ylocation=117615.9811000824&crs=32145&includeparameters=True&includeflowtypes=False&includefeatures=True&simplify=True HTTP/1.1" 200 10674
+DEBUG:root:04300101000071 took 35.505 seconds for delineation attempt 0
+INFO:root:Calculating flowstats for VT20240522210249008000
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): prodweba.streamstats.usgs.gov:443
+DEBUG:urllib3.connectionpool:https://prodweba.streamstats.usgs.gov:443 "GET /streamstatsservices/flowstatistics.json?rcode=VT&workspaceID=VT20240522210249008000&includeflowtypes=true HTTP/1.1" 500 1208
+DEBUG:root:04300101000071 took 0.45 seconds for flowstats attempt 0
+INFO:root:Delineating watershed for point @ x = 447254.8987002373 and y = 101225.9783000946
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "GET /streamstatsservices/watershed.geojson?rcode=VT&xlocation=447254.8987002373&ylocation=101225.9783000946&crs=32145&includeparameters=True&includeflowtypes=False&includefeatures=True&simplify=True HTTP/1.1" 200 8795
+DEBUG:root:04300101000046 took 40.251 seconds for delineation attempt 0
+INFO:root:Calculating flowstats for VT20240522210249008000
+DEBUG:urllib3.connectionpool:https://prodweba.streamstats.usgs.gov:443 "GET /streamstatsservices/flowstatistics.json?rcode=VT&workspaceID=VT20240522210249008000&includeflowtypes=true HTTP/1.1" 500 1208
+DEBUG:root:04300101000071 took 8.928 seconds for flowstats attempt 1
+INFO:root:Run started 2024-05-22 21:06:37
+INFO:root:Delineating watershed for point @ x = 440274.896900177 and y = 117615.9811000824
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): streamstats.usgs.gov:443
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "GET /streamstatsservices/watershed.geojson?rcode=VT&xlocation=440274.896900177&ylocation=117615.9811000824&crs=32145&includeparameters=True&includeflowtypes=False&includefeatures=True&simplify=True HTTP/1.1" 200 10674
+DEBUG:root:04300101000071 took 37.95 seconds for delineation attempt 0
+INFO:root:Calculating flowstats for VT20240522210642221000
+INFO:root:Run started 2024-05-23 19:21:21
+INFO:root:Run started 2024-05-23 19:25:43
+DEBUG:fiona.session:Could not import boto3, continuing with reduced functionality.
+DEBUG:fiona._env:GDAL_DATA found in environment.
+DEBUG:fiona._env:PROJ_DATA found in environment.
+DEBUG:fiona._env:GDAL_DATA found in environment.
+DEBUG:fiona._env:PROJ_DATA found in environment.
+DEBUG:fiona._env:GDAL_DATA found in environment.
+DEBUG:fiona._env:PROJ_DATA found in environment.
+DEBUG:fiona.ogrext:Got coordinate system
+DEBUG:fiona.ogrext:Got coordinate system
+DEBUG:fiona.crs:Matched. confidence=100, c_code=b'32145', c_name=b'EPSG'
+DEBUG:fiona.ogrext:OLC_FASTSETNEXTBYINDEX: 1
+DEBUG:fiona.ogrext:OLC_FASTFEATURECOUNT: 1
+DEBUG:fiona.ogrext:Next index: 0
+DEBUG:fiona.ogrext:Next index: 1
+DEBUG:fiona.ogrext:Next index: 2
+DEBUG:fiona.ogrext:Next index: 3
+DEBUG:fiona.ogrext:Next index: 4
+DEBUG:fiona.ogrext:Next index: 5
+DEBUG:fiona.ogrext:Next index: 6
+DEBUG:fiona.ogrext:Next index: 7
+DEBUG:fiona.ogrext:Next index: 8
+DEBUG:fiona.ogrext:Next index: 9
+DEBUG:fiona.ogrext:Next index: 10
+DEBUG:fiona.ogrext:Next index: 11
+DEBUG:fiona.ogrext:Next index: 12
+DEBUG:fiona.ogrext:Next index: 13
+DEBUG:fiona.ogrext:Next index: 14
+DEBUG:fiona.ogrext:Next index: 15
+DEBUG:fiona.ogrext:Next index: 16
+DEBUG:fiona.ogrext:Next index: 17
+DEBUG:fiona.ogrext:Next index: 18
+DEBUG:fiona.ogrext:Next index: 19
+DEBUG:fiona.ogrext:Next index: 20
+DEBUG:fiona.ogrext:Next index: 21
+DEBUG:fiona.ogrext:Next index: 22
+DEBUG:fiona.ogrext:Next index: 23
+DEBUG:fiona.ogrext:Next index: 24
+DEBUG:fiona.ogrext:Next index: 25
+DEBUG:fiona.ogrext:Next index: 26
+DEBUG:fiona.ogrext:Next index: 27
+DEBUG:fiona.ogrext:Next index: 28
+DEBUG:fiona.ogrext:Next index: 29
+DEBUG:fiona.ogrext:Next index: 30
+DEBUG:fiona.ogrext:Next index: 31
+DEBUG:fiona.ogrext:Next index: 32
+DEBUG:fiona.ogrext:Next index: 33
+DEBUG:fiona.ogrext:Next index: 34
+DEBUG:fiona.ogrext:Next index: 35
+DEBUG:fiona.ogrext:Next index: 36
+DEBUG:fiona.ogrext:Next index: 37
+DEBUG:fiona.ogrext:Next index: 38
+DEBUG:fiona.ogrext:Next index: 39
+DEBUG:fiona.ogrext:Next index: 40
+DEBUG:fiona.ogrext:Next index: 41
+DEBUG:fiona.ogrext:Next index: 42
+DEBUG:fiona.ogrext:Next index: 43
+DEBUG:fiona.ogrext:Next index: 44
+DEBUG:fiona.ogrext:Next index: 45
+DEBUG:fiona.ogrext:Next index: 46
+DEBUG:fiona.ogrext:Next index: 47
+DEBUG:fiona.ogrext:Next index: 48
+DEBUG:fiona.ogrext:Next index: 49
+DEBUG:fiona.ogrext:Next index: 50
+DEBUG:fiona.ogrext:Next index: 51
+DEBUG:fiona.ogrext:Next index: 52
+DEBUG:fiona.ogrext:Next index: 53
+DEBUG:fiona.ogrext:Next index: 54
+DEBUG:fiona.ogrext:Next index: 55
+DEBUG:fiona.ogrext:Next index: 56
+DEBUG:fiona.ogrext:Next index: 57
+DEBUG:fiona.ogrext:Next index: 58
+DEBUG:fiona.ogrext:Next index: 59
+DEBUG:fiona.ogrext:Next index: 60
+DEBUG:fiona.ogrext:Next index: 61
+DEBUG:fiona.ogrext:Next index: 62
+DEBUG:fiona.ogrext:Next index: 63
+DEBUG:fiona.ogrext:Next index: 64
+DEBUG:fiona.ogrext:Next index: 65
+DEBUG:fiona.ogrext:Next index: 66
+DEBUG:fiona.ogrext:Next index: 67
+DEBUG:fiona.ogrext:Next index: 68
+DEBUG:fiona.ogrext:Next index: 69
+DEBUG:fiona.ogrext:Next index: 70
+DEBUG:fiona.ogrext:Next index: 71
+DEBUG:fiona.ogrext:Next index: 72
+DEBUG:fiona.ogrext:Next index: 73
+DEBUG:fiona.ogrext:Next index: 74
+DEBUG:fiona.ogrext:Next index: 75
+DEBUG:fiona.ogrext:Next index: 76
+DEBUG:fiona.ogrext:Next index: 77
+DEBUG:fiona.ogrext:Next index: 78
+DEBUG:fiona.ogrext:Next index: 79
+DEBUG:fiona.ogrext:Next index: 80
+DEBUG:fiona.ogrext:Next index: 81
+DEBUG:fiona.ogrext:Next index: 82
+DEBUG:fiona.ogrext:Next index: 83
+DEBUG:fiona.ogrext:Next index: 84
+DEBUG:fiona.ogrext:Next index: 85
+DEBUG:fiona.ogrext:Next index: 86
+DEBUG:fiona.ogrext:Next index: 87
+DEBUG:fiona.ogrext:Next index: 88
+DEBUG:fiona.ogrext:Next index: 89
+DEBUG:fiona.ogrext:Next index: 90
+DEBUG:fiona.ogrext:Next index: 91
+DEBUG:fiona.ogrext:Next index: 92
+DEBUG:fiona.ogrext:Next index: 93
+DEBUG:fiona.ogrext:Next index: 94
+DEBUG:fiona.ogrext:Next index: 95
+DEBUG:fiona.ogrext:Next index: 96
+DEBUG:fiona.ogrext:Next index: 97
+DEBUG:fiona.ogrext:Next index: 98
+DEBUG:fiona.ogrext:Next index: 99
+DEBUG:fiona.ogrext:Next index: 100
+DEBUG:fiona.ogrext:Next index: 101
+DEBUG:fiona.ogrext:Next index: 102
+DEBUG:fiona.ogrext:Next index: 103
+DEBUG:fiona.ogrext:Next index: 104
+DEBUG:fiona.ogrext:Next index: 105
+DEBUG:fiona.ogrext:Next index: 106
+DEBUG:fiona.ogrext:Next index: 107
+DEBUG:fiona.ogrext:Next index: 108
+DEBUG:fiona.ogrext:Next index: 109
+DEBUG:fiona.ogrext:Next index: 110
+DEBUG:fiona.ogrext:Next index: 111
+DEBUG:fiona.ogrext:Next index: 112
+DEBUG:fiona.ogrext:Next index: 113
+DEBUG:fiona.ogrext:Next index: 114
+DEBUG:fiona.ogrext:Next index: 115
+DEBUG:fiona.ogrext:Next index: 116
+DEBUG:fiona.ogrext:Next index: 117
+DEBUG:fiona.ogrext:Next index: 118
+DEBUG:fiona.ogrext:Next index: 119
+DEBUG:fiona.ogrext:Next index: 120
+DEBUG:fiona.ogrext:Next index: 121
+DEBUG:fiona.ogrext:Next index: 122
+DEBUG:fiona.ogrext:Next index: 123
+DEBUG:fiona.ogrext:Next index: 124
+DEBUG:fiona.ogrext:Next index: 125
+DEBUG:fiona.ogrext:Next index: 126
+DEBUG:fiona.ogrext:Next index: 127
+DEBUG:fiona.ogrext:Next index: 128
+DEBUG:fiona.ogrext:Next index: 129
+DEBUG:fiona.ogrext:Next index: 130
+DEBUG:fiona.ogrext:Next index: 131
+DEBUG:fiona.ogrext:Next index: 132
+DEBUG:fiona.ogrext:Next index: 133
+DEBUG:fiona.ogrext:Next index: 134
+DEBUG:fiona.ogrext:Next index: 135
+DEBUG:fiona.ogrext:Next index: 136
+DEBUG:fiona.ogrext:Next index: 137
+DEBUG:fiona.ogrext:Next index: 138
+DEBUG:fiona.ogrext:Next index: 139
+DEBUG:fiona.ogrext:Next index: 140
+DEBUG:fiona.ogrext:Next index: 141
+DEBUG:fiona.ogrext:Next index: 142
+DEBUG:fiona.ogrext:Next index: 143
+DEBUG:fiona.ogrext:Next index: 144
+DEBUG:fiona.ogrext:Next index: 145
+DEBUG:fiona.ogrext:Next index: 146
+DEBUG:fiona.ogrext:Next index: 147
+DEBUG:fiona.ogrext:Next index: 148
+DEBUG:fiona.ogrext:Next index: 149
+DEBUG:fiona.ogrext:Next index: 150
+DEBUG:fiona.ogrext:Next index: 151
+DEBUG:fiona.ogrext:Next index: 152
+DEBUG:fiona.ogrext:Next index: 153
+DEBUG:fiona.ogrext:Next index: 154
+DEBUG:fiona.ogrext:Next index: 155
+DEBUG:fiona.ogrext:Next index: 156
+DEBUG:fiona.ogrext:Next index: 157
+DEBUG:fiona.ogrext:Next index: 158
+DEBUG:fiona.ogrext:Next index: 159
+DEBUG:fiona.ogrext:Next index: 160
+DEBUG:fiona.collection:Flushed buffer
+DEBUG:fiona.collection:Stopped session
+INFO:root:Run started 2024-05-23 19:27:44
+DEBUG:fiona.session:Could not import boto3, continuing with reduced functionality.
+DEBUG:fiona._env:GDAL_DATA found in environment.
+DEBUG:fiona._env:PROJ_DATA found in environment.
+DEBUG:fiona._env:GDAL_DATA found in environment.
+DEBUG:fiona._env:PROJ_DATA found in environment.
+DEBUG:fiona._env:GDAL_DATA found in environment.
+DEBUG:fiona._env:PROJ_DATA found in environment.
+DEBUG:fiona.ogrext:Got coordinate system
+DEBUG:fiona.ogrext:Got coordinate system
+DEBUG:fiona.crs:Matched. confidence=100, c_code=b'32145', c_name=b'EPSG'
+DEBUG:fiona.ogrext:OLC_FASTSETNEXTBYINDEX: 1
+DEBUG:fiona.ogrext:OLC_FASTFEATURECOUNT: 1
+DEBUG:fiona.ogrext:Next index: 0
+DEBUG:fiona.ogrext:Next index: 1
+DEBUG:fiona.ogrext:Next index: 2
+DEBUG:fiona.ogrext:Next index: 3
+DEBUG:fiona.ogrext:Next index: 4
+DEBUG:fiona.ogrext:Next index: 5
+DEBUG:fiona.ogrext:Next index: 6
+DEBUG:fiona.ogrext:Next index: 7
+DEBUG:fiona.ogrext:Next index: 8
+DEBUG:fiona.ogrext:Next index: 9
+DEBUG:fiona.ogrext:Next index: 10
+DEBUG:fiona.ogrext:Next index: 11
+DEBUG:fiona.ogrext:Next index: 12
+DEBUG:fiona.ogrext:Next index: 13
+DEBUG:fiona.ogrext:Next index: 14
+DEBUG:fiona.ogrext:Next index: 15
+DEBUG:fiona.ogrext:Next index: 16
+DEBUG:fiona.ogrext:Next index: 17
+DEBUG:fiona.ogrext:Next index: 18
+DEBUG:fiona.ogrext:Next index: 19
+DEBUG:fiona.ogrext:Next index: 20
+DEBUG:fiona.ogrext:Next index: 21
+DEBUG:fiona.ogrext:Next index: 22
+DEBUG:fiona.ogrext:Next index: 23
+DEBUG:fiona.ogrext:Next index: 24
+DEBUG:fiona.ogrext:Next index: 25
+DEBUG:fiona.ogrext:Next index: 26
+DEBUG:fiona.ogrext:Next index: 27
+DEBUG:fiona.ogrext:Next index: 28
+DEBUG:fiona.ogrext:Next index: 29
+DEBUG:fiona.ogrext:Next index: 30
+DEBUG:fiona.ogrext:Next index: 31
+DEBUG:fiona.ogrext:Next index: 32
+DEBUG:fiona.ogrext:Next index: 33
+DEBUG:fiona.ogrext:Next index: 34
+DEBUG:fiona.ogrext:Next index: 35
+DEBUG:fiona.ogrext:Next index: 36
+DEBUG:fiona.ogrext:Next index: 37
+DEBUG:fiona.ogrext:Next index: 38
+DEBUG:fiona.ogrext:Next index: 39
+DEBUG:fiona.ogrext:Next index: 40
+DEBUG:fiona.ogrext:Next index: 41
+DEBUG:fiona.ogrext:Next index: 42
+DEBUG:fiona.ogrext:Next index: 43
+DEBUG:fiona.ogrext:Next index: 44
+DEBUG:fiona.ogrext:Next index: 45
+DEBUG:fiona.ogrext:Next index: 46
+DEBUG:fiona.ogrext:Next index: 47
+DEBUG:fiona.ogrext:Next index: 48
+DEBUG:fiona.ogrext:Next index: 49
+DEBUG:fiona.ogrext:Next index: 50
+DEBUG:fiona.ogrext:Next index: 51
+DEBUG:fiona.ogrext:Next index: 52
+DEBUG:fiona.ogrext:Next index: 53
+DEBUG:fiona.ogrext:Next index: 54
+DEBUG:fiona.ogrext:Next index: 55
+DEBUG:fiona.ogrext:Next index: 56
+DEBUG:fiona.ogrext:Next index: 57
+DEBUG:fiona.ogrext:Next index: 58
+DEBUG:fiona.ogrext:Next index: 59
+DEBUG:fiona.ogrext:Next index: 60
+DEBUG:fiona.ogrext:Next index: 61
+DEBUG:fiona.ogrext:Next index: 62
+DEBUG:fiona.ogrext:Next index: 63
+DEBUG:fiona.ogrext:Next index: 64
+DEBUG:fiona.ogrext:Next index: 65
+DEBUG:fiona.ogrext:Next index: 66
+DEBUG:fiona.ogrext:Next index: 67
+DEBUG:fiona.ogrext:Next index: 68
+DEBUG:fiona.ogrext:Next index: 69
+DEBUG:fiona.ogrext:Next index: 70
+DEBUG:fiona.ogrext:Next index: 71
+DEBUG:fiona.ogrext:Next index: 72
+DEBUG:fiona.ogrext:Next index: 73
+DEBUG:fiona.ogrext:Next index: 74
+DEBUG:fiona.ogrext:Next index: 75
+DEBUG:fiona.ogrext:Next index: 76
+DEBUG:fiona.ogrext:Next index: 77
+DEBUG:fiona.ogrext:Next index: 78
+DEBUG:fiona.ogrext:Next index: 79
+DEBUG:fiona.ogrext:Next index: 80
+DEBUG:fiona.ogrext:Next index: 81
+DEBUG:fiona.ogrext:Next index: 82
+DEBUG:fiona.ogrext:Next index: 83
+DEBUG:fiona.ogrext:Next index: 84
+DEBUG:fiona.ogrext:Next index: 85
+DEBUG:fiona.ogrext:Next index: 86
+DEBUG:fiona.ogrext:Next index: 87
+DEBUG:fiona.ogrext:Next index: 88
+DEBUG:fiona.ogrext:Next index: 89
+DEBUG:fiona.ogrext:Next index: 90
+DEBUG:fiona.ogrext:Next index: 91
+DEBUG:fiona.ogrext:Next index: 92
+DEBUG:fiona.ogrext:Next index: 93
+DEBUG:fiona.ogrext:Next index: 94
+DEBUG:fiona.ogrext:Next index: 95
+DEBUG:fiona.ogrext:Next index: 96
+DEBUG:fiona.ogrext:Next index: 97
+DEBUG:fiona.ogrext:Next index: 98
+DEBUG:fiona.ogrext:Next index: 99
+DEBUG:fiona.ogrext:Next index: 100
+DEBUG:fiona.ogrext:Next index: 101
+DEBUG:fiona.ogrext:Next index: 102
+DEBUG:fiona.ogrext:Next index: 103
+DEBUG:fiona.ogrext:Next index: 104
+DEBUG:fiona.ogrext:Next index: 105
+DEBUG:fiona.ogrext:Next index: 106
+DEBUG:fiona.ogrext:Next index: 107
+DEBUG:fiona.ogrext:Next index: 108
+DEBUG:fiona.ogrext:Next index: 109
+DEBUG:fiona.ogrext:Next index: 110
+DEBUG:fiona.ogrext:Next index: 111
+DEBUG:fiona.ogrext:Next index: 112
+DEBUG:fiona.ogrext:Next index: 113
+DEBUG:fiona.ogrext:Next index: 114
+DEBUG:fiona.ogrext:Next index: 115
+DEBUG:fiona.ogrext:Next index: 116
+DEBUG:fiona.ogrext:Next index: 117
+DEBUG:fiona.ogrext:Next index: 118
+DEBUG:fiona.ogrext:Next index: 119
+DEBUG:fiona.ogrext:Next index: 120
+DEBUG:fiona.ogrext:Next index: 121
+DEBUG:fiona.ogrext:Next index: 122
+DEBUG:fiona.ogrext:Next index: 123
+DEBUG:fiona.ogrext:Next index: 124
+DEBUG:fiona.ogrext:Next index: 125
+DEBUG:fiona.ogrext:Next index: 126
+DEBUG:fiona.ogrext:Next index: 127
+DEBUG:fiona.ogrext:Next index: 128
+DEBUG:fiona.ogrext:Next index: 129
+DEBUG:fiona.ogrext:Next index: 130
+DEBUG:fiona.ogrext:Next index: 131
+DEBUG:fiona.ogrext:Next index: 132
+DEBUG:fiona.ogrext:Next index: 133
+DEBUG:fiona.ogrext:Next index: 134
+DEBUG:fiona.ogrext:Next index: 135
+DEBUG:fiona.ogrext:Next index: 136
+DEBUG:fiona.ogrext:Next index: 137
+DEBUG:fiona.ogrext:Next index: 138
+DEBUG:fiona.ogrext:Next index: 139
+DEBUG:fiona.ogrext:Next index: 140
+DEBUG:fiona.ogrext:Next index: 141
+DEBUG:fiona.ogrext:Next index: 142
+DEBUG:fiona.ogrext:Next index: 143
+DEBUG:fiona.ogrext:Next index: 144
+DEBUG:fiona.ogrext:Next index: 145
+DEBUG:fiona.ogrext:Next index: 146
+DEBUG:fiona.ogrext:Next index: 147
+DEBUG:fiona.ogrext:Next index: 148
+DEBUG:fiona.ogrext:Next index: 149
+DEBUG:fiona.ogrext:Next index: 150
+DEBUG:fiona.ogrext:Next index: 151
+DEBUG:fiona.ogrext:Next index: 152
+DEBUG:fiona.ogrext:Next index: 153
+DEBUG:fiona.ogrext:Next index: 154
+DEBUG:fiona.ogrext:Next index: 155
+DEBUG:fiona.ogrext:Next index: 156
+DEBUG:fiona.ogrext:Next index: 157
+DEBUG:fiona.ogrext:Next index: 158
+DEBUG:fiona.ogrext:Next index: 159
+DEBUG:fiona.ogrext:Next index: 160
+DEBUG:fiona.collection:Flushed buffer
+DEBUG:fiona.collection:Stopped session
+INFO:root:Run started 2024-05-23 19:28:06
+DEBUG:fiona.session:Could not import boto3, continuing with reduced functionality.
+DEBUG:fiona._env:GDAL_DATA found in environment.
+DEBUG:fiona._env:PROJ_DATA found in environment.
+DEBUG:fiona._env:GDAL_DATA found in environment.
+DEBUG:fiona._env:PROJ_DATA found in environment.
+DEBUG:fiona._env:GDAL_DATA found in environment.
+DEBUG:fiona._env:PROJ_DATA found in environment.
+DEBUG:fiona.ogrext:Got coordinate system
+DEBUG:fiona.ogrext:Got coordinate system
+DEBUG:fiona.crs:Matched. confidence=100, c_code=b'32145', c_name=b'EPSG'
+DEBUG:fiona.ogrext:OLC_FASTSETNEXTBYINDEX: 1
+DEBUG:fiona.ogrext:OLC_FASTFEATURECOUNT: 1
+DEBUG:fiona.ogrext:Next index: 0
+DEBUG:fiona.ogrext:Next index: 1
+DEBUG:fiona.ogrext:Next index: 2
+DEBUG:fiona.ogrext:Next index: 3
+DEBUG:fiona.ogrext:Next index: 4
+DEBUG:fiona.ogrext:Next index: 5
+DEBUG:fiona.ogrext:Next index: 6
+DEBUG:fiona.ogrext:Next index: 7
+DEBUG:fiona.ogrext:Next index: 8
+DEBUG:fiona.ogrext:Next index: 9
+DEBUG:fiona.ogrext:Next index: 10
+DEBUG:fiona.ogrext:Next index: 11
+DEBUG:fiona.ogrext:Next index: 12
+DEBUG:fiona.ogrext:Next index: 13
+DEBUG:fiona.ogrext:Next index: 14
+DEBUG:fiona.ogrext:Next index: 15
+DEBUG:fiona.ogrext:Next index: 16
+DEBUG:fiona.ogrext:Next index: 17
+DEBUG:fiona.ogrext:Next index: 18
+DEBUG:fiona.ogrext:Next index: 19
+DEBUG:fiona.ogrext:Next index: 20
+DEBUG:fiona.ogrext:Next index: 21
+DEBUG:fiona.ogrext:Next index: 22
+DEBUG:fiona.ogrext:Next index: 23
+DEBUG:fiona.ogrext:Next index: 24
+DEBUG:fiona.ogrext:Next index: 25
+DEBUG:fiona.ogrext:Next index: 26
+DEBUG:fiona.ogrext:Next index: 27
+DEBUG:fiona.ogrext:Next index: 28
+DEBUG:fiona.ogrext:Next index: 29
+DEBUG:fiona.ogrext:Next index: 30
+DEBUG:fiona.ogrext:Next index: 31
+DEBUG:fiona.ogrext:Next index: 32
+DEBUG:fiona.ogrext:Next index: 33
+DEBUG:fiona.ogrext:Next index: 34
+DEBUG:fiona.ogrext:Next index: 35
+DEBUG:fiona.ogrext:Next index: 36
+DEBUG:fiona.ogrext:Next index: 37
+DEBUG:fiona.ogrext:Next index: 38
+DEBUG:fiona.ogrext:Next index: 39
+DEBUG:fiona.ogrext:Next index: 40
+DEBUG:fiona.ogrext:Next index: 41
+DEBUG:fiona.ogrext:Next index: 42
+DEBUG:fiona.ogrext:Next index: 43
+DEBUG:fiona.ogrext:Next index: 44
+DEBUG:fiona.ogrext:Next index: 45
+DEBUG:fiona.ogrext:Next index: 46
+DEBUG:fiona.ogrext:Next index: 47
+DEBUG:fiona.ogrext:Next index: 48
+DEBUG:fiona.ogrext:Next index: 49
+DEBUG:fiona.ogrext:Next index: 50
+DEBUG:fiona.ogrext:Next index: 51
+DEBUG:fiona.ogrext:Next index: 52
+DEBUG:fiona.ogrext:Next index: 53
+DEBUG:fiona.ogrext:Next index: 54
+DEBUG:fiona.ogrext:Next index: 55
+DEBUG:fiona.ogrext:Next index: 56
+DEBUG:fiona.ogrext:Next index: 57
+DEBUG:fiona.ogrext:Next index: 58
+DEBUG:fiona.ogrext:Next index: 59
+DEBUG:fiona.ogrext:Next index: 60
+DEBUG:fiona.ogrext:Next index: 61
+DEBUG:fiona.ogrext:Next index: 62
+DEBUG:fiona.ogrext:Next index: 63
+DEBUG:fiona.ogrext:Next index: 64
+DEBUG:fiona.ogrext:Next index: 65
+DEBUG:fiona.ogrext:Next index: 66
+DEBUG:fiona.ogrext:Next index: 67
+DEBUG:fiona.ogrext:Next index: 68
+DEBUG:fiona.ogrext:Next index: 69
+DEBUG:fiona.ogrext:Next index: 70
+DEBUG:fiona.ogrext:Next index: 71
+DEBUG:fiona.ogrext:Next index: 72
+DEBUG:fiona.ogrext:Next index: 73
+DEBUG:fiona.ogrext:Next index: 74
+DEBUG:fiona.ogrext:Next index: 75
+DEBUG:fiona.ogrext:Next index: 76
+DEBUG:fiona.ogrext:Next index: 77
+DEBUG:fiona.ogrext:Next index: 78
+DEBUG:fiona.ogrext:Next index: 79
+DEBUG:fiona.ogrext:Next index: 80
+DEBUG:fiona.ogrext:Next index: 81
+DEBUG:fiona.ogrext:Next index: 82
+DEBUG:fiona.ogrext:Next index: 83
+DEBUG:fiona.ogrext:Next index: 84
+DEBUG:fiona.ogrext:Next index: 85
+DEBUG:fiona.ogrext:Next index: 86
+DEBUG:fiona.ogrext:Next index: 87
+DEBUG:fiona.ogrext:Next index: 88
+DEBUG:fiona.ogrext:Next index: 89
+DEBUG:fiona.ogrext:Next index: 90
+DEBUG:fiona.ogrext:Next index: 91
+DEBUG:fiona.ogrext:Next index: 92
+DEBUG:fiona.ogrext:Next index: 93
+DEBUG:fiona.ogrext:Next index: 94
+DEBUG:fiona.ogrext:Next index: 95
+DEBUG:fiona.ogrext:Next index: 96
+DEBUG:fiona.ogrext:Next index: 97
+DEBUG:fiona.ogrext:Next index: 98
+DEBUG:fiona.ogrext:Next index: 99
+DEBUG:fiona.ogrext:Next index: 100
+DEBUG:fiona.ogrext:Next index: 101
+DEBUG:fiona.ogrext:Next index: 102
+DEBUG:fiona.ogrext:Next index: 103
+DEBUG:fiona.ogrext:Next index: 104
+DEBUG:fiona.ogrext:Next index: 105
+DEBUG:fiona.ogrext:Next index: 106
+DEBUG:fiona.ogrext:Next index: 107
+DEBUG:fiona.ogrext:Next index: 108
+DEBUG:fiona.ogrext:Next index: 109
+DEBUG:fiona.ogrext:Next index: 110
+DEBUG:fiona.ogrext:Next index: 111
+DEBUG:fiona.ogrext:Next index: 112
+DEBUG:fiona.ogrext:Next index: 113
+DEBUG:fiona.ogrext:Next index: 114
+DEBUG:fiona.ogrext:Next index: 115
+DEBUG:fiona.ogrext:Next index: 116
+DEBUG:fiona.ogrext:Next index: 117
+DEBUG:fiona.ogrext:Next index: 118
+DEBUG:fiona.ogrext:Next index: 119
+DEBUG:fiona.ogrext:Next index: 120
+DEBUG:fiona.ogrext:Next index: 121
+DEBUG:fiona.ogrext:Next index: 122
+DEBUG:fiona.ogrext:Next index: 123
+DEBUG:fiona.ogrext:Next index: 124
+DEBUG:fiona.ogrext:Next index: 125
+DEBUG:fiona.ogrext:Next index: 126
+DEBUG:fiona.ogrext:Next index: 127
+DEBUG:fiona.ogrext:Next index: 128
+DEBUG:fiona.ogrext:Next index: 129
+DEBUG:fiona.ogrext:Next index: 130
+DEBUG:fiona.ogrext:Next index: 131
+DEBUG:fiona.ogrext:Next index: 132
+DEBUG:fiona.ogrext:Next index: 133
+DEBUG:fiona.ogrext:Next index: 134
+DEBUG:fiona.ogrext:Next index: 135
+DEBUG:fiona.ogrext:Next index: 136
+DEBUG:fiona.ogrext:Next index: 137
+DEBUG:fiona.ogrext:Next index: 138
+DEBUG:fiona.ogrext:Next index: 139
+DEBUG:fiona.ogrext:Next index: 140
+DEBUG:fiona.ogrext:Next index: 141
+DEBUG:fiona.ogrext:Next index: 142
+DEBUG:fiona.ogrext:Next index: 143
+DEBUG:fiona.ogrext:Next index: 144
+DEBUG:fiona.ogrext:Next index: 145
+DEBUG:fiona.ogrext:Next index: 146
+DEBUG:fiona.ogrext:Next index: 147
+DEBUG:fiona.ogrext:Next index: 148
+DEBUG:fiona.ogrext:Next index: 149
+DEBUG:fiona.ogrext:Next index: 150
+DEBUG:fiona.ogrext:Next index: 151
+DEBUG:fiona.ogrext:Next index: 152
+DEBUG:fiona.ogrext:Next index: 153
+DEBUG:fiona.ogrext:Next index: 154
+DEBUG:fiona.ogrext:Next index: 155
+DEBUG:fiona.ogrext:Next index: 156
+DEBUG:fiona.ogrext:Next index: 157
+DEBUG:fiona.ogrext:Next index: 158
+DEBUG:fiona.ogrext:Next index: 159
+DEBUG:fiona.ogrext:Next index: 160
+DEBUG:fiona.collection:Flushed buffer
+DEBUG:fiona.collection:Stopped session
+INFO:root:Run started 2024-05-23 19:30:29
+DEBUG:fiona.session:Could not import boto3, continuing with reduced functionality.
+DEBUG:fiona._env:GDAL_DATA found in environment.
+DEBUG:fiona._env:PROJ_DATA found in environment.
+DEBUG:fiona._env:GDAL_DATA found in environment.
+DEBUG:fiona._env:PROJ_DATA found in environment.
+DEBUG:fiona._env:GDAL_DATA found in environment.
+DEBUG:fiona._env:PROJ_DATA found in environment.
+DEBUG:fiona.ogrext:Got coordinate system
+DEBUG:fiona.ogrext:Got coordinate system
+DEBUG:fiona.crs:Matched. confidence=100, c_code=b'32145', c_name=b'EPSG'
+DEBUG:fiona.ogrext:OLC_FASTSETNEXTBYINDEX: 1
+DEBUG:fiona.ogrext:OLC_FASTFEATURECOUNT: 1
+DEBUG:fiona.ogrext:Next index: 0
+DEBUG:fiona.ogrext:Next index: 1
+DEBUG:fiona.ogrext:Next index: 2
+DEBUG:fiona.ogrext:Next index: 3
+DEBUG:fiona.ogrext:Next index: 4
+DEBUG:fiona.ogrext:Next index: 5
+DEBUG:fiona.ogrext:Next index: 6
+DEBUG:fiona.ogrext:Next index: 7
+DEBUG:fiona.ogrext:Next index: 8
+DEBUG:fiona.ogrext:Next index: 9
+DEBUG:fiona.ogrext:Next index: 10
+DEBUG:fiona.ogrext:Next index: 11
+DEBUG:fiona.ogrext:Next index: 12
+DEBUG:fiona.ogrext:Next index: 13
+DEBUG:fiona.ogrext:Next index: 14
+DEBUG:fiona.ogrext:Next index: 15
+DEBUG:fiona.ogrext:Next index: 16
+DEBUG:fiona.ogrext:Next index: 17
+DEBUG:fiona.ogrext:Next index: 18
+DEBUG:fiona.ogrext:Next index: 19
+DEBUG:fiona.ogrext:Next index: 20
+DEBUG:fiona.ogrext:Next index: 21
+DEBUG:fiona.ogrext:Next index: 22
+DEBUG:fiona.ogrext:Next index: 23
+DEBUG:fiona.ogrext:Next index: 24
+DEBUG:fiona.ogrext:Next index: 25
+DEBUG:fiona.ogrext:Next index: 26
+DEBUG:fiona.ogrext:Next index: 27
+DEBUG:fiona.ogrext:Next index: 28
+DEBUG:fiona.ogrext:Next index: 29
+DEBUG:fiona.ogrext:Next index: 30
+DEBUG:fiona.ogrext:Next index: 31
+DEBUG:fiona.ogrext:Next index: 32
+DEBUG:fiona.ogrext:Next index: 33
+DEBUG:fiona.ogrext:Next index: 34
+DEBUG:fiona.ogrext:Next index: 35
+DEBUG:fiona.ogrext:Next index: 36
+DEBUG:fiona.ogrext:Next index: 37
+DEBUG:fiona.ogrext:Next index: 38
+DEBUG:fiona.ogrext:Next index: 39
+DEBUG:fiona.ogrext:Next index: 40
+DEBUG:fiona.ogrext:Next index: 41
+DEBUG:fiona.ogrext:Next index: 42
+DEBUG:fiona.ogrext:Next index: 43
+DEBUG:fiona.ogrext:Next index: 44
+DEBUG:fiona.ogrext:Next index: 45
+DEBUG:fiona.ogrext:Next index: 46
+DEBUG:fiona.ogrext:Next index: 47
+DEBUG:fiona.ogrext:Next index: 48
+DEBUG:fiona.ogrext:Next index: 49
+DEBUG:fiona.ogrext:Next index: 50
+DEBUG:fiona.ogrext:Next index: 51
+DEBUG:fiona.ogrext:Next index: 52
+DEBUG:fiona.ogrext:Next index: 53
+DEBUG:fiona.ogrext:Next index: 54
+DEBUG:fiona.ogrext:Next index: 55
+DEBUG:fiona.ogrext:Next index: 56
+DEBUG:fiona.ogrext:Next index: 57
+DEBUG:fiona.ogrext:Next index: 58
+DEBUG:fiona.ogrext:Next index: 59
+DEBUG:fiona.ogrext:Next index: 60
+DEBUG:fiona.ogrext:Next index: 61
+DEBUG:fiona.ogrext:Next index: 62
+DEBUG:fiona.ogrext:Next index: 63
+DEBUG:fiona.ogrext:Next index: 64
+DEBUG:fiona.ogrext:Next index: 65
+DEBUG:fiona.ogrext:Next index: 66
+DEBUG:fiona.ogrext:Next index: 67
+DEBUG:fiona.ogrext:Next index: 68
+DEBUG:fiona.ogrext:Next index: 69
+DEBUG:fiona.ogrext:Next index: 70
+DEBUG:fiona.ogrext:Next index: 71
+DEBUG:fiona.ogrext:Next index: 72
+DEBUG:fiona.ogrext:Next index: 73
+DEBUG:fiona.ogrext:Next index: 74
+DEBUG:fiona.ogrext:Next index: 75
+DEBUG:fiona.ogrext:Next index: 76
+DEBUG:fiona.ogrext:Next index: 77
+DEBUG:fiona.ogrext:Next index: 78
+DEBUG:fiona.ogrext:Next index: 79
+DEBUG:fiona.ogrext:Next index: 80
+DEBUG:fiona.ogrext:Next index: 81
+DEBUG:fiona.ogrext:Next index: 82
+DEBUG:fiona.ogrext:Next index: 83
+DEBUG:fiona.ogrext:Next index: 84
+DEBUG:fiona.ogrext:Next index: 85
+DEBUG:fiona.ogrext:Next index: 86
+DEBUG:fiona.ogrext:Next index: 87
+DEBUG:fiona.ogrext:Next index: 88
+DEBUG:fiona.ogrext:Next index: 89
+DEBUG:fiona.ogrext:Next index: 90
+DEBUG:fiona.ogrext:Next index: 91
+DEBUG:fiona.ogrext:Next index: 92
+DEBUG:fiona.ogrext:Next index: 93
+DEBUG:fiona.ogrext:Next index: 94
+DEBUG:fiona.ogrext:Next index: 95
+DEBUG:fiona.ogrext:Next index: 96
+DEBUG:fiona.ogrext:Next index: 97
+DEBUG:fiona.ogrext:Next index: 98
+DEBUG:fiona.ogrext:Next index: 99
+DEBUG:fiona.ogrext:Next index: 100
+DEBUG:fiona.ogrext:Next index: 101
+DEBUG:fiona.ogrext:Next index: 102
+DEBUG:fiona.ogrext:Next index: 103
+DEBUG:fiona.ogrext:Next index: 104
+DEBUG:fiona.ogrext:Next index: 105
+DEBUG:fiona.ogrext:Next index: 106
+DEBUG:fiona.ogrext:Next index: 107
+DEBUG:fiona.ogrext:Next index: 108
+DEBUG:fiona.ogrext:Next index: 109
+DEBUG:fiona.ogrext:Next index: 110
+DEBUG:fiona.ogrext:Next index: 111
+DEBUG:fiona.ogrext:Next index: 112
+DEBUG:fiona.ogrext:Next index: 113
+DEBUG:fiona.ogrext:Next index: 114
+DEBUG:fiona.ogrext:Next index: 115
+DEBUG:fiona.ogrext:Next index: 116
+DEBUG:fiona.ogrext:Next index: 117
+DEBUG:fiona.ogrext:Next index: 118
+DEBUG:fiona.ogrext:Next index: 119
+DEBUG:fiona.ogrext:Next index: 120
+DEBUG:fiona.ogrext:Next index: 121
+DEBUG:fiona.ogrext:Next index: 122
+DEBUG:fiona.ogrext:Next index: 123
+DEBUG:fiona.ogrext:Next index: 124
+DEBUG:fiona.ogrext:Next index: 125
+DEBUG:fiona.ogrext:Next index: 126
+DEBUG:fiona.ogrext:Next index: 127
+DEBUG:fiona.ogrext:Next index: 128
+DEBUG:fiona.ogrext:Next index: 129
+DEBUG:fiona.ogrext:Next index: 130
+DEBUG:fiona.ogrext:Next index: 131
+DEBUG:fiona.ogrext:Next index: 132
+DEBUG:fiona.ogrext:Next index: 133
+DEBUG:fiona.ogrext:Next index: 134
+DEBUG:fiona.ogrext:Next index: 135
+DEBUG:fiona.ogrext:Next index: 136
+DEBUG:fiona.ogrext:Next index: 137
+DEBUG:fiona.ogrext:Next index: 138
+DEBUG:fiona.ogrext:Next index: 139
+DEBUG:fiona.ogrext:Next index: 140
+DEBUG:fiona.ogrext:Next index: 141
+DEBUG:fiona.ogrext:Next index: 142
+DEBUG:fiona.ogrext:Next index: 143
+DEBUG:fiona.ogrext:Next index: 144
+DEBUG:fiona.ogrext:Next index: 145
+DEBUG:fiona.ogrext:Next index: 146
+DEBUG:fiona.ogrext:Next index: 147
+DEBUG:fiona.ogrext:Next index: 148
+DEBUG:fiona.ogrext:Next index: 149
+DEBUG:fiona.ogrext:Next index: 150
+DEBUG:fiona.ogrext:Next index: 151
+DEBUG:fiona.ogrext:Next index: 152
+DEBUG:fiona.ogrext:Next index: 153
+DEBUG:fiona.ogrext:Next index: 154
+DEBUG:fiona.ogrext:Next index: 155
+DEBUG:fiona.ogrext:Next index: 156
+DEBUG:fiona.ogrext:Next index: 157
+DEBUG:fiona.ogrext:Next index: 158
+DEBUG:fiona.ogrext:Next index: 159
+DEBUG:fiona.ogrext:Next index: 160
+DEBUG:fiona.collection:Flushed buffer
+DEBUG:fiona.collection:Stopped session
+INFO:root:Delineating watershed for point @ x = 440274.896900177 and y = 117615.9811000824
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): streamstats.usgs.gov:443
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "GET /streamstatsservices/watershed.geojson?rcode=VT&xlocation=440274.896900177&ylocation=117615.9811000824&crs=EPSG%3A32145&includeparameters=True&includeflowtypes=False&includefeatures=True&simplify=True HTTP/1.1" 500 1208
+DEBUG:root:04300101000071 took 0.321 seconds for delineation attempt 0
+INFO:root:Delineating watershed for point @ x = 447254.8987002373 and y = 101225.9783000946
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "GET /streamstatsservices/watershed.geojson?rcode=VT&xlocation=447254.8987002373&ylocation=101225.9783000946&crs=EPSG%3A32145&includeparameters=True&includeflowtypes=False&includefeatures=True&simplify=True HTTP/1.1" 500 1208
+DEBUG:root:04300101000046 took 0.027 seconds for delineation attempt 0
+INFO:root:Delineating watershed for point @ x = 447254.8987002373 and y = 101225.9783000946
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "GET /streamstatsservices/watershed.geojson?rcode=VT&xlocation=447254.8987002373&ylocation=101225.9783000946&crs=EPSG%3A32145&includeparameters=True&includeflowtypes=False&includefeatures=True&simplify=True HTTP/1.1" 500 1208
+DEBUG:root:04300101000145 took 0.027 seconds for delineation attempt 0
+INFO:root:Delineating watershed for point @ x = 448474.8980998993 and y = 127285.98320007324
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "GET /streamstatsservices/watershed.geojson?rcode=VT&xlocation=448474.8980998993&ylocation=127285.98320007324&crs=EPSG%3A32145&includeparameters=True&includeflowtypes=False&includefeatures=True&simplify=True HTTP/1.1" 500 1208
+DEBUG:root:04300101000192 took 0.026 seconds for delineation attempt 0
+INFO:root:Delineating watershed for point @ x = 447404.8991999626 and y = 88935.97609996796
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "GET /streamstatsservices/watershed.geojson?rcode=VT&xlocation=447404.8991999626&ylocation=88935.97609996796&crs=EPSG%3A32145&includeparameters=True&includeflowtypes=False&includefeatures=True&simplify=True HTTP/1.1" 500 1208
+DEBUG:root:04300101000241 took 0.026 seconds for delineation attempt 0
+INFO:root:Delineating watershed for point @ x = 438134.89620018005 and y = 127445.98290014267
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "GET /streamstatsservices/watershed.geojson?rcode=VT&xlocation=438134.89620018005&ylocation=127445.98290014267&crs=EPSG%3A32145&includeparameters=True&includeflowtypes=False&includefeatures=True&simplify=True HTTP/1.1" 500 1208
+DEBUG:root:04300101000318 took 0.025 seconds for delineation attempt 0
+INFO:root:Delineating watershed for point @ x = 438084.89620018005 and y = 127215.98280000687
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "GET /streamstatsservices/watershed.geojson?rcode=VT&xlocation=438084.89620018005&ylocation=127215.98280000687&crs=EPSG%3A32145&includeparameters=True&includeflowtypes=False&includefeatures=True&simplify=True HTTP/1.1" 500 1208
+DEBUG:root:04300101000367 took 0.027 seconds for delineation attempt 0
+INFO:root:Delineating watershed for point @ x = 445224.8986001015 and y = 92285.97660017014
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "GET /streamstatsservices/watershed.geojson?rcode=VT&xlocation=445224.8986001015&ylocation=92285.97660017014&crs=EPSG%3A32145&includeparameters=True&includeflowtypes=False&includefeatures=True&simplify=True HTTP/1.1" 500 1208
+DEBUG:root:04300101000375 took 0.031 seconds for delineation attempt 0
+INFO:root:Delineating watershed for point @ x = 440414.8970999718 and y = 112755.98019981384
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "GET /streamstatsservices/watershed.geojson?rcode=VT&xlocation=440414.8970999718&ylocation=112755.98019981384&crs=EPSG%3A32145&includeparameters=True&includeflowtypes=False&includefeatures=True&simplify=True HTTP/1.1" 500 1208
+DEBUG:root:04300101000385 took 0.027 seconds for delineation attempt 0
+INFO:root:Delineating watershed for point @ x = 429684.89470005035 and y = 125345.98220014572
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "GET /streamstatsservices/watershed.geojson?rcode=VT&xlocation=429684.89470005035&ylocation=125345.98220014572&crs=EPSG%3A32145&includeparameters=True&includeflowtypes=False&includefeatures=True&simplify=True HTTP/1.1" 500 1208
+DEBUG:root:04300101000489 took 0.027 seconds for delineation attempt 0
+INFO:root:Delineating watershed for point @ x = 439344.89729976654 and y = 100815.97800016403
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "GET /streamstatsservices/watershed.geojson?rcode=VT&xlocation=439344.89729976654&ylocation=100815.97800016403&crs=EPSG%3A32145&includeparameters=True&includeflowtypes=False&includefeatures=True&simplify=True HTTP/1.1" 500 1208
+DEBUG:root:04300101000515 took 0.031 seconds for delineation attempt 0
+INFO:root:Delineating watershed for point @ x = 436064.89599990845 and y = 122865.98199987411
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "GET /streamstatsservices/watershed.geojson?rcode=VT&xlocation=436064.89599990845&ylocation=122865.98199987411&crs=EPSG%3A32145&includeparameters=True&includeflowtypes=False&includefeatures=True&simplify=True HTTP/1.1" 500 1208
+DEBUG:root:04300101000064 took 0.027 seconds for delineation attempt 0
+INFO:root:Delineating watershed for point @ x = 444724.8972001076 and y = 133935.98430013657
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "GET /streamstatsservices/watershed.geojson?rcode=VT&xlocation=444724.8972001076&ylocation=133935.98430013657&crs=EPSG%3A32145&includeparameters=True&includeflowtypes=False&includefeatures=True&simplify=True HTTP/1.1" 500 1208
+DEBUG:root:04300101000074 took 0.028 seconds for delineation attempt 0
+INFO:root:Delineating watershed for point @ x = 440914.8966999054 and y = 129105.98330020905
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "GET /streamstatsservices/watershed.geojson?rcode=VT&xlocation=440914.8966999054&ylocation=129105.98330020905&crs=EPSG%3A32145&includeparameters=True&includeflowtypes=False&includefeatures=True&simplify=True HTTP/1.1" 500 1208
+DEBUG:root:04300101000139 took 0.028 seconds for delineation attempt 0
+INFO:root:Delineating watershed for point @ x = 444724.89849996567 and y = 94285.97700023651
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "GET /streamstatsservices/watershed.geojson?rcode=VT&xlocation=444724.89849996567&ylocation=94285.97700023651&crs=EPSG%3A32145&includeparameters=True&includeflowtypes=False&includefeatures=True&simplify=True HTTP/1.1" 500 1208
+DEBUG:root:04300101000155 took 0.037 seconds for delineation attempt 0
+INFO:root:Delineating watershed for point @ x = 441364.8968000412 and y = 128645.98320007324
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "GET /streamstatsservices/watershed.geojson?rcode=VT&xlocation=441364.8968000412&ylocation=128645.98320007324&crs=EPSG%3A32145&includeparameters=True&includeflowtypes=False&includefeatures=True&simplify=True HTTP/1.1" 500 1208
+DEBUG:root:04300101000194 took 0.028 seconds for delineation attempt 0
+INFO:root:Delineating watershed for point @ x = 448994.8994998932 and y = 87005.97569990158
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "GET /streamstatsservices/watershed.geojson?rcode=VT&xlocation=448994.8994998932&ylocation=87005.97569990158&crs=EPSG%3A32145&includeparameters=True&includeflowtypes=False&includefeatures=True&simplify=True HTTP/1.1" 500 1208
+DEBUG:root:04300101000269 took 0.026 seconds for delineation attempt 0
+INFO:root:Delineating watershed for point @ x = 452494.89900016785 and y = 123375.9826002121
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "GET /streamstatsservices/watershed.geojson?rcode=VT&xlocation=452494.89900016785&ylocation=123375.9826002121&crs=EPSG%3A32145&includeparameters=True&includeflowtypes=False&includefeatures=True&simplify=True HTTP/1.1" 500 1208
+DEBUG:root:04300101000336 took 0.026 seconds for delineation attempt 0
+INFO:root:Delineating watershed for point @ x = 431944.89510011673 and y = 125495.98229980469
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "GET /streamstatsservices/watershed.geojson?rcode=VT&xlocation=431944.89510011673&ylocation=125495.98229980469&crs=EPSG%3A32145&includeparameters=True&includeflowtypes=False&includefeatures=True&simplify=True HTTP/1.1" 500 1208
+DEBUG:root:04300101000372 took 0.029 seconds for delineation attempt 0
+INFO:root:Delineating watershed for point @ x = 445954.8977999687 and y = 124005.9825000763
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "GET /streamstatsservices/watershed.geojson?rcode=VT&xlocation=445954.8977999687&ylocation=124005.9825000763&crs=EPSG%3A32145&includeparameters=True&includeflowtypes=False&includefeatures=True&simplify=True HTTP/1.1" 500 1208
+DEBUG:root:04300101000377 took 0.03 seconds for delineation attempt 0
+INFO:root:Delineating watershed for point @ x = 439521.22879981995 and y = 117227.42430019379
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "GET /streamstatsservices/watershed.geojson?rcode=VT&xlocation=439521.22879981995&ylocation=117227.42430019379&crs=EPSG%3A32145&includeparameters=True&includeflowtypes=False&includefeatures=True&simplify=True HTTP/1.1" 500 1208
+DEBUG:root:04300101000484 took 0.027 seconds for delineation attempt 0
+INFO:root:Delineating watershed for point @ x = 440824.8966999054 and y = 129025.98320007324
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "GET /streamstatsservices/watershed.geojson?rcode=VT&xlocation=440824.8966999054&ylocation=129025.98320007324&crs=EPSG%3A32145&includeparameters=True&includeflowtypes=False&includefeatures=True&simplify=True HTTP/1.1" 500 1208
+DEBUG:root:04300101000510 took 0.027 seconds for delineation attempt 0
+INFO:root:Delineating watershed for point @ x = 432014.8951997757 and y = 125485.98229980469
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "GET /streamstatsservices/watershed.geojson?rcode=VT&xlocation=432014.8951997757&ylocation=125485.98229980469&crs=EPSG%3A32145&includeparameters=True&includeflowtypes=False&includefeatures=True&simplify=True HTTP/1.1" 500 1208
+DEBUG:root:04300101000516 took 0.026 seconds for delineation attempt 0
+INFO:root:Delineating watershed for point @ x = 441114.89760017395 and y = 101575.9781999588
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "GET /streamstatsservices/watershed.geojson?rcode=VT&xlocation=441114.89760017395&ylocation=101575.9781999588&crs=EPSG%3A32145&includeparameters=True&includeflowtypes=False&includefeatures=True&simplify=True HTTP/1.1" 500 1208
+DEBUG:root:04300101000573 took 0.028 seconds for delineation attempt 0
+INFO:root:Delineating watershed for point @ x = 451224.899600029 and y = 96655.97760009766
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "GET /streamstatsservices/watershed.geojson?rcode=VT&xlocation=451224.899600029&ylocation=96655.97760009766&crs=EPSG%3A32145&includeparameters=True&includeflowtypes=False&includefeatures=True&simplify=True HTTP/1.1" 500 1208
+DEBUG:root:04300101000653 took 0.027 seconds for delineation attempt 0
+INFO:root:Delineating watershed for point @ x = 448504.8980998993 and y = 129425.98360013962
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "GET /streamstatsservices/watershed.geojson?rcode=VT&xlocation=448504.8980998993&ylocation=129425.98360013962&crs=EPSG%3A32145&includeparameters=True&includeflowtypes=False&includefeatures=True&simplify=True HTTP/1.1" 500 1208
+DEBUG:root:04300101000674 took 0.029 seconds for delineation attempt 0
+INFO:root:Delineating watershed for point @ x = 444804.8979001045 and y = 113695.98059988022
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "GET /streamstatsservices/watershed.geojson?rcode=VT&xlocation=444804.8979001045&ylocation=113695.98059988022&crs=EPSG%3A32145&includeparameters=True&includeflowtypes=False&includefeatures=True&simplify=True HTTP/1.1" 500 1208
+DEBUG:root:04300101000689 took 0.027 seconds for delineation attempt 0
+INFO:root:Delineating watershed for point @ x = 440144.89739990234 and y = 102315.9783000946
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "GET /streamstatsservices/watershed.geojson?rcode=VT&xlocation=440144.89739990234&ylocation=102315.9783000946&crs=EPSG%3A32145&includeparameters=True&includeflowtypes=False&includefeatures=True&simplify=True HTTP/1.1" 500 1208
+DEBUG:root:04300101000764 took 0.027 seconds for delineation attempt 0
+INFO:root:Delineating watershed for point @ x = 442814.8979001045 and y = 102675.97849988937
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "GET /streamstatsservices/watershed.geojson?rcode=VT&xlocation=442814.8979001045&ylocation=102675.97849988937&crs=EPSG%3A32145&includeparameters=True&includeflowtypes=False&includefeatures=True&simplify=True HTTP/1.1" 500 1208
+DEBUG:root:04300101000847 took 0.025 seconds for delineation attempt 0
+INFO:root:Delineating watershed for point @ x = 435964.89599990845 and y = 121805.98180007935
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "GET /streamstatsservices/watershed.geojson?rcode=VT&xlocation=435964.89599990845&ylocation=121805.98180007935&crs=EPSG%3A32145&includeparameters=True&includeflowtypes=False&includefeatures=True&simplify=True HTTP/1.1" 500 1208
+DEBUG:root:04300101000875 took 0.027 seconds for delineation attempt 0
+INFO:root:Delineating watershed for point @ x = 437135.9956998825 and y = 119676.84829998016
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "GET /streamstatsservices/watershed.geojson?rcode=VT&xlocation=437135.9956998825&ylocation=119676.84829998016&crs=EPSG%3A32145&includeparameters=True&includeflowtypes=False&includefeatures=True&simplify=True HTTP/1.1" 500 1208
+DEBUG:root:04300101000902 took 0.028 seconds for delineation attempt 0
+INFO:root:Delineating watershed for point @ x = 449284.89890003204 and y = 108835.9798002243
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "GET /streamstatsservices/watershed.geojson?rcode=VT&xlocation=449284.89890003204&ylocation=108835.9798002243&crs=EPSG%3A32145&includeparameters=True&includeflowtypes=False&includefeatures=True&simplify=True HTTP/1.1" 500 1208
+DEBUG:root:04300101000914 took 0.04 seconds for delineation attempt 0
+INFO:root:Delineating watershed for point @ x = 440884.8979997635 and y = 86585.97539997101
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "GET /streamstatsservices/watershed.geojson?rcode=VT&xlocation=440884.8979997635&ylocation=86585.97539997101&crs=EPSG%3A32145&includeparameters=True&includeflowtypes=False&includefeatures=True&simplify=True HTTP/1.1" 500 1208
+DEBUG:root:04300101000970 took 0.029 seconds for delineation attempt 0
+INFO:root:Delineating watershed for point @ x = 451534.8993000984 and y = 109555.98000001907
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "GET /streamstatsservices/watershed.geojson?rcode=VT&xlocation=451534.8993000984&ylocation=109555.98000001907&crs=EPSG%3A32145&includeparameters=True&includeflowtypes=False&includefeatures=True&simplify=True HTTP/1.1" 500 1208
+DEBUG:root:04300101001026 took 0.03 seconds for delineation attempt 0
+INFO:root:Delineating watershed for point @ x = 439523.69049978256 and y = 117228.54930019379
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "GET /streamstatsservices/watershed.geojson?rcode=VT&xlocation=439523.69049978256&ylocation=117228.54930019379&crs=EPSG%3A32145&includeparameters=True&includeflowtypes=False&includefeatures=True&simplify=True HTTP/1.1" 500 1208
+DEBUG:root:04300101001067 took 0.028 seconds for delineation attempt 0
+INFO:root:Delineating watershed for point @ x = 449104.8994998932 and y = 86585.97569990158
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "GET /streamstatsservices/watershed.geojson?rcode=VT&xlocation=449104.8994998932&ylocation=86585.97569990158&crs=EPSG%3A32145&includeparameters=True&includeflowtypes=False&includefeatures=True&simplify=True HTTP/1.1" 500 1208
+DEBUG:root:04300101001081 took 0.028 seconds for delineation attempt 0
+INFO:root:Delineating watershed for point @ x = 443834.896900177 and y = 139605.9853000641
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "GET /streamstatsservices/watershed.geojson?rcode=VT&xlocation=443834.896900177&ylocation=139605.9853000641&crs=EPSG%3A32145&includeparameters=True&includeflowtypes=False&includefeatures=True&simplify=True HTTP/1.1" 500 1208
+DEBUG:root:04300101001189 took 0.029 seconds for delineation attempt 0
+INFO:root:Delineating watershed for point @ x = 445344.89729976654 and y = 133775.98430013657
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "GET /streamstatsservices/watershed.geojson?rcode=VT&xlocation=445344.89729976654&ylocation=133775.98430013657&crs=EPSG%3A32145&includeparameters=True&includeflowtypes=False&includefeatures=True&simplify=True HTTP/1.1" 500 1208
+DEBUG:root:04300101001448 took 0.029 seconds for delineation attempt 0
+INFO:root:Delineating watershed for point @ x = 437464.89589977264 and y = 133345.9839000702
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "GET /streamstatsservices/watershed.geojson?rcode=VT&xlocation=437464.89589977264&ylocation=133345.9839000702&crs=EPSG%3A32145&includeparameters=True&includeflowtypes=False&includefeatures=True&simplify=True HTTP/1.1" 500 1208
+DEBUG:root:04300101001530 took 0.028 seconds for delineation attempt 0
+INFO:root:Delineating watershed for point @ x = 444444.8972001076 and y = 134035.98430013657
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "GET /streamstatsservices/watershed.geojson?rcode=VT&xlocation=444444.8972001076&ylocation=134035.98430013657&crs=EPSG%3A32145&includeparameters=True&includeflowtypes=False&includefeatures=True&simplify=True HTTP/1.1" 500 1208
+DEBUG:root:04300101001569 took 0.028 seconds for delineation attempt 0
+INFO:root:Delineating watershed for point @ x = 436564.8956999779 and y = 134155.98409986496
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "GET /streamstatsservices/watershed.geojson?rcode=VT&xlocation=436564.8956999779&ylocation=134155.98409986496&crs=EPSG%3A32145&includeparameters=True&includeflowtypes=False&includefeatures=True&simplify=True HTTP/1.1" 500 1208
+DEBUG:root:04300101001595 took 0.03 seconds for delineation attempt 0
+INFO:root:Delineating watershed for point @ x = 439884.89620018005 and y = 138195.9848999977
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "GET /streamstatsservices/watershed.geojson?rcode=VT&xlocation=439884.89620018005&ylocation=138195.9848999977&crs=EPSG%3A32145&includeparameters=True&includeflowtypes=False&includefeatures=True&simplify=True HTTP/1.1" 500 1208
+DEBUG:root:04300101000545 took 0.03 seconds for delineation attempt 0
+INFO:root:Delineating watershed for point @ x = 449754.8997001648 and y = 85365.97550010681
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "GET /streamstatsservices/watershed.geojson?rcode=VT&xlocation=449754.8997001648&ylocation=85365.97550010681&crs=EPSG%3A32145&includeparameters=True&includeflowtypes=False&includefeatures=True&simplify=True HTTP/1.1" 500 1208
+DEBUG:root:04300101000585 took 0.028 seconds for delineation attempt 0
+INFO:root:Delineating watershed for point @ x = 451324.90000009537 and y = 85155.97550010681
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "GET /streamstatsservices/watershed.geojson?rcode=VT&xlocation=451324.90000009537&ylocation=85155.97550010681&crs=EPSG%3A32145&includeparameters=True&includeflowtypes=False&includefeatures=True&simplify=True HTTP/1.1" 500 1208
+DEBUG:root:04300101000673 took 0.026 seconds for delineation attempt 0
+INFO:root:Delineating watershed for point @ x = 452354.89979982376 and y = 98125.97790002823
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "GET /streamstatsservices/watershed.geojson?rcode=VT&xlocation=452354.89979982376&ylocation=98125.97790002823&crs=EPSG%3A32145&includeparameters=True&includeflowtypes=False&includefeatures=True&simplify=True HTTP/1.1" 500 1208
+DEBUG:root:04300101000688 took 0.027 seconds for delineation attempt 0
+INFO:root:Delineating watershed for point @ x = 442484.89760017395 and y = 109455.9797000885
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "GET /streamstatsservices/watershed.geojson?rcode=VT&xlocation=442484.89760017395&ylocation=109455.9797000885&crs=EPSG%3A32145&includeparameters=True&includeflowtypes=False&includefeatures=True&simplify=True HTTP/1.1" 500 1208
+DEBUG:root:04300101000708 took 0.027 seconds for delineation attempt 0
+INFO:root:Delineating watershed for point @ x = 439894.89620018005 and y = 138185.9848999977
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "GET /streamstatsservices/watershed.geojson?rcode=VT&xlocation=439894.89620018005&ylocation=138185.9848999977&crs=EPSG%3A32145&includeparameters=True&includeflowtypes=False&includefeatures=True&simplify=True HTTP/1.1" 500 1208
+DEBUG:root:04300101000817 took 0.029 seconds for delineation attempt 0
+INFO:root:Delineating watershed for point @ x = 435984.89599990845 and y = 121815.98180007935
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "GET /streamstatsservices/watershed.geojson?rcode=VT&xlocation=435984.89599990845&ylocation=121815.98180007935&crs=EPSG%3A32145&includeparameters=True&includeflowtypes=False&includefeatures=True&simplify=True HTTP/1.1" 500 1208
+DEBUG:root:04300101000867 took 0.026 seconds for delineation attempt 0
+INFO:root:Delineating watershed for point @ x = 448314.8982000351 and y = 124025.9826002121
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "GET /streamstatsservices/watershed.geojson?rcode=VT&xlocation=448314.8982000351&ylocation=124025.9826002121&crs=EPSG%3A32145&includeparameters=True&includeflowtypes=False&includefeatures=True&simplify=True HTTP/1.1" 500 1208
+DEBUG:root:04300101000878 took 0.026 seconds for delineation attempt 0
+INFO:root:Delineating watershed for point @ x = 440794.8968000412 and y = 123035.98210000992
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "GET /streamstatsservices/watershed.geojson?rcode=VT&xlocation=440794.8968000412&ylocation=123035.98210000992&crs=EPSG%3A32145&includeparameters=True&includeflowtypes=False&includefeatures=True&simplify=True HTTP/1.1" 500 1208
+DEBUG:root:04300101000907 took 0.028 seconds for delineation attempt 0
+INFO:root:Delineating watershed for point @ x = 440034.89739990234 and y = 101925.9781999588
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "GET /streamstatsservices/watershed.geojson?rcode=VT&xlocation=440034.89739990234&ylocation=101925.9781999588&crs=EPSG%3A32145&includeparameters=True&includeflowtypes=False&includefeatures=True&simplify=True HTTP/1.1" 500 1208
+DEBUG:root:04300101000922 took 0.026 seconds for delineation attempt 0
+INFO:root:Delineating watershed for point @ x = 444624.89750003815 and y = 123695.98239994049
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "GET /streamstatsservices/watershed.geojson?rcode=VT&xlocation=444624.89750003815&ylocation=123695.98239994049&crs=EPSG%3A32145&includeparameters=True&includeflowtypes=False&includefeatures=True&simplify=True HTTP/1.1" 500 1208
+DEBUG:root:04300101000988 took 0.026 seconds for delineation attempt 0
+INFO:root:Delineating watershed for point @ x = 448924.8983001709 and y = 123845.9826002121
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "GET /streamstatsservices/watershed.geojson?rcode=VT&xlocation=448924.8983001709&ylocation=123845.9826002121&crs=EPSG%3A32145&includeparameters=True&includeflowtypes=False&includefeatures=True&simplify=True HTTP/1.1" 500 1208
+DEBUG:root:04300101001037 took 0.033 seconds for delineation attempt 0
+INFO:root:Delineating watershed for point @ x = 444084.896900177 and y = 139985.9854001999
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "GET /streamstatsservices/watershed.geojson?rcode=VT&xlocation=444084.896900177&ylocation=139985.9854001999&crs=EPSG%3A32145&includeparameters=True&includeflowtypes=False&includefeatures=True&simplify=True HTTP/1.1" 500 1208
+DEBUG:root:04300101001076 took 0.029 seconds for delineation attempt 0
+INFO:root:Delineating watershed for point @ x = 444324.89729976654 and y = 129235.98339986801
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "GET /streamstatsservices/watershed.geojson?rcode=VT&xlocation=444324.89729976654&ylocation=129235.98339986801&crs=EPSG%3A32145&includeparameters=True&includeflowtypes=False&includefeatures=True&simplify=True HTTP/1.1" 500 1208
+DEBUG:root:04300101001084 took 0.03 seconds for delineation attempt 0
+INFO:root:Delineating watershed for point @ x = 439974.896900177 and y = 115235.98070001602
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "GET /streamstatsservices/watershed.geojson?rcode=VT&xlocation=439974.896900177&ylocation=115235.98070001602&crs=EPSG%3A32145&includeparameters=True&includeflowtypes=False&includefeatures=True&simplify=True HTTP/1.1" 500 1208
+DEBUG:root:04300101001234 took 0.028 seconds for delineation attempt 0
+INFO:root:Delineating watershed for point @ x = 440064.8979001045 and y = 86605.97539997101
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "GET /streamstatsservices/watershed.geojson?rcode=VT&xlocation=440064.8979001045&ylocation=86605.97539997101&crs=EPSG%3A32145&includeparameters=True&includeflowtypes=False&includefeatures=True&simplify=True HTTP/1.1" 500 1208
+DEBUG:root:04300101001285 took 0.028 seconds for delineation attempt 0
+INFO:root:Delineating watershed for point @ x = 436864.8958001137 and y = 134185.98409986496
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "GET /streamstatsservices/watershed.geojson?rcode=VT&xlocation=436864.8958001137&ylocation=134185.98409986496&crs=EPSG%3A32145&includeparameters=True&includeflowtypes=False&includefeatures=True&simplify=True HTTP/1.1" 500 1208
+DEBUG:root:04300101001507 took 0.029 seconds for delineation attempt 0
+INFO:root:Delineating watershed for point @ x = 439334.89750003815 and y = 92945.97650003433
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "GET /streamstatsservices/watershed.geojson?rcode=VT&xlocation=439334.89750003815&ylocation=92945.97650003433&crs=EPSG%3A32145&includeparameters=True&includeflowtypes=False&includefeatures=True&simplify=True HTTP/1.1" 500 1208
+DEBUG:root:04300101001550 took 0.026 seconds for delineation attempt 0
+INFO:root:Delineating watershed for point @ x = 443064.8977999687 and y = 105255.97889995575
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "GET /streamstatsservices/watershed.geojson?rcode=VT&xlocation=443064.8977999687&ylocation=105255.97889995575&crs=EPSG%3A32145&includeparameters=True&includeflowtypes=False&includefeatures=True&simplify=True HTTP/1.1" 500 1208
+DEBUG:root:04300101001572 took 0.028 seconds for delineation attempt 0
+INFO:root:Delineating watershed for point @ x = 437954.89620018005 and y = 125685.9825000763
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "GET /streamstatsservices/watershed.geojson?rcode=VT&xlocation=437954.89620018005&ylocation=125685.9825000763&crs=EPSG%3A32145&includeparameters=True&includeflowtypes=False&includefeatures=True&simplify=True HTTP/1.1" 500 1208
+DEBUG:root:04300101001605 took 0.027 seconds for delineation attempt 0
+INFO:root:Delineating watershed for point @ x = 444594.8970999718 and y = 136725.9847998619
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "GET /streamstatsservices/watershed.geojson?rcode=VT&xlocation=444594.8970999718&ylocation=136725.9847998619&crs=EPSG%3A32145&includeparameters=True&includeflowtypes=False&includefeatures=True&simplify=True HTTP/1.1" 500 1208
+DEBUG:root:04300101001702 took 0.028 seconds for delineation attempt 0
+INFO:root:Delineating watershed for point @ x = 448334.8982000351 and y = 124065.9826002121
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "GET /streamstatsservices/watershed.geojson?rcode=VT&xlocation=448334.8982000351&ylocation=124065.9826002121&crs=EPSG%3A32145&includeparameters=True&includeflowtypes=False&includefeatures=True&simplify=True HTTP/1.1" 500 1208
+DEBUG:root:04300101001766 took 0.028 seconds for delineation attempt 0
+INFO:root:Delineating watershed for point @ x = 438804.89599990845 and y = 137975.9847998619
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "GET /streamstatsservices/watershed.geojson?rcode=VT&xlocation=438804.89599990845&ylocation=137975.9847998619&crs=EPSG%3A32145&includeparameters=True&includeflowtypes=False&includefeatures=True&simplify=True HTTP/1.1" 500 1208
+DEBUG:root:04300101001898 took 0.029 seconds for delineation attempt 0
+INFO:root:Delineating watershed for point @ x = 440294.89699983597 and y = 115405.98070001602
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "GET /streamstatsservices/watershed.geojson?rcode=VT&xlocation=440294.89699983597&ylocation=115405.98070001602&crs=EPSG%3A32145&includeparameters=True&includeflowtypes=False&includefeatures=True&simplify=True HTTP/1.1" 500 1208
+DEBUG:root:04300101001905 took 0.027 seconds for delineation attempt 0
+INFO:root:Delineating watershed for point @ x = 442934.8977999687 and y = 105705.97900009155
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "GET /streamstatsservices/watershed.geojson?rcode=VT&xlocation=442934.8977999687&ylocation=105705.97900009155&crs=EPSG%3A32145&includeparameters=True&includeflowtypes=False&includefeatures=True&simplify=True HTTP/1.1" 500 1208
+DEBUG:root:04300101001916 took 0.027 seconds for delineation attempt 0
+INFO:root:Delineating watershed for point @ x = 435974.89599990845 and y = 121825.98180007935
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "GET /streamstatsservices/watershed.geojson?rcode=VT&xlocation=435974.89599990845&ylocation=121825.98180007935&crs=EPSG%3A32145&includeparameters=True&includeflowtypes=False&includefeatures=True&simplify=True HTTP/1.1" 500 1208
+DEBUG:root:04300101001934 took 0.028 seconds for delineation attempt 0
+INFO:root:Delineating watershed for point @ x = 438024.89620018005 and y = 126725.98269987106
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "GET /streamstatsservices/watershed.geojson?rcode=VT&xlocation=438024.89620018005&ylocation=126725.98269987106&crs=EPSG%3A32145&includeparameters=True&includeflowtypes=False&includefeatures=True&simplify=True HTTP/1.1" 500 1208
+DEBUG:root:04300101001997 took 0.026 seconds for delineation attempt 0
+INFO:root:Delineating watershed for point @ x = 441314.89699983597 and y = 122345.98199987411
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "GET /streamstatsservices/watershed.geojson?rcode=VT&xlocation=441314.89699983597&ylocation=122345.98199987411&crs=EPSG%3A32145&includeparameters=True&includeflowtypes=False&includefeatures=True&simplify=True HTTP/1.1" 500 1208
+DEBUG:root:04300101002115 took 0.028 seconds for delineation attempt 0
+INFO:root:Delineating watershed for point @ x = 429684.89470005035 and y = 125345.98220014572
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "GET /streamstatsservices/watershed.geojson?rcode=VT&xlocation=429684.89470005035&ylocation=125345.98220014572&crs=EPSG%3A32145&includeparameters=True&includeflowtypes=False&includefeatures=True&simplify=True HTTP/1.1" 500 1208
+DEBUG:root:04300101002134 took 0.039 seconds for delineation attempt 0
+INFO:root:Delineating watershed for point @ x = 443624.8968000412 and y = 139575.9853000641
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "GET /streamstatsservices/watershed.geojson?rcode=VT&xlocation=443624.8968000412&ylocation=139575.9853000641&crs=EPSG%3A32145&includeparameters=True&includeflowtypes=False&includefeatures=True&simplify=True HTTP/1.1" 500 1208
+DEBUG:root:04300101002194 took 0.027 seconds for delineation attempt 0
+INFO:root:Delineating watershed for point @ x = 442434.89760017395 and y = 109445.9797000885
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "GET /streamstatsservices/watershed.geojson?rcode=VT&xlocation=442434.89760017395&ylocation=109445.9797000885&crs=EPSG%3A32145&includeparameters=True&includeflowtypes=False&includefeatures=True&simplify=True HTTP/1.1" 500 1208
+DEBUG:root:04300101002210 took 0.028 seconds for delineation attempt 0
+INFO:root:Delineating watershed for point @ x = 448564.8980998993 and y = 129005.98350000381
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "GET /streamstatsservices/watershed.geojson?rcode=VT&xlocation=448564.8980998993&ylocation=129005.98350000381&crs=EPSG%3A32145&includeparameters=True&includeflowtypes=False&includefeatures=True&simplify=True HTTP/1.1" 500 1208
+DEBUG:root:04300101002307 took 0.027 seconds for delineation attempt 0
+INFO:root:Delineating watershed for point @ x = 444184.8970999718 and y = 135375.98449993134
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "GET /streamstatsservices/watershed.geojson?rcode=VT&xlocation=444184.8970999718&ylocation=135375.98449993134&crs=EPSG%3A32145&includeparameters=True&includeflowtypes=False&includefeatures=True&simplify=True HTTP/1.1" 500 1208
+DEBUG:root:04300101002410 took 0.026 seconds for delineation attempt 0
+INFO:root:Delineating watershed for point @ x = 444754.89849996567 and y = 94305.97700023651
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "GET /streamstatsservices/watershed.geojson?rcode=VT&xlocation=444754.89849996567&ylocation=94305.97700023651&crs=EPSG%3A32145&includeparameters=True&includeflowtypes=False&includefeatures=True&simplify=True HTTP/1.1" 500 1208
+DEBUG:root:04300101001313 took 0.028 seconds for delineation attempt 0
+INFO:root:Delineating watershed for point @ x = 440284.89750003815 and y = 100495.97800016403
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "GET /streamstatsservices/watershed.geojson?rcode=VT&xlocation=440284.89750003815&ylocation=100495.97800016403&crs=EPSG%3A32145&includeparameters=True&includeflowtypes=False&includefeatures=True&simplify=True HTTP/1.1" 500 1208
+DEBUG:root:04300101000033 took 0.029 seconds for delineation attempt 0
+INFO:root:Delineating watershed for point @ x = 444774.8979001045 and y = 113685.98050022125
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "GET /streamstatsservices/watershed.geojson?rcode=VT&xlocation=444774.8979001045&ylocation=113685.98050022125&crs=EPSG%3A32145&includeparameters=True&includeflowtypes=False&includefeatures=True&simplify=True HTTP/1.1" 500 1208
+DEBUG:root:04300101000855 took 0.032 seconds for delineation attempt 0
+INFO:root:Delineating watershed for point @ x = 445474.8980998993 and y = 111835.98019981384
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "GET /streamstatsservices/watershed.geojson?rcode=VT&xlocation=445474.8980998993&ylocation=111835.98019981384&crs=EPSG%3A32145&includeparameters=True&includeflowtypes=False&includefeatures=True&simplify=True HTTP/1.1" 500 1208
+DEBUG:root:04300101000399 took 0.026 seconds for delineation attempt 0
+INFO:root:Delineating watershed for point @ x = 441864.8965001106 and y = 138635.9850001335
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "GET /streamstatsservices/watershed.geojson?rcode=VT&xlocation=441864.8965001106&ylocation=138635.9850001335&crs=EPSG%3A32145&includeparameters=True&includeflowtypes=False&includefeatures=True&simplify=True HTTP/1.1" 500 1208
+DEBUG:root:04300101001684 took 0.026 seconds for delineation attempt 0
+INFO:root:Delineating watershed for point @ x = 445034.89729976654 and y = 133245.98420000076
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "GET /streamstatsservices/watershed.geojson?rcode=VT&xlocation=445034.89729976654&ylocation=133245.98420000076&crs=EPSG%3A32145&includeparameters=True&includeflowtypes=False&includefeatures=True&simplify=True HTTP/1.1" 500 1208
+DEBUG:root:04300101001757 took 0.028 seconds for delineation attempt 0
+INFO:root:Delineating watershed for point @ x = 437064.89589977264 and y = 132505.9837999344
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "GET /streamstatsservices/watershed.geojson?rcode=VT&xlocation=437064.89589977264&ylocation=132505.9837999344&crs=EPSG%3A32145&includeparameters=True&includeflowtypes=False&includefeatures=True&simplify=True HTTP/1.1" 500 1208
+DEBUG:root:04300101001885 took 0.029 seconds for delineation attempt 0
+INFO:root:Delineating watershed for point @ x = 444284.8970999718 and y = 135265.98449993134
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "GET /streamstatsservices/watershed.geojson?rcode=VT&xlocation=444284.8970999718&ylocation=135265.98449993134&crs=EPSG%3A32145&includeparameters=True&includeflowtypes=False&includefeatures=True&simplify=True HTTP/1.1" 500 1208
+DEBUG:root:04300101001903 took 0.029 seconds for delineation attempt 0
+INFO:root:Delineating watershed for point @ x = 451314.90000009537 and y = 85155.97550010681
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "GET /streamstatsservices/watershed.geojson?rcode=VT&xlocation=451314.90000009537&ylocation=85155.97550010681&crs=EPSG%3A32145&includeparameters=True&includeflowtypes=False&includefeatures=True&simplify=True HTTP/1.1" 500 1208
+DEBUG:root:04300101001908 took 0.029 seconds for delineation attempt 0
+INFO:root:Delineating watershed for point @ x = 438704.89589977264 and y = 139855.98519992828
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "GET /streamstatsservices/watershed.geojson?rcode=VT&xlocation=438704.89589977264&ylocation=139855.98519992828&crs=EPSG%3A32145&includeparameters=True&includeflowtypes=False&includefeatures=True&simplify=True HTTP/1.1" 500 1208
+DEBUG:root:04300101001930 took 0.028 seconds for delineation attempt 0
+INFO:root:Delineating watershed for point @ x = 445594.89739990234 and y = 134175.98430013657
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "GET /streamstatsservices/watershed.geojson?rcode=VT&xlocation=445594.89739990234&ylocation=134175.98430013657&crs=EPSG%3A32145&includeparameters=True&includeflowtypes=False&includefeatures=True&simplify=True HTTP/1.1" 500 1208
+DEBUG:root:04300101001991 took 0.03 seconds for delineation attempt 0
+INFO:root:Delineating watershed for point @ x = 439724.8976998329 and y = 90315.97609996796
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "GET /streamstatsservices/watershed.geojson?rcode=VT&xlocation=439724.8976998329&ylocation=90315.97609996796&crs=EPSG%3A32145&includeparameters=True&includeflowtypes=False&includefeatures=True&simplify=True HTTP/1.1" 500 1208
+DEBUG:root:04300101002038 took 0.026 seconds for delineation attempt 0
+INFO:root:Delineating watershed for point @ x = 438024.89620018005 and y = 126735.98269987106
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "GET /streamstatsservices/watershed.geojson?rcode=VT&xlocation=438024.89620018005&ylocation=126735.98269987106&crs=EPSG%3A32145&includeparameters=True&includeflowtypes=False&includefeatures=True&simplify=True HTTP/1.1" 500 1208
+DEBUG:root:04300101002118 took 0.033 seconds for delineation attempt 0
+INFO:root:Delineating watershed for point @ x = 437224.89589977264 and y = 133505.984000206
+INFO:root:Run started 2024-05-23 19:30:41
+DEBUG:fiona.session:Could not import boto3, continuing with reduced functionality.
+DEBUG:fiona._env:GDAL_DATA found in environment.
+DEBUG:fiona._env:PROJ_DATA found in environment.
+DEBUG:fiona._env:GDAL_DATA found in environment.
+DEBUG:fiona._env:PROJ_DATA found in environment.
+DEBUG:fiona._env:GDAL_DATA found in environment.
+DEBUG:fiona._env:PROJ_DATA found in environment.
+DEBUG:fiona.ogrext:Got coordinate system
+DEBUG:fiona.ogrext:Got coordinate system
+DEBUG:fiona.crs:Matched. confidence=100, c_code=b'32145', c_name=b'EPSG'
+DEBUG:fiona.ogrext:OLC_FASTSETNEXTBYINDEX: 1
+DEBUG:fiona.ogrext:OLC_FASTFEATURECOUNT: 1
+DEBUG:fiona.ogrext:Next index: 0
+DEBUG:fiona.ogrext:Next index: 1
+DEBUG:fiona.ogrext:Next index: 2
+DEBUG:fiona.ogrext:Next index: 3
+DEBUG:fiona.ogrext:Next index: 4
+DEBUG:fiona.ogrext:Next index: 5
+DEBUG:fiona.ogrext:Next index: 6
+DEBUG:fiona.ogrext:Next index: 7
+DEBUG:fiona.ogrext:Next index: 8
+DEBUG:fiona.ogrext:Next index: 9
+DEBUG:fiona.ogrext:Next index: 10
+DEBUG:fiona.ogrext:Next index: 11
+DEBUG:fiona.ogrext:Next index: 12
+DEBUG:fiona.ogrext:Next index: 13
+DEBUG:fiona.ogrext:Next index: 14
+DEBUG:fiona.ogrext:Next index: 15
+DEBUG:fiona.ogrext:Next index: 16
+DEBUG:fiona.ogrext:Next index: 17
+DEBUG:fiona.ogrext:Next index: 18
+DEBUG:fiona.ogrext:Next index: 19
+DEBUG:fiona.ogrext:Next index: 20
+DEBUG:fiona.ogrext:Next index: 21
+DEBUG:fiona.ogrext:Next index: 22
+DEBUG:fiona.ogrext:Next index: 23
+DEBUG:fiona.ogrext:Next index: 24
+DEBUG:fiona.ogrext:Next index: 25
+DEBUG:fiona.ogrext:Next index: 26
+DEBUG:fiona.ogrext:Next index: 27
+DEBUG:fiona.ogrext:Next index: 28
+DEBUG:fiona.ogrext:Next index: 29
+DEBUG:fiona.ogrext:Next index: 30
+DEBUG:fiona.ogrext:Next index: 31
+DEBUG:fiona.ogrext:Next index: 32
+DEBUG:fiona.ogrext:Next index: 33
+DEBUG:fiona.ogrext:Next index: 34
+DEBUG:fiona.ogrext:Next index: 35
+DEBUG:fiona.ogrext:Next index: 36
+DEBUG:fiona.ogrext:Next index: 37
+DEBUG:fiona.ogrext:Next index: 38
+DEBUG:fiona.ogrext:Next index: 39
+DEBUG:fiona.ogrext:Next index: 40
+DEBUG:fiona.ogrext:Next index: 41
+DEBUG:fiona.ogrext:Next index: 42
+DEBUG:fiona.ogrext:Next index: 43
+DEBUG:fiona.ogrext:Next index: 44
+DEBUG:fiona.ogrext:Next index: 45
+DEBUG:fiona.ogrext:Next index: 46
+DEBUG:fiona.ogrext:Next index: 47
+DEBUG:fiona.ogrext:Next index: 48
+DEBUG:fiona.ogrext:Next index: 49
+DEBUG:fiona.ogrext:Next index: 50
+DEBUG:fiona.ogrext:Next index: 51
+DEBUG:fiona.ogrext:Next index: 52
+DEBUG:fiona.ogrext:Next index: 53
+DEBUG:fiona.ogrext:Next index: 54
+DEBUG:fiona.ogrext:Next index: 55
+DEBUG:fiona.ogrext:Next index: 56
+DEBUG:fiona.ogrext:Next index: 57
+DEBUG:fiona.ogrext:Next index: 58
+DEBUG:fiona.ogrext:Next index: 59
+DEBUG:fiona.ogrext:Next index: 60
+DEBUG:fiona.ogrext:Next index: 61
+DEBUG:fiona.ogrext:Next index: 62
+DEBUG:fiona.ogrext:Next index: 63
+DEBUG:fiona.ogrext:Next index: 64
+DEBUG:fiona.ogrext:Next index: 65
+DEBUG:fiona.ogrext:Next index: 66
+DEBUG:fiona.ogrext:Next index: 67
+DEBUG:fiona.ogrext:Next index: 68
+DEBUG:fiona.ogrext:Next index: 69
+DEBUG:fiona.ogrext:Next index: 70
+DEBUG:fiona.ogrext:Next index: 71
+DEBUG:fiona.ogrext:Next index: 72
+DEBUG:fiona.ogrext:Next index: 73
+DEBUG:fiona.ogrext:Next index: 74
+DEBUG:fiona.ogrext:Next index: 75
+DEBUG:fiona.ogrext:Next index: 76
+DEBUG:fiona.ogrext:Next index: 77
+DEBUG:fiona.ogrext:Next index: 78
+DEBUG:fiona.ogrext:Next index: 79
+DEBUG:fiona.ogrext:Next index: 80
+DEBUG:fiona.ogrext:Next index: 81
+DEBUG:fiona.ogrext:Next index: 82
+DEBUG:fiona.ogrext:Next index: 83
+DEBUG:fiona.ogrext:Next index: 84
+DEBUG:fiona.ogrext:Next index: 85
+DEBUG:fiona.ogrext:Next index: 86
+DEBUG:fiona.ogrext:Next index: 87
+DEBUG:fiona.ogrext:Next index: 88
+DEBUG:fiona.ogrext:Next index: 89
+DEBUG:fiona.ogrext:Next index: 90
+DEBUG:fiona.ogrext:Next index: 91
+DEBUG:fiona.ogrext:Next index: 92
+DEBUG:fiona.ogrext:Next index: 93
+DEBUG:fiona.ogrext:Next index: 94
+DEBUG:fiona.ogrext:Next index: 95
+DEBUG:fiona.ogrext:Next index: 96
+DEBUG:fiona.ogrext:Next index: 97
+DEBUG:fiona.ogrext:Next index: 98
+DEBUG:fiona.ogrext:Next index: 99
+DEBUG:fiona.ogrext:Next index: 100
+DEBUG:fiona.ogrext:Next index: 101
+DEBUG:fiona.ogrext:Next index: 102
+DEBUG:fiona.ogrext:Next index: 103
+DEBUG:fiona.ogrext:Next index: 104
+DEBUG:fiona.ogrext:Next index: 105
+DEBUG:fiona.ogrext:Next index: 106
+DEBUG:fiona.ogrext:Next index: 107
+DEBUG:fiona.ogrext:Next index: 108
+DEBUG:fiona.ogrext:Next index: 109
+DEBUG:fiona.ogrext:Next index: 110
+DEBUG:fiona.ogrext:Next index: 111
+DEBUG:fiona.ogrext:Next index: 112
+DEBUG:fiona.ogrext:Next index: 113
+DEBUG:fiona.ogrext:Next index: 114
+DEBUG:fiona.ogrext:Next index: 115
+DEBUG:fiona.ogrext:Next index: 116
+DEBUG:fiona.ogrext:Next index: 117
+DEBUG:fiona.ogrext:Next index: 118
+DEBUG:fiona.ogrext:Next index: 119
+DEBUG:fiona.ogrext:Next index: 120
+DEBUG:fiona.ogrext:Next index: 121
+DEBUG:fiona.ogrext:Next index: 122
+DEBUG:fiona.ogrext:Next index: 123
+DEBUG:fiona.ogrext:Next index: 124
+DEBUG:fiona.ogrext:Next index: 125
+DEBUG:fiona.ogrext:Next index: 126
+DEBUG:fiona.ogrext:Next index: 127
+DEBUG:fiona.ogrext:Next index: 128
+DEBUG:fiona.ogrext:Next index: 129
+DEBUG:fiona.ogrext:Next index: 130
+DEBUG:fiona.ogrext:Next index: 131
+DEBUG:fiona.ogrext:Next index: 132
+DEBUG:fiona.ogrext:Next index: 133
+DEBUG:fiona.ogrext:Next index: 134
+DEBUG:fiona.ogrext:Next index: 135
+DEBUG:fiona.ogrext:Next index: 136
+DEBUG:fiona.ogrext:Next index: 137
+DEBUG:fiona.ogrext:Next index: 138
+DEBUG:fiona.ogrext:Next index: 139
+DEBUG:fiona.ogrext:Next index: 140
+DEBUG:fiona.ogrext:Next index: 141
+DEBUG:fiona.ogrext:Next index: 142
+DEBUG:fiona.ogrext:Next index: 143
+DEBUG:fiona.ogrext:Next index: 144
+DEBUG:fiona.ogrext:Next index: 145
+DEBUG:fiona.ogrext:Next index: 146
+DEBUG:fiona.ogrext:Next index: 147
+DEBUG:fiona.ogrext:Next index: 148
+DEBUG:fiona.ogrext:Next index: 149
+DEBUG:fiona.ogrext:Next index: 150
+DEBUG:fiona.ogrext:Next index: 151
+DEBUG:fiona.ogrext:Next index: 152
+DEBUG:fiona.ogrext:Next index: 153
+DEBUG:fiona.ogrext:Next index: 154
+DEBUG:fiona.ogrext:Next index: 155
+DEBUG:fiona.ogrext:Next index: 156
+DEBUG:fiona.ogrext:Next index: 157
+DEBUG:fiona.ogrext:Next index: 158
+DEBUG:fiona.ogrext:Next index: 159
+DEBUG:fiona.ogrext:Next index: 160
+DEBUG:fiona.collection:Flushed buffer
+DEBUG:fiona.collection:Stopped session
+DEBUG:pyproj:PROJ_ERROR: proj_get_target_crs: Object is not a BoundCRS or a CoordinateOperation
+DEBUG:pyproj:PROJ_ERROR: proj_get_source_crs: Object is not a BoundCRS or a CoordinateOperation
+DEBUG:pyproj:PROJ_ERROR: proj_get_target_crs: Object is not a BoundCRS or a CoordinateOperation
+INFO:root:Run started 2024-05-23 19:32:22
+DEBUG:fiona.session:Could not import boto3, continuing with reduced functionality.
+DEBUG:fiona._env:GDAL_DATA found in environment.
+DEBUG:fiona._env:PROJ_DATA found in environment.
+DEBUG:fiona._env:GDAL_DATA found in environment.
+DEBUG:fiona._env:PROJ_DATA found in environment.
+DEBUG:fiona._env:GDAL_DATA found in environment.
+DEBUG:fiona._env:PROJ_DATA found in environment.
+DEBUG:fiona.ogrext:Got coordinate system
+DEBUG:fiona.ogrext:Got coordinate system
+DEBUG:fiona.crs:Matched. confidence=100, c_code=b'32145', c_name=b'EPSG'
+DEBUG:fiona.ogrext:OLC_FASTSETNEXTBYINDEX: 1
+DEBUG:fiona.ogrext:OLC_FASTFEATURECOUNT: 1
+DEBUG:fiona.ogrext:Next index: 0
+DEBUG:fiona.ogrext:Next index: 1
+DEBUG:fiona.ogrext:Next index: 2
+DEBUG:fiona.ogrext:Next index: 3
+DEBUG:fiona.ogrext:Next index: 4
+DEBUG:fiona.ogrext:Next index: 5
+DEBUG:fiona.ogrext:Next index: 6
+DEBUG:fiona.ogrext:Next index: 7
+DEBUG:fiona.ogrext:Next index: 8
+DEBUG:fiona.ogrext:Next index: 9
+DEBUG:fiona.ogrext:Next index: 10
+DEBUG:fiona.ogrext:Next index: 11
+DEBUG:fiona.ogrext:Next index: 12
+DEBUG:fiona.ogrext:Next index: 13
+DEBUG:fiona.ogrext:Next index: 14
+DEBUG:fiona.ogrext:Next index: 15
+DEBUG:fiona.ogrext:Next index: 16
+DEBUG:fiona.ogrext:Next index: 17
+DEBUG:fiona.ogrext:Next index: 18
+DEBUG:fiona.ogrext:Next index: 19
+DEBUG:fiona.ogrext:Next index: 20
+DEBUG:fiona.ogrext:Next index: 21
+DEBUG:fiona.ogrext:Next index: 22
+DEBUG:fiona.ogrext:Next index: 23
+DEBUG:fiona.ogrext:Next index: 24
+DEBUG:fiona.ogrext:Next index: 25
+DEBUG:fiona.ogrext:Next index: 26
+DEBUG:fiona.ogrext:Next index: 27
+DEBUG:fiona.ogrext:Next index: 28
+DEBUG:fiona.ogrext:Next index: 29
+DEBUG:fiona.ogrext:Next index: 30
+DEBUG:fiona.ogrext:Next index: 31
+DEBUG:fiona.ogrext:Next index: 32
+DEBUG:fiona.ogrext:Next index: 33
+DEBUG:fiona.ogrext:Next index: 34
+DEBUG:fiona.ogrext:Next index: 35
+DEBUG:fiona.ogrext:Next index: 36
+DEBUG:fiona.ogrext:Next index: 37
+DEBUG:fiona.ogrext:Next index: 38
+DEBUG:fiona.ogrext:Next index: 39
+DEBUG:fiona.ogrext:Next index: 40
+DEBUG:fiona.ogrext:Next index: 41
+DEBUG:fiona.ogrext:Next index: 42
+DEBUG:fiona.ogrext:Next index: 43
+DEBUG:fiona.ogrext:Next index: 44
+DEBUG:fiona.ogrext:Next index: 45
+DEBUG:fiona.ogrext:Next index: 46
+DEBUG:fiona.ogrext:Next index: 47
+DEBUG:fiona.ogrext:Next index: 48
+DEBUG:fiona.ogrext:Next index: 49
+DEBUG:fiona.ogrext:Next index: 50
+DEBUG:fiona.ogrext:Next index: 51
+DEBUG:fiona.ogrext:Next index: 52
+DEBUG:fiona.ogrext:Next index: 53
+DEBUG:fiona.ogrext:Next index: 54
+DEBUG:fiona.ogrext:Next index: 55
+DEBUG:fiona.ogrext:Next index: 56
+DEBUG:fiona.ogrext:Next index: 57
+DEBUG:fiona.ogrext:Next index: 58
+DEBUG:fiona.ogrext:Next index: 59
+DEBUG:fiona.ogrext:Next index: 60
+DEBUG:fiona.ogrext:Next index: 61
+DEBUG:fiona.ogrext:Next index: 62
+DEBUG:fiona.ogrext:Next index: 63
+DEBUG:fiona.ogrext:Next index: 64
+DEBUG:fiona.ogrext:Next index: 65
+DEBUG:fiona.ogrext:Next index: 66
+DEBUG:fiona.ogrext:Next index: 67
+DEBUG:fiona.ogrext:Next index: 68
+DEBUG:fiona.ogrext:Next index: 69
+DEBUG:fiona.ogrext:Next index: 70
+DEBUG:fiona.ogrext:Next index: 71
+DEBUG:fiona.ogrext:Next index: 72
+DEBUG:fiona.ogrext:Next index: 73
+DEBUG:fiona.ogrext:Next index: 74
+DEBUG:fiona.ogrext:Next index: 75
+DEBUG:fiona.ogrext:Next index: 76
+DEBUG:fiona.ogrext:Next index: 77
+DEBUG:fiona.ogrext:Next index: 78
+DEBUG:fiona.ogrext:Next index: 79
+DEBUG:fiona.ogrext:Next index: 80
+DEBUG:fiona.ogrext:Next index: 81
+DEBUG:fiona.ogrext:Next index: 82
+DEBUG:fiona.ogrext:Next index: 83
+DEBUG:fiona.ogrext:Next index: 84
+DEBUG:fiona.ogrext:Next index: 85
+DEBUG:fiona.ogrext:Next index: 86
+DEBUG:fiona.ogrext:Next index: 87
+DEBUG:fiona.ogrext:Next index: 88
+DEBUG:fiona.ogrext:Next index: 89
+DEBUG:fiona.ogrext:Next index: 90
+DEBUG:fiona.ogrext:Next index: 91
+DEBUG:fiona.ogrext:Next index: 92
+DEBUG:fiona.ogrext:Next index: 93
+DEBUG:fiona.ogrext:Next index: 94
+DEBUG:fiona.ogrext:Next index: 95
+DEBUG:fiona.ogrext:Next index: 96
+DEBUG:fiona.ogrext:Next index: 97
+DEBUG:fiona.ogrext:Next index: 98
+DEBUG:fiona.ogrext:Next index: 99
+DEBUG:fiona.ogrext:Next index: 100
+DEBUG:fiona.ogrext:Next index: 101
+DEBUG:fiona.ogrext:Next index: 102
+DEBUG:fiona.ogrext:Next index: 103
+DEBUG:fiona.ogrext:Next index: 104
+DEBUG:fiona.ogrext:Next index: 105
+DEBUG:fiona.ogrext:Next index: 106
+DEBUG:fiona.ogrext:Next index: 107
+DEBUG:fiona.ogrext:Next index: 108
+DEBUG:fiona.ogrext:Next index: 109
+DEBUG:fiona.ogrext:Next index: 110
+DEBUG:fiona.ogrext:Next index: 111
+DEBUG:fiona.ogrext:Next index: 112
+DEBUG:fiona.ogrext:Next index: 113
+DEBUG:fiona.ogrext:Next index: 114
+DEBUG:fiona.ogrext:Next index: 115
+DEBUG:fiona.ogrext:Next index: 116
+DEBUG:fiona.ogrext:Next index: 117
+DEBUG:fiona.ogrext:Next index: 118
+DEBUG:fiona.ogrext:Next index: 119
+DEBUG:fiona.ogrext:Next index: 120
+DEBUG:fiona.ogrext:Next index: 121
+DEBUG:fiona.ogrext:Next index: 122
+DEBUG:fiona.ogrext:Next index: 123
+DEBUG:fiona.ogrext:Next index: 124
+DEBUG:fiona.ogrext:Next index: 125
+DEBUG:fiona.ogrext:Next index: 126
+DEBUG:fiona.ogrext:Next index: 127
+DEBUG:fiona.ogrext:Next index: 128
+DEBUG:fiona.ogrext:Next index: 129
+DEBUG:fiona.ogrext:Next index: 130
+DEBUG:fiona.ogrext:Next index: 131
+DEBUG:fiona.ogrext:Next index: 132
+DEBUG:fiona.ogrext:Next index: 133
+DEBUG:fiona.ogrext:Next index: 134
+DEBUG:fiona.ogrext:Next index: 135
+DEBUG:fiona.ogrext:Next index: 136
+DEBUG:fiona.ogrext:Next index: 137
+DEBUG:fiona.ogrext:Next index: 138
+DEBUG:fiona.ogrext:Next index: 139
+DEBUG:fiona.ogrext:Next index: 140
+DEBUG:fiona.ogrext:Next index: 141
+DEBUG:fiona.ogrext:Next index: 142
+DEBUG:fiona.ogrext:Next index: 143
+DEBUG:fiona.ogrext:Next index: 144
+DEBUG:fiona.ogrext:Next index: 145
+DEBUG:fiona.ogrext:Next index: 146
+DEBUG:fiona.ogrext:Next index: 147
+DEBUG:fiona.ogrext:Next index: 148
+DEBUG:fiona.ogrext:Next index: 149
+DEBUG:fiona.ogrext:Next index: 150
+DEBUG:fiona.ogrext:Next index: 151
+DEBUG:fiona.ogrext:Next index: 152
+DEBUG:fiona.ogrext:Next index: 153
+DEBUG:fiona.ogrext:Next index: 154
+DEBUG:fiona.ogrext:Next index: 155
+DEBUG:fiona.ogrext:Next index: 156
+DEBUG:fiona.ogrext:Next index: 157
+DEBUG:fiona.ogrext:Next index: 158
+DEBUG:fiona.ogrext:Next index: 159
+DEBUG:fiona.ogrext:Next index: 160
+DEBUG:fiona.collection:Flushed buffer
+DEBUG:fiona.collection:Stopped session
+INFO:root:Delineating watershed for point @ x = 440274.896900177 and y = 117615.9811000824
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): streamstats.usgs.gov:443
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "GET /streamstatsservices/watershed.geojson?rcode=VT&xlocation=440274.896900177&ylocation=117615.9811000824&crs=32145&includeparameters=True&includeflowtypes=False&includefeatures=True&simplify=True HTTP/1.1" 200 3050
+DEBUG:root:04300101000071 took 36.367 seconds for delineation attempt 0
+INFO:root:Delineating watershed for point @ x = 447254.8987002373 and y = 101225.9783000946
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "GET /streamstatsservices/watershed.geojson?rcode=VT&xlocation=447254.8987002373&ylocation=101225.9783000946&crs=32145&includeparameters=True&includeflowtypes=False&includefeatures=True&simplify=True HTTP/1.1" 200 8795
+DEBUG:root:04300101000046 took 46.801 seconds for delineation attempt 0
+INFO:root:Calculating flowstats for VT20240523193305266000
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): streamstats.usgs.gov:443
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "POST /nssservices/regressionregions/bylocation HTTP/1.1" 500 149
+INFO:root:Run started 2024-05-23 19:37:22
+DEBUG:fiona.session:Could not import boto3, continuing with reduced functionality.
+DEBUG:fiona._env:GDAL_DATA found in environment.
+DEBUG:fiona._env:PROJ_DATA found in environment.
+DEBUG:fiona._env:GDAL_DATA found in environment.
+DEBUG:fiona._env:PROJ_DATA found in environment.
+DEBUG:fiona._env:GDAL_DATA found in environment.
+DEBUG:fiona._env:PROJ_DATA found in environment.
+DEBUG:fiona.ogrext:Got coordinate system
+DEBUG:fiona.ogrext:Got coordinate system
+DEBUG:fiona.crs:Matched. confidence=100, c_code=b'32145', c_name=b'EPSG'
+DEBUG:fiona.ogrext:OLC_FASTSETNEXTBYINDEX: 1
+DEBUG:fiona.ogrext:OLC_FASTFEATURECOUNT: 1
+DEBUG:fiona.ogrext:Next index: 0
+DEBUG:fiona.ogrext:Next index: 1
+DEBUG:fiona.ogrext:Next index: 2
+DEBUG:fiona.ogrext:Next index: 3
+DEBUG:fiona.ogrext:Next index: 4
+DEBUG:fiona.ogrext:Next index: 5
+DEBUG:fiona.ogrext:Next index: 6
+DEBUG:fiona.ogrext:Next index: 7
+DEBUG:fiona.ogrext:Next index: 8
+DEBUG:fiona.ogrext:Next index: 9
+DEBUG:fiona.ogrext:Next index: 10
+DEBUG:fiona.ogrext:Next index: 11
+DEBUG:fiona.ogrext:Next index: 12
+DEBUG:fiona.ogrext:Next index: 13
+DEBUG:fiona.ogrext:Next index: 14
+DEBUG:fiona.ogrext:Next index: 15
+DEBUG:fiona.ogrext:Next index: 16
+DEBUG:fiona.ogrext:Next index: 17
+DEBUG:fiona.ogrext:Next index: 18
+DEBUG:fiona.ogrext:Next index: 19
+DEBUG:fiona.ogrext:Next index: 20
+DEBUG:fiona.ogrext:Next index: 21
+DEBUG:fiona.ogrext:Next index: 22
+DEBUG:fiona.ogrext:Next index: 23
+DEBUG:fiona.ogrext:Next index: 24
+DEBUG:fiona.ogrext:Next index: 25
+DEBUG:fiona.ogrext:Next index: 26
+DEBUG:fiona.ogrext:Next index: 27
+DEBUG:fiona.ogrext:Next index: 28
+DEBUG:fiona.ogrext:Next index: 29
+DEBUG:fiona.ogrext:Next index: 30
+DEBUG:fiona.ogrext:Next index: 31
+DEBUG:fiona.ogrext:Next index: 32
+DEBUG:fiona.ogrext:Next index: 33
+DEBUG:fiona.ogrext:Next index: 34
+DEBUG:fiona.ogrext:Next index: 35
+DEBUG:fiona.ogrext:Next index: 36
+DEBUG:fiona.ogrext:Next index: 37
+DEBUG:fiona.ogrext:Next index: 38
+DEBUG:fiona.ogrext:Next index: 39
+DEBUG:fiona.ogrext:Next index: 40
+DEBUG:fiona.ogrext:Next index: 41
+DEBUG:fiona.ogrext:Next index: 42
+DEBUG:fiona.ogrext:Next index: 43
+DEBUG:fiona.ogrext:Next index: 44
+DEBUG:fiona.ogrext:Next index: 45
+DEBUG:fiona.ogrext:Next index: 46
+DEBUG:fiona.ogrext:Next index: 47
+DEBUG:fiona.ogrext:Next index: 48
+DEBUG:fiona.ogrext:Next index: 49
+DEBUG:fiona.ogrext:Next index: 50
+DEBUG:fiona.ogrext:Next index: 51
+DEBUG:fiona.ogrext:Next index: 52
+DEBUG:fiona.ogrext:Next index: 53
+DEBUG:fiona.ogrext:Next index: 54
+DEBUG:fiona.ogrext:Next index: 55
+DEBUG:fiona.ogrext:Next index: 56
+DEBUG:fiona.ogrext:Next index: 57
+DEBUG:fiona.ogrext:Next index: 58
+DEBUG:fiona.ogrext:Next index: 59
+DEBUG:fiona.ogrext:Next index: 60
+DEBUG:fiona.ogrext:Next index: 61
+DEBUG:fiona.ogrext:Next index: 62
+DEBUG:fiona.ogrext:Next index: 63
+DEBUG:fiona.ogrext:Next index: 64
+DEBUG:fiona.ogrext:Next index: 65
+DEBUG:fiona.ogrext:Next index: 66
+DEBUG:fiona.ogrext:Next index: 67
+DEBUG:fiona.ogrext:Next index: 68
+DEBUG:fiona.ogrext:Next index: 69
+DEBUG:fiona.ogrext:Next index: 70
+DEBUG:fiona.ogrext:Next index: 71
+DEBUG:fiona.ogrext:Next index: 72
+DEBUG:fiona.ogrext:Next index: 73
+DEBUG:fiona.ogrext:Next index: 74
+DEBUG:fiona.ogrext:Next index: 75
+DEBUG:fiona.ogrext:Next index: 76
+DEBUG:fiona.ogrext:Next index: 77
+DEBUG:fiona.ogrext:Next index: 78
+DEBUG:fiona.ogrext:Next index: 79
+DEBUG:fiona.ogrext:Next index: 80
+DEBUG:fiona.ogrext:Next index: 81
+DEBUG:fiona.ogrext:Next index: 82
+DEBUG:fiona.ogrext:Next index: 83
+DEBUG:fiona.ogrext:Next index: 84
+DEBUG:fiona.ogrext:Next index: 85
+DEBUG:fiona.ogrext:Next index: 86
+DEBUG:fiona.ogrext:Next index: 87
+DEBUG:fiona.ogrext:Next index: 88
+DEBUG:fiona.ogrext:Next index: 89
+DEBUG:fiona.ogrext:Next index: 90
+DEBUG:fiona.ogrext:Next index: 91
+DEBUG:fiona.ogrext:Next index: 92
+DEBUG:fiona.ogrext:Next index: 93
+DEBUG:fiona.ogrext:Next index: 94
+DEBUG:fiona.ogrext:Next index: 95
+DEBUG:fiona.ogrext:Next index: 96
+DEBUG:fiona.ogrext:Next index: 97
+DEBUG:fiona.ogrext:Next index: 98
+DEBUG:fiona.ogrext:Next index: 99
+DEBUG:fiona.ogrext:Next index: 100
+DEBUG:fiona.ogrext:Next index: 101
+DEBUG:fiona.ogrext:Next index: 102
+DEBUG:fiona.ogrext:Next index: 103
+DEBUG:fiona.ogrext:Next index: 104
+DEBUG:fiona.ogrext:Next index: 105
+DEBUG:fiona.ogrext:Next index: 106
+DEBUG:fiona.ogrext:Next index: 107
+DEBUG:fiona.ogrext:Next index: 108
+DEBUG:fiona.ogrext:Next index: 109
+DEBUG:fiona.ogrext:Next index: 110
+DEBUG:fiona.ogrext:Next index: 111
+DEBUG:fiona.ogrext:Next index: 112
+DEBUG:fiona.ogrext:Next index: 113
+DEBUG:fiona.ogrext:Next index: 114
+DEBUG:fiona.ogrext:Next index: 115
+DEBUG:fiona.ogrext:Next index: 116
+DEBUG:fiona.ogrext:Next index: 117
+DEBUG:fiona.ogrext:Next index: 118
+DEBUG:fiona.ogrext:Next index: 119
+DEBUG:fiona.ogrext:Next index: 120
+DEBUG:fiona.ogrext:Next index: 121
+DEBUG:fiona.ogrext:Next index: 122
+DEBUG:fiona.ogrext:Next index: 123
+DEBUG:fiona.ogrext:Next index: 124
+DEBUG:fiona.ogrext:Next index: 125
+DEBUG:fiona.ogrext:Next index: 126
+DEBUG:fiona.ogrext:Next index: 127
+DEBUG:fiona.ogrext:Next index: 128
+DEBUG:fiona.ogrext:Next index: 129
+DEBUG:fiona.ogrext:Next index: 130
+DEBUG:fiona.ogrext:Next index: 131
+DEBUG:fiona.ogrext:Next index: 132
+DEBUG:fiona.ogrext:Next index: 133
+DEBUG:fiona.ogrext:Next index: 134
+DEBUG:fiona.ogrext:Next index: 135
+DEBUG:fiona.ogrext:Next index: 136
+DEBUG:fiona.ogrext:Next index: 137
+DEBUG:fiona.ogrext:Next index: 138
+DEBUG:fiona.ogrext:Next index: 139
+DEBUG:fiona.ogrext:Next index: 140
+DEBUG:fiona.ogrext:Next index: 141
+DEBUG:fiona.ogrext:Next index: 142
+DEBUG:fiona.ogrext:Next index: 143
+DEBUG:fiona.ogrext:Next index: 144
+DEBUG:fiona.ogrext:Next index: 145
+DEBUG:fiona.ogrext:Next index: 146
+DEBUG:fiona.ogrext:Next index: 147
+DEBUG:fiona.ogrext:Next index: 148
+DEBUG:fiona.ogrext:Next index: 149
+DEBUG:fiona.ogrext:Next index: 150
+DEBUG:fiona.ogrext:Next index: 151
+DEBUG:fiona.ogrext:Next index: 152
+DEBUG:fiona.ogrext:Next index: 153
+DEBUG:fiona.ogrext:Next index: 154
+DEBUG:fiona.ogrext:Next index: 155
+DEBUG:fiona.ogrext:Next index: 156
+DEBUG:fiona.ogrext:Next index: 157
+DEBUG:fiona.ogrext:Next index: 158
+DEBUG:fiona.ogrext:Next index: 159
+DEBUG:fiona.ogrext:Next index: 160
+DEBUG:fiona.collection:Flushed buffer
+DEBUG:fiona.collection:Stopped session
+INFO:root:Delineating watershed for point @ x = 440274.896900177 and y = 117615.9811000824
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): streamstats.usgs.gov:443
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "GET /streamstatsservices/watershed.geojson?rcode=VT&xlocation=440274.896900177&ylocation=117615.9811000824&crs=32145&includeparameters=True&includeflowtypes=False&includefeatures=True&simplify=True HTTP/1.1" 200 10674
+DEBUG:root:04300101000071 took 45.861 seconds for delineation attempt 0
+INFO:root:Calculating flowstats for VT20240523193728623000
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): streamstats.usgs.gov:443
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "POST /nssservices/regressionregions/bylocation HTTP/1.1" 500 149
+INFO:root:Run started 2024-05-24 12:44:55
+DEBUG:fiona.session:Could not import boto3, continuing with reduced functionality.
+DEBUG:fiona._env:GDAL_DATA found in environment.
+DEBUG:fiona._env:PROJ_DATA found in environment.
+DEBUG:fiona._env:GDAL_DATA found in environment.
+DEBUG:fiona._env:PROJ_DATA found in environment.
+DEBUG:fiona._env:GDAL_DATA found in environment.
+DEBUG:fiona._env:PROJ_DATA found in environment.
+DEBUG:fiona.ogrext:Got coordinate system
+DEBUG:fiona.ogrext:Got coordinate system
+DEBUG:fiona.crs:Matched. confidence=100, c_code=b'32145', c_name=b'EPSG'
+DEBUG:fiona.ogrext:OLC_FASTSETNEXTBYINDEX: 1
+DEBUG:fiona.ogrext:OLC_FASTFEATURECOUNT: 1
+DEBUG:fiona.ogrext:Next index: 0
+DEBUG:fiona.ogrext:Next index: 1
+DEBUG:fiona.ogrext:Next index: 2
+DEBUG:fiona.ogrext:Next index: 3
+DEBUG:fiona.ogrext:Next index: 4
+DEBUG:fiona.ogrext:Next index: 5
+DEBUG:fiona.ogrext:Next index: 6
+DEBUG:fiona.ogrext:Next index: 7
+DEBUG:fiona.ogrext:Next index: 8
+DEBUG:fiona.ogrext:Next index: 9
+DEBUG:fiona.ogrext:Next index: 10
+DEBUG:fiona.ogrext:Next index: 11
+DEBUG:fiona.ogrext:Next index: 12
+DEBUG:fiona.ogrext:Next index: 13
+DEBUG:fiona.ogrext:Next index: 14
+DEBUG:fiona.ogrext:Next index: 15
+DEBUG:fiona.ogrext:Next index: 16
+DEBUG:fiona.ogrext:Next index: 17
+DEBUG:fiona.ogrext:Next index: 18
+DEBUG:fiona.ogrext:Next index: 19
+DEBUG:fiona.ogrext:Next index: 20
+DEBUG:fiona.ogrext:Next index: 21
+DEBUG:fiona.ogrext:Next index: 22
+DEBUG:fiona.ogrext:Next index: 23
+DEBUG:fiona.ogrext:Next index: 24
+DEBUG:fiona.ogrext:Next index: 25
+DEBUG:fiona.ogrext:Next index: 26
+DEBUG:fiona.ogrext:Next index: 27
+DEBUG:fiona.ogrext:Next index: 28
+DEBUG:fiona.ogrext:Next index: 29
+DEBUG:fiona.ogrext:Next index: 30
+DEBUG:fiona.ogrext:Next index: 31
+DEBUG:fiona.ogrext:Next index: 32
+DEBUG:fiona.ogrext:Next index: 33
+DEBUG:fiona.ogrext:Next index: 34
+DEBUG:fiona.ogrext:Next index: 35
+DEBUG:fiona.ogrext:Next index: 36
+DEBUG:fiona.ogrext:Next index: 37
+DEBUG:fiona.ogrext:Next index: 38
+DEBUG:fiona.ogrext:Next index: 39
+DEBUG:fiona.ogrext:Next index: 40
+DEBUG:fiona.ogrext:Next index: 41
+DEBUG:fiona.ogrext:Next index: 42
+DEBUG:fiona.ogrext:Next index: 43
+DEBUG:fiona.ogrext:Next index: 44
+DEBUG:fiona.ogrext:Next index: 45
+DEBUG:fiona.ogrext:Next index: 46
+DEBUG:fiona.ogrext:Next index: 47
+DEBUG:fiona.ogrext:Next index: 48
+DEBUG:fiona.ogrext:Next index: 49
+DEBUG:fiona.ogrext:Next index: 50
+DEBUG:fiona.ogrext:Next index: 51
+DEBUG:fiona.ogrext:Next index: 52
+DEBUG:fiona.ogrext:Next index: 53
+DEBUG:fiona.ogrext:Next index: 54
+DEBUG:fiona.ogrext:Next index: 55
+DEBUG:fiona.ogrext:Next index: 56
+DEBUG:fiona.ogrext:Next index: 57
+DEBUG:fiona.ogrext:Next index: 58
+DEBUG:fiona.ogrext:Next index: 59
+DEBUG:fiona.ogrext:Next index: 60
+DEBUG:fiona.ogrext:Next index: 61
+DEBUG:fiona.ogrext:Next index: 62
+DEBUG:fiona.ogrext:Next index: 63
+DEBUG:fiona.ogrext:Next index: 64
+DEBUG:fiona.ogrext:Next index: 65
+DEBUG:fiona.ogrext:Next index: 66
+DEBUG:fiona.ogrext:Next index: 67
+DEBUG:fiona.ogrext:Next index: 68
+DEBUG:fiona.ogrext:Next index: 69
+DEBUG:fiona.ogrext:Next index: 70
+DEBUG:fiona.ogrext:Next index: 71
+DEBUG:fiona.ogrext:Next index: 72
+DEBUG:fiona.ogrext:Next index: 73
+DEBUG:fiona.ogrext:Next index: 74
+DEBUG:fiona.ogrext:Next index: 75
+DEBUG:fiona.ogrext:Next index: 76
+DEBUG:fiona.ogrext:Next index: 77
+DEBUG:fiona.ogrext:Next index: 78
+DEBUG:fiona.ogrext:Next index: 79
+DEBUG:fiona.ogrext:Next index: 80
+DEBUG:fiona.ogrext:Next index: 81
+DEBUG:fiona.ogrext:Next index: 82
+DEBUG:fiona.ogrext:Next index: 83
+DEBUG:fiona.ogrext:Next index: 84
+DEBUG:fiona.ogrext:Next index: 85
+DEBUG:fiona.ogrext:Next index: 86
+DEBUG:fiona.ogrext:Next index: 87
+DEBUG:fiona.ogrext:Next index: 88
+DEBUG:fiona.ogrext:Next index: 89
+DEBUG:fiona.ogrext:Next index: 90
+DEBUG:fiona.ogrext:Next index: 91
+DEBUG:fiona.ogrext:Next index: 92
+DEBUG:fiona.ogrext:Next index: 93
+DEBUG:fiona.ogrext:Next index: 94
+DEBUG:fiona.ogrext:Next index: 95
+DEBUG:fiona.ogrext:Next index: 96
+DEBUG:fiona.ogrext:Next index: 97
+DEBUG:fiona.ogrext:Next index: 98
+DEBUG:fiona.ogrext:Next index: 99
+DEBUG:fiona.ogrext:Next index: 100
+DEBUG:fiona.ogrext:Next index: 101
+DEBUG:fiona.ogrext:Next index: 102
+DEBUG:fiona.ogrext:Next index: 103
+DEBUG:fiona.ogrext:Next index: 104
+DEBUG:fiona.ogrext:Next index: 105
+DEBUG:fiona.ogrext:Next index: 106
+DEBUG:fiona.ogrext:Next index: 107
+DEBUG:fiona.ogrext:Next index: 108
+DEBUG:fiona.ogrext:Next index: 109
+DEBUG:fiona.ogrext:Next index: 110
+DEBUG:fiona.ogrext:Next index: 111
+DEBUG:fiona.ogrext:Next index: 112
+DEBUG:fiona.ogrext:Next index: 113
+DEBUG:fiona.ogrext:Next index: 114
+DEBUG:fiona.ogrext:Next index: 115
+DEBUG:fiona.ogrext:Next index: 116
+DEBUG:fiona.ogrext:Next index: 117
+DEBUG:fiona.ogrext:Next index: 118
+DEBUG:fiona.ogrext:Next index: 119
+DEBUG:fiona.ogrext:Next index: 120
+DEBUG:fiona.ogrext:Next index: 121
+DEBUG:fiona.ogrext:Next index: 122
+DEBUG:fiona.ogrext:Next index: 123
+DEBUG:fiona.ogrext:Next index: 124
+DEBUG:fiona.ogrext:Next index: 125
+DEBUG:fiona.ogrext:Next index: 126
+DEBUG:fiona.ogrext:Next index: 127
+DEBUG:fiona.ogrext:Next index: 128
+DEBUG:fiona.ogrext:Next index: 129
+DEBUG:fiona.ogrext:Next index: 130
+DEBUG:fiona.ogrext:Next index: 131
+DEBUG:fiona.ogrext:Next index: 132
+DEBUG:fiona.ogrext:Next index: 133
+DEBUG:fiona.ogrext:Next index: 134
+DEBUG:fiona.ogrext:Next index: 135
+DEBUG:fiona.ogrext:Next index: 136
+DEBUG:fiona.ogrext:Next index: 137
+DEBUG:fiona.ogrext:Next index: 138
+DEBUG:fiona.ogrext:Next index: 139
+DEBUG:fiona.ogrext:Next index: 140
+DEBUG:fiona.ogrext:Next index: 141
+DEBUG:fiona.ogrext:Next index: 142
+DEBUG:fiona.ogrext:Next index: 143
+DEBUG:fiona.ogrext:Next index: 144
+DEBUG:fiona.ogrext:Next index: 145
+DEBUG:fiona.ogrext:Next index: 146
+DEBUG:fiona.ogrext:Next index: 147
+DEBUG:fiona.ogrext:Next index: 148
+DEBUG:fiona.ogrext:Next index: 149
+DEBUG:fiona.ogrext:Next index: 150
+DEBUG:fiona.ogrext:Next index: 151
+DEBUG:fiona.ogrext:Next index: 152
+DEBUG:fiona.ogrext:Next index: 153
+DEBUG:fiona.ogrext:Next index: 154
+DEBUG:fiona.ogrext:Next index: 155
+DEBUG:fiona.ogrext:Next index: 156
+DEBUG:fiona.ogrext:Next index: 157
+DEBUG:fiona.ogrext:Next index: 158
+DEBUG:fiona.ogrext:Next index: 159
+DEBUG:fiona.ogrext:Next index: 160
+DEBUG:fiona.collection:Flushed buffer
+DEBUG:fiona.collection:Stopped session
+INFO:root:Delineating watershed for point @ x = 440274.896900177 and y = 117615.9811000824
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): streamstats.usgs.gov:443
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "GET /streamstatsservices/watershed.geojson?rcode=VT&xlocation=440274.896900177&ylocation=117615.9811000824&crs=32145&includeparameters=True&includeflowtypes=False&includefeatures=True&simplify=True HTTP/1.1" 200 10674
+DEBUG:root:04300101000071 took 36.249 seconds for delineation attempt 0
+INFO:root:Calculating flowstats for VT20240524124500814000
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): streamstats.usgs.gov:443
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "POST /nssservices/regressionregions/bylocation HTTP/1.1" 500 149
+INFO:root:Run started 2024-05-24 12:50:39
+DEBUG:fiona.session:Could not import boto3, continuing with reduced functionality.
+DEBUG:fiona._env:GDAL_DATA found in environment.
+DEBUG:fiona._env:PROJ_DATA found in environment.
+DEBUG:fiona._env:GDAL_DATA found in environment.
+DEBUG:fiona._env:PROJ_DATA found in environment.
+DEBUG:fiona._env:GDAL_DATA found in environment.
+DEBUG:fiona._env:PROJ_DATA found in environment.
+DEBUG:fiona.ogrext:Got coordinate system
+DEBUG:fiona.ogrext:Got coordinate system
+DEBUG:fiona.crs:Matched. confidence=100, c_code=b'32145', c_name=b'EPSG'
+DEBUG:fiona.ogrext:OLC_FASTSETNEXTBYINDEX: 1
+DEBUG:fiona.ogrext:OLC_FASTFEATURECOUNT: 1
+DEBUG:fiona.ogrext:Next index: 0
+DEBUG:fiona.ogrext:Next index: 1
+DEBUG:fiona.ogrext:Next index: 2
+DEBUG:fiona.ogrext:Next index: 3
+DEBUG:fiona.ogrext:Next index: 4
+DEBUG:fiona.ogrext:Next index: 5
+DEBUG:fiona.ogrext:Next index: 6
+DEBUG:fiona.ogrext:Next index: 7
+DEBUG:fiona.ogrext:Next index: 8
+DEBUG:fiona.ogrext:Next index: 9
+DEBUG:fiona.ogrext:Next index: 10
+DEBUG:fiona.ogrext:Next index: 11
+DEBUG:fiona.ogrext:Next index: 12
+DEBUG:fiona.ogrext:Next index: 13
+DEBUG:fiona.ogrext:Next index: 14
+DEBUG:fiona.ogrext:Next index: 15
+DEBUG:fiona.ogrext:Next index: 16
+DEBUG:fiona.ogrext:Next index: 17
+DEBUG:fiona.ogrext:Next index: 18
+DEBUG:fiona.ogrext:Next index: 19
+DEBUG:fiona.ogrext:Next index: 20
+DEBUG:fiona.ogrext:Next index: 21
+DEBUG:fiona.ogrext:Next index: 22
+DEBUG:fiona.ogrext:Next index: 23
+DEBUG:fiona.ogrext:Next index: 24
+DEBUG:fiona.ogrext:Next index: 25
+DEBUG:fiona.ogrext:Next index: 26
+DEBUG:fiona.ogrext:Next index: 27
+DEBUG:fiona.ogrext:Next index: 28
+DEBUG:fiona.ogrext:Next index: 29
+DEBUG:fiona.ogrext:Next index: 30
+DEBUG:fiona.ogrext:Next index: 31
+DEBUG:fiona.ogrext:Next index: 32
+DEBUG:fiona.ogrext:Next index: 33
+DEBUG:fiona.ogrext:Next index: 34
+DEBUG:fiona.ogrext:Next index: 35
+DEBUG:fiona.ogrext:Next index: 36
+DEBUG:fiona.ogrext:Next index: 37
+DEBUG:fiona.ogrext:Next index: 38
+DEBUG:fiona.ogrext:Next index: 39
+DEBUG:fiona.ogrext:Next index: 40
+DEBUG:fiona.ogrext:Next index: 41
+DEBUG:fiona.ogrext:Next index: 42
+DEBUG:fiona.ogrext:Next index: 43
+DEBUG:fiona.ogrext:Next index: 44
+DEBUG:fiona.ogrext:Next index: 45
+DEBUG:fiona.ogrext:Next index: 46
+DEBUG:fiona.ogrext:Next index: 47
+DEBUG:fiona.ogrext:Next index: 48
+DEBUG:fiona.ogrext:Next index: 49
+DEBUG:fiona.ogrext:Next index: 50
+DEBUG:fiona.ogrext:Next index: 51
+DEBUG:fiona.ogrext:Next index: 52
+DEBUG:fiona.ogrext:Next index: 53
+DEBUG:fiona.ogrext:Next index: 54
+DEBUG:fiona.ogrext:Next index: 55
+DEBUG:fiona.ogrext:Next index: 56
+DEBUG:fiona.ogrext:Next index: 57
+DEBUG:fiona.ogrext:Next index: 58
+DEBUG:fiona.ogrext:Next index: 59
+DEBUG:fiona.ogrext:Next index: 60
+DEBUG:fiona.ogrext:Next index: 61
+DEBUG:fiona.ogrext:Next index: 62
+DEBUG:fiona.ogrext:Next index: 63
+DEBUG:fiona.ogrext:Next index: 64
+DEBUG:fiona.ogrext:Next index: 65
+DEBUG:fiona.ogrext:Next index: 66
+DEBUG:fiona.ogrext:Next index: 67
+DEBUG:fiona.ogrext:Next index: 68
+DEBUG:fiona.ogrext:Next index: 69
+DEBUG:fiona.ogrext:Next index: 70
+DEBUG:fiona.ogrext:Next index: 71
+DEBUG:fiona.ogrext:Next index: 72
+DEBUG:fiona.ogrext:Next index: 73
+DEBUG:fiona.ogrext:Next index: 74
+DEBUG:fiona.ogrext:Next index: 75
+DEBUG:fiona.ogrext:Next index: 76
+DEBUG:fiona.ogrext:Next index: 77
+DEBUG:fiona.ogrext:Next index: 78
+DEBUG:fiona.ogrext:Next index: 79
+DEBUG:fiona.ogrext:Next index: 80
+DEBUG:fiona.ogrext:Next index: 81
+DEBUG:fiona.ogrext:Next index: 82
+DEBUG:fiona.ogrext:Next index: 83
+DEBUG:fiona.ogrext:Next index: 84
+DEBUG:fiona.ogrext:Next index: 85
+DEBUG:fiona.ogrext:Next index: 86
+DEBUG:fiona.ogrext:Next index: 87
+DEBUG:fiona.ogrext:Next index: 88
+DEBUG:fiona.ogrext:Next index: 89
+DEBUG:fiona.ogrext:Next index: 90
+DEBUG:fiona.ogrext:Next index: 91
+DEBUG:fiona.ogrext:Next index: 92
+DEBUG:fiona.ogrext:Next index: 93
+DEBUG:fiona.ogrext:Next index: 94
+DEBUG:fiona.ogrext:Next index: 95
+DEBUG:fiona.ogrext:Next index: 96
+DEBUG:fiona.ogrext:Next index: 97
+DEBUG:fiona.ogrext:Next index: 98
+DEBUG:fiona.ogrext:Next index: 99
+DEBUG:fiona.ogrext:Next index: 100
+DEBUG:fiona.ogrext:Next index: 101
+DEBUG:fiona.ogrext:Next index: 102
+DEBUG:fiona.ogrext:Next index: 103
+DEBUG:fiona.ogrext:Next index: 104
+DEBUG:fiona.ogrext:Next index: 105
+DEBUG:fiona.ogrext:Next index: 106
+DEBUG:fiona.ogrext:Next index: 107
+DEBUG:fiona.ogrext:Next index: 108
+DEBUG:fiona.ogrext:Next index: 109
+DEBUG:fiona.ogrext:Next index: 110
+DEBUG:fiona.ogrext:Next index: 111
+DEBUG:fiona.ogrext:Next index: 112
+DEBUG:fiona.ogrext:Next index: 113
+DEBUG:fiona.ogrext:Next index: 114
+DEBUG:fiona.ogrext:Next index: 115
+DEBUG:fiona.ogrext:Next index: 116
+DEBUG:fiona.ogrext:Next index: 117
+DEBUG:fiona.ogrext:Next index: 118
+DEBUG:fiona.ogrext:Next index: 119
+DEBUG:fiona.ogrext:Next index: 120
+DEBUG:fiona.ogrext:Next index: 121
+DEBUG:fiona.ogrext:Next index: 122
+DEBUG:fiona.ogrext:Next index: 123
+DEBUG:fiona.ogrext:Next index: 124
+DEBUG:fiona.ogrext:Next index: 125
+DEBUG:fiona.ogrext:Next index: 126
+DEBUG:fiona.ogrext:Next index: 127
+DEBUG:fiona.ogrext:Next index: 128
+DEBUG:fiona.ogrext:Next index: 129
+DEBUG:fiona.ogrext:Next index: 130
+DEBUG:fiona.ogrext:Next index: 131
+DEBUG:fiona.ogrext:Next index: 132
+DEBUG:fiona.ogrext:Next index: 133
+DEBUG:fiona.ogrext:Next index: 134
+DEBUG:fiona.ogrext:Next index: 135
+DEBUG:fiona.ogrext:Next index: 136
+DEBUG:fiona.ogrext:Next index: 137
+DEBUG:fiona.ogrext:Next index: 138
+DEBUG:fiona.ogrext:Next index: 139
+DEBUG:fiona.ogrext:Next index: 140
+DEBUG:fiona.ogrext:Next index: 141
+DEBUG:fiona.ogrext:Next index: 142
+DEBUG:fiona.ogrext:Next index: 143
+DEBUG:fiona.ogrext:Next index: 144
+DEBUG:fiona.ogrext:Next index: 145
+DEBUG:fiona.ogrext:Next index: 146
+DEBUG:fiona.ogrext:Next index: 147
+DEBUG:fiona.ogrext:Next index: 148
+DEBUG:fiona.ogrext:Next index: 149
+DEBUG:fiona.ogrext:Next index: 150
+DEBUG:fiona.ogrext:Next index: 151
+DEBUG:fiona.ogrext:Next index: 152
+DEBUG:fiona.ogrext:Next index: 153
+DEBUG:fiona.ogrext:Next index: 154
+DEBUG:fiona.ogrext:Next index: 155
+DEBUG:fiona.ogrext:Next index: 156
+DEBUG:fiona.ogrext:Next index: 157
+DEBUG:fiona.ogrext:Next index: 158
+DEBUG:fiona.ogrext:Next index: 159
+DEBUG:fiona.ogrext:Next index: 160
+DEBUG:fiona.collection:Flushed buffer
+DEBUG:fiona.collection:Stopped session
+INFO:root:Delineating watershed for point @ x = 440274.896900177 and y = 117615.9811000824
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): streamstats.usgs.gov:443
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "GET /streamstatsservices/watershed.geojson?rcode=VT&xlocation=440274.896900177&ylocation=117615.9811000824&crs=32145&includeparameters=True&includeflowtypes=False&includefeatures=True&simplify=True HTTP/1.1" 200 10674
+DEBUG:root:04300101000071 took 33.216 seconds for delineation attempt 0
+INFO:root:Run started 2024-05-24 13:03:27
+DEBUG:fiona.session:Could not import boto3, continuing with reduced functionality.
+DEBUG:fiona._env:GDAL_DATA found in environment.
+DEBUG:fiona._env:PROJ_DATA found in environment.
+DEBUG:fiona._env:GDAL_DATA found in environment.
+DEBUG:fiona._env:PROJ_DATA found in environment.
+DEBUG:fiona._env:GDAL_DATA found in environment.
+DEBUG:fiona._env:PROJ_DATA found in environment.
+DEBUG:fiona.ogrext:Got coordinate system
+DEBUG:fiona.ogrext:Got coordinate system
+DEBUG:fiona.crs:Matched. confidence=100, c_code=b'32145', c_name=b'EPSG'
+DEBUG:fiona.ogrext:OLC_FASTSETNEXTBYINDEX: 1
+DEBUG:fiona.ogrext:OLC_FASTFEATURECOUNT: 1
+DEBUG:fiona.ogrext:Next index: 0
+DEBUG:fiona.ogrext:Next index: 1
+DEBUG:fiona.ogrext:Next index: 2
+DEBUG:fiona.ogrext:Next index: 3
+DEBUG:fiona.ogrext:Next index: 4
+DEBUG:fiona.ogrext:Next index: 5
+DEBUG:fiona.ogrext:Next index: 6
+DEBUG:fiona.ogrext:Next index: 7
+DEBUG:fiona.ogrext:Next index: 8
+DEBUG:fiona.ogrext:Next index: 9
+DEBUG:fiona.ogrext:Next index: 10
+DEBUG:fiona.ogrext:Next index: 11
+DEBUG:fiona.ogrext:Next index: 12
+DEBUG:fiona.ogrext:Next index: 13
+DEBUG:fiona.ogrext:Next index: 14
+DEBUG:fiona.ogrext:Next index: 15
+DEBUG:fiona.ogrext:Next index: 16
+DEBUG:fiona.ogrext:Next index: 17
+DEBUG:fiona.ogrext:Next index: 18
+DEBUG:fiona.ogrext:Next index: 19
+DEBUG:fiona.ogrext:Next index: 20
+DEBUG:fiona.ogrext:Next index: 21
+DEBUG:fiona.ogrext:Next index: 22
+DEBUG:fiona.ogrext:Next index: 23
+DEBUG:fiona.ogrext:Next index: 24
+DEBUG:fiona.ogrext:Next index: 25
+DEBUG:fiona.ogrext:Next index: 26
+DEBUG:fiona.ogrext:Next index: 27
+DEBUG:fiona.ogrext:Next index: 28
+DEBUG:fiona.ogrext:Next index: 29
+DEBUG:fiona.ogrext:Next index: 30
+DEBUG:fiona.ogrext:Next index: 31
+DEBUG:fiona.ogrext:Next index: 32
+DEBUG:fiona.ogrext:Next index: 33
+DEBUG:fiona.ogrext:Next index: 34
+DEBUG:fiona.ogrext:Next index: 35
+DEBUG:fiona.ogrext:Next index: 36
+DEBUG:fiona.ogrext:Next index: 37
+DEBUG:fiona.ogrext:Next index: 38
+DEBUG:fiona.ogrext:Next index: 39
+DEBUG:fiona.ogrext:Next index: 40
+DEBUG:fiona.ogrext:Next index: 41
+DEBUG:fiona.ogrext:Next index: 42
+DEBUG:fiona.ogrext:Next index: 43
+DEBUG:fiona.ogrext:Next index: 44
+DEBUG:fiona.ogrext:Next index: 45
+DEBUG:fiona.ogrext:Next index: 46
+DEBUG:fiona.ogrext:Next index: 47
+DEBUG:fiona.ogrext:Next index: 48
+DEBUG:fiona.ogrext:Next index: 49
+DEBUG:fiona.ogrext:Next index: 50
+DEBUG:fiona.ogrext:Next index: 51
+DEBUG:fiona.ogrext:Next index: 52
+DEBUG:fiona.ogrext:Next index: 53
+DEBUG:fiona.ogrext:Next index: 54
+DEBUG:fiona.ogrext:Next index: 55
+DEBUG:fiona.ogrext:Next index: 56
+DEBUG:fiona.ogrext:Next index: 57
+DEBUG:fiona.ogrext:Next index: 58
+DEBUG:fiona.ogrext:Next index: 59
+DEBUG:fiona.ogrext:Next index: 60
+DEBUG:fiona.ogrext:Next index: 61
+DEBUG:fiona.ogrext:Next index: 62
+DEBUG:fiona.ogrext:Next index: 63
+DEBUG:fiona.ogrext:Next index: 64
+DEBUG:fiona.ogrext:Next index: 65
+DEBUG:fiona.ogrext:Next index: 66
+DEBUG:fiona.ogrext:Next index: 67
+DEBUG:fiona.ogrext:Next index: 68
+DEBUG:fiona.ogrext:Next index: 69
+DEBUG:fiona.ogrext:Next index: 70
+DEBUG:fiona.ogrext:Next index: 71
+DEBUG:fiona.ogrext:Next index: 72
+DEBUG:fiona.ogrext:Next index: 73
+DEBUG:fiona.ogrext:Next index: 74
+DEBUG:fiona.ogrext:Next index: 75
+DEBUG:fiona.ogrext:Next index: 76
+DEBUG:fiona.ogrext:Next index: 77
+DEBUG:fiona.ogrext:Next index: 78
+DEBUG:fiona.ogrext:Next index: 79
+DEBUG:fiona.ogrext:Next index: 80
+DEBUG:fiona.ogrext:Next index: 81
+DEBUG:fiona.ogrext:Next index: 82
+DEBUG:fiona.ogrext:Next index: 83
+DEBUG:fiona.ogrext:Next index: 84
+DEBUG:fiona.ogrext:Next index: 85
+DEBUG:fiona.ogrext:Next index: 86
+DEBUG:fiona.ogrext:Next index: 87
+DEBUG:fiona.ogrext:Next index: 88
+DEBUG:fiona.ogrext:Next index: 89
+DEBUG:fiona.ogrext:Next index: 90
+DEBUG:fiona.ogrext:Next index: 91
+DEBUG:fiona.ogrext:Next index: 92
+DEBUG:fiona.ogrext:Next index: 93
+DEBUG:fiona.ogrext:Next index: 94
+DEBUG:fiona.ogrext:Next index: 95
+DEBUG:fiona.ogrext:Next index: 96
+DEBUG:fiona.ogrext:Next index: 97
+DEBUG:fiona.ogrext:Next index: 98
+DEBUG:fiona.ogrext:Next index: 99
+DEBUG:fiona.ogrext:Next index: 100
+DEBUG:fiona.ogrext:Next index: 101
+DEBUG:fiona.ogrext:Next index: 102
+DEBUG:fiona.ogrext:Next index: 103
+DEBUG:fiona.ogrext:Next index: 104
+DEBUG:fiona.ogrext:Next index: 105
+DEBUG:fiona.ogrext:Next index: 106
+DEBUG:fiona.ogrext:Next index: 107
+DEBUG:fiona.ogrext:Next index: 108
+DEBUG:fiona.ogrext:Next index: 109
+DEBUG:fiona.ogrext:Next index: 110
+DEBUG:fiona.ogrext:Next index: 111
+DEBUG:fiona.ogrext:Next index: 112
+DEBUG:fiona.ogrext:Next index: 113
+DEBUG:fiona.ogrext:Next index: 114
+DEBUG:fiona.ogrext:Next index: 115
+DEBUG:fiona.ogrext:Next index: 116
+DEBUG:fiona.ogrext:Next index: 117
+DEBUG:fiona.ogrext:Next index: 118
+DEBUG:fiona.ogrext:Next index: 119
+DEBUG:fiona.ogrext:Next index: 120
+DEBUG:fiona.ogrext:Next index: 121
+DEBUG:fiona.ogrext:Next index: 122
+DEBUG:fiona.ogrext:Next index: 123
+DEBUG:fiona.ogrext:Next index: 124
+DEBUG:fiona.ogrext:Next index: 125
+DEBUG:fiona.ogrext:Next index: 126
+DEBUG:fiona.ogrext:Next index: 127
+DEBUG:fiona.ogrext:Next index: 128
+DEBUG:fiona.ogrext:Next index: 129
+DEBUG:fiona.ogrext:Next index: 130
+DEBUG:fiona.ogrext:Next index: 131
+DEBUG:fiona.ogrext:Next index: 132
+DEBUG:fiona.ogrext:Next index: 133
+DEBUG:fiona.ogrext:Next index: 134
+DEBUG:fiona.ogrext:Next index: 135
+DEBUG:fiona.ogrext:Next index: 136
+DEBUG:fiona.ogrext:Next index: 137
+DEBUG:fiona.ogrext:Next index: 138
+DEBUG:fiona.ogrext:Next index: 139
+DEBUG:fiona.ogrext:Next index: 140
+DEBUG:fiona.ogrext:Next index: 141
+DEBUG:fiona.ogrext:Next index: 142
+DEBUG:fiona.ogrext:Next index: 143
+DEBUG:fiona.ogrext:Next index: 144
+DEBUG:fiona.ogrext:Next index: 145
+DEBUG:fiona.ogrext:Next index: 146
+DEBUG:fiona.ogrext:Next index: 147
+DEBUG:fiona.ogrext:Next index: 148
+DEBUG:fiona.ogrext:Next index: 149
+DEBUG:fiona.ogrext:Next index: 150
+DEBUG:fiona.ogrext:Next index: 151
+DEBUG:fiona.ogrext:Next index: 152
+DEBUG:fiona.ogrext:Next index: 153
+DEBUG:fiona.ogrext:Next index: 154
+DEBUG:fiona.ogrext:Next index: 155
+DEBUG:fiona.ogrext:Next index: 156
+DEBUG:fiona.ogrext:Next index: 157
+DEBUG:fiona.ogrext:Next index: 158
+DEBUG:fiona.ogrext:Next index: 159
+DEBUG:fiona.ogrext:Next index: 160
+DEBUG:fiona.collection:Flushed buffer
+DEBUG:fiona.collection:Stopped session
+INFO:root:Delineating watershed for point @ x = 440274.896900177 and y = 117615.9811000824
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): streamstats.usgs.gov:443
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "GET /streamstatsservices/watershed.geojson?rcode=VT&xlocation=440274.896900177&ylocation=117615.9811000824&crs=32145&includeparameters=True&includeflowtypes=False&includefeatures=True&simplify=True HTTP/1.1" 200 10674
+DEBUG:root:04300101000071 took 35.732 seconds for delineation attempt 0
+INFO:root:Calculating flowstats for VT20240524130332206000
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): streamstats.usgs.gov:443
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "POST /nssservices/regressionregions/bylocation HTTP/1.1" 500 149
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): streamstats.usgs.gov:443
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "POST /nssservices/regressionregions/bylocation HTTP/1.1" 500 149
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): streamstats.usgs.gov:443
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "POST /nssservices/regressionregions/bylocation HTTP/1.1" 500 149
+INFO:root:Run started 2024-05-24 13:17:14
+DEBUG:fiona.session:Could not import boto3, continuing with reduced functionality.
+DEBUG:fiona._env:GDAL_DATA found in environment.
+DEBUG:fiona._env:PROJ_DATA found in environment.
+DEBUG:fiona._env:GDAL_DATA found in environment.
+DEBUG:fiona._env:PROJ_DATA found in environment.
+DEBUG:fiona._env:GDAL_DATA found in environment.
+DEBUG:fiona._env:PROJ_DATA found in environment.
+DEBUG:fiona.ogrext:Got coordinate system
+DEBUG:fiona.ogrext:Got coordinate system
+DEBUG:fiona.crs:Matched. confidence=100, c_code=b'32145', c_name=b'EPSG'
+DEBUG:fiona.ogrext:OLC_FASTSETNEXTBYINDEX: 1
+DEBUG:fiona.ogrext:OLC_FASTFEATURECOUNT: 1
+DEBUG:fiona.ogrext:Next index: 0
+DEBUG:fiona.ogrext:Next index: 1
+DEBUG:fiona.ogrext:Next index: 2
+DEBUG:fiona.ogrext:Next index: 3
+DEBUG:fiona.ogrext:Next index: 4
+DEBUG:fiona.ogrext:Next index: 5
+DEBUG:fiona.ogrext:Next index: 6
+DEBUG:fiona.ogrext:Next index: 7
+DEBUG:fiona.ogrext:Next index: 8
+DEBUG:fiona.ogrext:Next index: 9
+DEBUG:fiona.ogrext:Next index: 10
+DEBUG:fiona.ogrext:Next index: 11
+DEBUG:fiona.ogrext:Next index: 12
+DEBUG:fiona.ogrext:Next index: 13
+DEBUG:fiona.ogrext:Next index: 14
+DEBUG:fiona.ogrext:Next index: 15
+DEBUG:fiona.ogrext:Next index: 16
+DEBUG:fiona.ogrext:Next index: 17
+DEBUG:fiona.ogrext:Next index: 18
+DEBUG:fiona.ogrext:Next index: 19
+DEBUG:fiona.ogrext:Next index: 20
+DEBUG:fiona.ogrext:Next index: 21
+DEBUG:fiona.ogrext:Next index: 22
+DEBUG:fiona.ogrext:Next index: 23
+DEBUG:fiona.ogrext:Next index: 24
+DEBUG:fiona.ogrext:Next index: 25
+DEBUG:fiona.ogrext:Next index: 26
+DEBUG:fiona.ogrext:Next index: 27
+DEBUG:fiona.ogrext:Next index: 28
+DEBUG:fiona.ogrext:Next index: 29
+DEBUG:fiona.ogrext:Next index: 30
+DEBUG:fiona.ogrext:Next index: 31
+DEBUG:fiona.ogrext:Next index: 32
+DEBUG:fiona.ogrext:Next index: 33
+DEBUG:fiona.ogrext:Next index: 34
+DEBUG:fiona.ogrext:Next index: 35
+DEBUG:fiona.ogrext:Next index: 36
+DEBUG:fiona.ogrext:Next index: 37
+DEBUG:fiona.ogrext:Next index: 38
+DEBUG:fiona.ogrext:Next index: 39
+DEBUG:fiona.ogrext:Next index: 40
+DEBUG:fiona.ogrext:Next index: 41
+DEBUG:fiona.ogrext:Next index: 42
+DEBUG:fiona.ogrext:Next index: 43
+DEBUG:fiona.ogrext:Next index: 44
+DEBUG:fiona.ogrext:Next index: 45
+DEBUG:fiona.ogrext:Next index: 46
+DEBUG:fiona.ogrext:Next index: 47
+DEBUG:fiona.ogrext:Next index: 48
+DEBUG:fiona.ogrext:Next index: 49
+DEBUG:fiona.ogrext:Next index: 50
+DEBUG:fiona.ogrext:Next index: 51
+DEBUG:fiona.ogrext:Next index: 52
+DEBUG:fiona.ogrext:Next index: 53
+DEBUG:fiona.ogrext:Next index: 54
+DEBUG:fiona.ogrext:Next index: 55
+DEBUG:fiona.ogrext:Next index: 56
+DEBUG:fiona.ogrext:Next index: 57
+DEBUG:fiona.ogrext:Next index: 58
+DEBUG:fiona.ogrext:Next index: 59
+DEBUG:fiona.ogrext:Next index: 60
+DEBUG:fiona.ogrext:Next index: 61
+DEBUG:fiona.ogrext:Next index: 62
+DEBUG:fiona.ogrext:Next index: 63
+DEBUG:fiona.ogrext:Next index: 64
+DEBUG:fiona.ogrext:Next index: 65
+DEBUG:fiona.ogrext:Next index: 66
+DEBUG:fiona.ogrext:Next index: 67
+DEBUG:fiona.ogrext:Next index: 68
+DEBUG:fiona.ogrext:Next index: 69
+DEBUG:fiona.ogrext:Next index: 70
+DEBUG:fiona.ogrext:Next index: 71
+DEBUG:fiona.ogrext:Next index: 72
+DEBUG:fiona.ogrext:Next index: 73
+DEBUG:fiona.ogrext:Next index: 74
+DEBUG:fiona.ogrext:Next index: 75
+DEBUG:fiona.ogrext:Next index: 76
+DEBUG:fiona.ogrext:Next index: 77
+DEBUG:fiona.ogrext:Next index: 78
+DEBUG:fiona.ogrext:Next index: 79
+DEBUG:fiona.ogrext:Next index: 80
+DEBUG:fiona.ogrext:Next index: 81
+DEBUG:fiona.ogrext:Next index: 82
+DEBUG:fiona.ogrext:Next index: 83
+DEBUG:fiona.ogrext:Next index: 84
+DEBUG:fiona.ogrext:Next index: 85
+DEBUG:fiona.ogrext:Next index: 86
+DEBUG:fiona.ogrext:Next index: 87
+DEBUG:fiona.ogrext:Next index: 88
+DEBUG:fiona.ogrext:Next index: 89
+DEBUG:fiona.ogrext:Next index: 90
+DEBUG:fiona.ogrext:Next index: 91
+DEBUG:fiona.ogrext:Next index: 92
+DEBUG:fiona.ogrext:Next index: 93
+DEBUG:fiona.ogrext:Next index: 94
+DEBUG:fiona.ogrext:Next index: 95
+DEBUG:fiona.ogrext:Next index: 96
+DEBUG:fiona.ogrext:Next index: 97
+DEBUG:fiona.ogrext:Next index: 98
+DEBUG:fiona.ogrext:Next index: 99
+DEBUG:fiona.ogrext:Next index: 100
+DEBUG:fiona.ogrext:Next index: 101
+DEBUG:fiona.ogrext:Next index: 102
+DEBUG:fiona.ogrext:Next index: 103
+DEBUG:fiona.ogrext:Next index: 104
+DEBUG:fiona.ogrext:Next index: 105
+DEBUG:fiona.ogrext:Next index: 106
+DEBUG:fiona.ogrext:Next index: 107
+DEBUG:fiona.ogrext:Next index: 108
+DEBUG:fiona.ogrext:Next index: 109
+DEBUG:fiona.ogrext:Next index: 110
+DEBUG:fiona.ogrext:Next index: 111
+DEBUG:fiona.ogrext:Next index: 112
+DEBUG:fiona.ogrext:Next index: 113
+DEBUG:fiona.ogrext:Next index: 114
+DEBUG:fiona.ogrext:Next index: 115
+DEBUG:fiona.ogrext:Next index: 116
+DEBUG:fiona.ogrext:Next index: 117
+DEBUG:fiona.ogrext:Next index: 118
+DEBUG:fiona.ogrext:Next index: 119
+DEBUG:fiona.ogrext:Next index: 120
+DEBUG:fiona.ogrext:Next index: 121
+DEBUG:fiona.ogrext:Next index: 122
+DEBUG:fiona.ogrext:Next index: 123
+DEBUG:fiona.ogrext:Next index: 124
+DEBUG:fiona.ogrext:Next index: 125
+DEBUG:fiona.ogrext:Next index: 126
+DEBUG:fiona.ogrext:Next index: 127
+DEBUG:fiona.ogrext:Next index: 128
+DEBUG:fiona.ogrext:Next index: 129
+DEBUG:fiona.ogrext:Next index: 130
+DEBUG:fiona.ogrext:Next index: 131
+DEBUG:fiona.ogrext:Next index: 132
+DEBUG:fiona.ogrext:Next index: 133
+DEBUG:fiona.ogrext:Next index: 134
+DEBUG:fiona.ogrext:Next index: 135
+DEBUG:fiona.ogrext:Next index: 136
+DEBUG:fiona.ogrext:Next index: 137
+DEBUG:fiona.ogrext:Next index: 138
+DEBUG:fiona.ogrext:Next index: 139
+DEBUG:fiona.ogrext:Next index: 140
+DEBUG:fiona.ogrext:Next index: 141
+DEBUG:fiona.ogrext:Next index: 142
+DEBUG:fiona.ogrext:Next index: 143
+DEBUG:fiona.ogrext:Next index: 144
+DEBUG:fiona.ogrext:Next index: 145
+DEBUG:fiona.ogrext:Next index: 146
+DEBUG:fiona.ogrext:Next index: 147
+DEBUG:fiona.ogrext:Next index: 148
+DEBUG:fiona.ogrext:Next index: 149
+DEBUG:fiona.ogrext:Next index: 150
+DEBUG:fiona.ogrext:Next index: 151
+DEBUG:fiona.ogrext:Next index: 152
+DEBUG:fiona.ogrext:Next index: 153
+DEBUG:fiona.ogrext:Next index: 154
+DEBUG:fiona.ogrext:Next index: 155
+DEBUG:fiona.ogrext:Next index: 156
+DEBUG:fiona.ogrext:Next index: 157
+DEBUG:fiona.ogrext:Next index: 158
+DEBUG:fiona.ogrext:Next index: 159
+DEBUG:fiona.ogrext:Next index: 160
+DEBUG:fiona.collection:Flushed buffer
+DEBUG:fiona.collection:Stopped session
+INFO:root:Delineating watershed for point @ x = 440274.896900177 and y = 117615.9811000824
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): streamstats.usgs.gov:443
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "GET /streamstatsservices/watershed.geojson?rcode=VT&xlocation=440274.896900177&ylocation=117615.9811000824&crs=32145&includeparameters=True&includeflowtypes=False&includefeatures=True&simplify=True HTTP/1.1" 200 10674
+DEBUG:root:04300101000071 took 36.199 seconds for delineation attempt 0
+INFO:root:Calculating flowstats for VT20240524131719980000
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "POST /nssservices/regressionregions/bylocation HTTP/1.1" 500 149
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "POST /nssservices/regressionregions/bylocation HTTP/1.1" 500 149
+INFO:root:Run started 2024-05-24 13:22:11
+DEBUG:fiona.session:Could not import boto3, continuing with reduced functionality.
+DEBUG:fiona._env:GDAL_DATA found in environment.
+DEBUG:fiona._env:PROJ_DATA found in environment.
+DEBUG:fiona._env:GDAL_DATA found in environment.
+DEBUG:fiona._env:PROJ_DATA found in environment.
+DEBUG:fiona._env:GDAL_DATA found in environment.
+DEBUG:fiona._env:PROJ_DATA found in environment.
+DEBUG:fiona.ogrext:Got coordinate system
+DEBUG:fiona.ogrext:Got coordinate system
+DEBUG:fiona.crs:Matched. confidence=100, c_code=b'32145', c_name=b'EPSG'
+DEBUG:fiona.ogrext:OLC_FASTSETNEXTBYINDEX: 1
+DEBUG:fiona.ogrext:OLC_FASTFEATURECOUNT: 1
+DEBUG:fiona.ogrext:Next index: 0
+DEBUG:fiona.ogrext:Next index: 1
+DEBUG:fiona.ogrext:Next index: 2
+DEBUG:fiona.ogrext:Next index: 3
+DEBUG:fiona.ogrext:Next index: 4
+DEBUG:fiona.ogrext:Next index: 5
+DEBUG:fiona.ogrext:Next index: 6
+DEBUG:fiona.ogrext:Next index: 7
+DEBUG:fiona.ogrext:Next index: 8
+DEBUG:fiona.ogrext:Next index: 9
+DEBUG:fiona.ogrext:Next index: 10
+DEBUG:fiona.ogrext:Next index: 11
+DEBUG:fiona.ogrext:Next index: 12
+DEBUG:fiona.ogrext:Next index: 13
+DEBUG:fiona.ogrext:Next index: 14
+DEBUG:fiona.ogrext:Next index: 15
+DEBUG:fiona.ogrext:Next index: 16
+DEBUG:fiona.ogrext:Next index: 17
+DEBUG:fiona.ogrext:Next index: 18
+DEBUG:fiona.ogrext:Next index: 19
+DEBUG:fiona.ogrext:Next index: 20
+DEBUG:fiona.ogrext:Next index: 21
+DEBUG:fiona.ogrext:Next index: 22
+DEBUG:fiona.ogrext:Next index: 23
+DEBUG:fiona.ogrext:Next index: 24
+DEBUG:fiona.ogrext:Next index: 25
+DEBUG:fiona.ogrext:Next index: 26
+DEBUG:fiona.ogrext:Next index: 27
+DEBUG:fiona.ogrext:Next index: 28
+DEBUG:fiona.ogrext:Next index: 29
+DEBUG:fiona.ogrext:Next index: 30
+DEBUG:fiona.ogrext:Next index: 31
+DEBUG:fiona.ogrext:Next index: 32
+DEBUG:fiona.ogrext:Next index: 33
+DEBUG:fiona.ogrext:Next index: 34
+DEBUG:fiona.ogrext:Next index: 35
+DEBUG:fiona.ogrext:Next index: 36
+DEBUG:fiona.ogrext:Next index: 37
+DEBUG:fiona.ogrext:Next index: 38
+DEBUG:fiona.ogrext:Next index: 39
+DEBUG:fiona.ogrext:Next index: 40
+DEBUG:fiona.ogrext:Next index: 41
+DEBUG:fiona.ogrext:Next index: 42
+DEBUG:fiona.ogrext:Next index: 43
+DEBUG:fiona.ogrext:Next index: 44
+DEBUG:fiona.ogrext:Next index: 45
+DEBUG:fiona.ogrext:Next index: 46
+DEBUG:fiona.ogrext:Next index: 47
+DEBUG:fiona.ogrext:Next index: 48
+DEBUG:fiona.ogrext:Next index: 49
+DEBUG:fiona.ogrext:Next index: 50
+DEBUG:fiona.ogrext:Next index: 51
+DEBUG:fiona.ogrext:Next index: 52
+DEBUG:fiona.ogrext:Next index: 53
+DEBUG:fiona.ogrext:Next index: 54
+DEBUG:fiona.ogrext:Next index: 55
+DEBUG:fiona.ogrext:Next index: 56
+DEBUG:fiona.ogrext:Next index: 57
+DEBUG:fiona.ogrext:Next index: 58
+DEBUG:fiona.ogrext:Next index: 59
+DEBUG:fiona.ogrext:Next index: 60
+DEBUG:fiona.ogrext:Next index: 61
+DEBUG:fiona.ogrext:Next index: 62
+DEBUG:fiona.ogrext:Next index: 63
+DEBUG:fiona.ogrext:Next index: 64
+DEBUG:fiona.ogrext:Next index: 65
+DEBUG:fiona.ogrext:Next index: 66
+DEBUG:fiona.ogrext:Next index: 67
+DEBUG:fiona.ogrext:Next index: 68
+DEBUG:fiona.ogrext:Next index: 69
+DEBUG:fiona.ogrext:Next index: 70
+DEBUG:fiona.ogrext:Next index: 71
+DEBUG:fiona.ogrext:Next index: 72
+DEBUG:fiona.ogrext:Next index: 73
+DEBUG:fiona.ogrext:Next index: 74
+DEBUG:fiona.ogrext:Next index: 75
+DEBUG:fiona.ogrext:Next index: 76
+DEBUG:fiona.ogrext:Next index: 77
+DEBUG:fiona.ogrext:Next index: 78
+DEBUG:fiona.ogrext:Next index: 79
+DEBUG:fiona.ogrext:Next index: 80
+DEBUG:fiona.ogrext:Next index: 81
+DEBUG:fiona.ogrext:Next index: 82
+DEBUG:fiona.ogrext:Next index: 83
+DEBUG:fiona.ogrext:Next index: 84
+DEBUG:fiona.ogrext:Next index: 85
+DEBUG:fiona.ogrext:Next index: 86
+DEBUG:fiona.ogrext:Next index: 87
+DEBUG:fiona.ogrext:Next index: 88
+DEBUG:fiona.ogrext:Next index: 89
+DEBUG:fiona.ogrext:Next index: 90
+DEBUG:fiona.ogrext:Next index: 91
+DEBUG:fiona.ogrext:Next index: 92
+DEBUG:fiona.ogrext:Next index: 93
+DEBUG:fiona.ogrext:Next index: 94
+DEBUG:fiona.ogrext:Next index: 95
+DEBUG:fiona.ogrext:Next index: 96
+DEBUG:fiona.ogrext:Next index: 97
+DEBUG:fiona.ogrext:Next index: 98
+DEBUG:fiona.ogrext:Next index: 99
+DEBUG:fiona.ogrext:Next index: 100
+DEBUG:fiona.ogrext:Next index: 101
+DEBUG:fiona.ogrext:Next index: 102
+DEBUG:fiona.ogrext:Next index: 103
+DEBUG:fiona.ogrext:Next index: 104
+DEBUG:fiona.ogrext:Next index: 105
+DEBUG:fiona.ogrext:Next index: 106
+DEBUG:fiona.ogrext:Next index: 107
+DEBUG:fiona.ogrext:Next index: 108
+DEBUG:fiona.ogrext:Next index: 109
+DEBUG:fiona.ogrext:Next index: 110
+DEBUG:fiona.ogrext:Next index: 111
+DEBUG:fiona.ogrext:Next index: 112
+DEBUG:fiona.ogrext:Next index: 113
+DEBUG:fiona.ogrext:Next index: 114
+DEBUG:fiona.ogrext:Next index: 115
+DEBUG:fiona.ogrext:Next index: 116
+DEBUG:fiona.ogrext:Next index: 117
+DEBUG:fiona.ogrext:Next index: 118
+DEBUG:fiona.ogrext:Next index: 119
+DEBUG:fiona.ogrext:Next index: 120
+DEBUG:fiona.ogrext:Next index: 121
+DEBUG:fiona.ogrext:Next index: 122
+DEBUG:fiona.ogrext:Next index: 123
+DEBUG:fiona.ogrext:Next index: 124
+DEBUG:fiona.ogrext:Next index: 125
+DEBUG:fiona.ogrext:Next index: 126
+DEBUG:fiona.ogrext:Next index: 127
+DEBUG:fiona.ogrext:Next index: 128
+DEBUG:fiona.ogrext:Next index: 129
+DEBUG:fiona.ogrext:Next index: 130
+DEBUG:fiona.ogrext:Next index: 131
+DEBUG:fiona.ogrext:Next index: 132
+DEBUG:fiona.ogrext:Next index: 133
+DEBUG:fiona.ogrext:Next index: 134
+DEBUG:fiona.ogrext:Next index: 135
+DEBUG:fiona.ogrext:Next index: 136
+DEBUG:fiona.ogrext:Next index: 137
+DEBUG:fiona.ogrext:Next index: 138
+DEBUG:fiona.ogrext:Next index: 139
+DEBUG:fiona.ogrext:Next index: 140
+DEBUG:fiona.ogrext:Next index: 141
+DEBUG:fiona.ogrext:Next index: 142
+DEBUG:fiona.ogrext:Next index: 143
+DEBUG:fiona.ogrext:Next index: 144
+DEBUG:fiona.ogrext:Next index: 145
+DEBUG:fiona.ogrext:Next index: 146
+DEBUG:fiona.ogrext:Next index: 147
+DEBUG:fiona.ogrext:Next index: 148
+DEBUG:fiona.ogrext:Next index: 149
+DEBUG:fiona.ogrext:Next index: 150
+DEBUG:fiona.ogrext:Next index: 151
+DEBUG:fiona.ogrext:Next index: 152
+DEBUG:fiona.ogrext:Next index: 153
+DEBUG:fiona.ogrext:Next index: 154
+DEBUG:fiona.ogrext:Next index: 155
+DEBUG:fiona.ogrext:Next index: 156
+DEBUG:fiona.ogrext:Next index: 157
+DEBUG:fiona.ogrext:Next index: 158
+DEBUG:fiona.ogrext:Next index: 159
+DEBUG:fiona.ogrext:Next index: 160
+DEBUG:fiona.collection:Flushed buffer
+DEBUG:fiona.collection:Stopped session
+INFO:root:Delineating watershed for point @ x = 440274.896900177 and y = 117615.9811000824
+INFO:root:Run started 2024-05-24 13:27:03
+DEBUG:fiona.session:Could not import boto3, continuing with reduced functionality.
+DEBUG:fiona._env:GDAL_DATA found in environment.
+DEBUG:fiona._env:PROJ_DATA found in environment.
+DEBUG:fiona._env:GDAL_DATA found in environment.
+DEBUG:fiona._env:PROJ_DATA found in environment.
+DEBUG:fiona._env:GDAL_DATA found in environment.
+DEBUG:fiona._env:PROJ_DATA found in environment.
+DEBUG:fiona.ogrext:Got coordinate system
+DEBUG:fiona.ogrext:Got coordinate system
+DEBUG:fiona.crs:Matched. confidence=100, c_code=b'32145', c_name=b'EPSG'
+DEBUG:fiona.ogrext:OLC_FASTSETNEXTBYINDEX: 1
+DEBUG:fiona.ogrext:OLC_FASTFEATURECOUNT: 1
+DEBUG:fiona.ogrext:Next index: 0
+DEBUG:fiona.ogrext:Next index: 1
+DEBUG:fiona.ogrext:Next index: 2
+DEBUG:fiona.ogrext:Next index: 3
+DEBUG:fiona.ogrext:Next index: 4
+DEBUG:fiona.ogrext:Next index: 5
+DEBUG:fiona.ogrext:Next index: 6
+DEBUG:fiona.ogrext:Next index: 7
+DEBUG:fiona.ogrext:Next index: 8
+DEBUG:fiona.ogrext:Next index: 9
+DEBUG:fiona.ogrext:Next index: 10
+DEBUG:fiona.ogrext:Next index: 11
+DEBUG:fiona.ogrext:Next index: 12
+DEBUG:fiona.ogrext:Next index: 13
+DEBUG:fiona.ogrext:Next index: 14
+DEBUG:fiona.ogrext:Next index: 15
+DEBUG:fiona.ogrext:Next index: 16
+DEBUG:fiona.ogrext:Next index: 17
+DEBUG:fiona.ogrext:Next index: 18
+DEBUG:fiona.ogrext:Next index: 19
+DEBUG:fiona.ogrext:Next index: 20
+DEBUG:fiona.ogrext:Next index: 21
+DEBUG:fiona.ogrext:Next index: 22
+DEBUG:fiona.ogrext:Next index: 23
+DEBUG:fiona.ogrext:Next index: 24
+DEBUG:fiona.ogrext:Next index: 25
+DEBUG:fiona.ogrext:Next index: 26
+DEBUG:fiona.ogrext:Next index: 27
+DEBUG:fiona.ogrext:Next index: 28
+DEBUG:fiona.ogrext:Next index: 29
+DEBUG:fiona.ogrext:Next index: 30
+DEBUG:fiona.ogrext:Next index: 31
+DEBUG:fiona.ogrext:Next index: 32
+DEBUG:fiona.ogrext:Next index: 33
+DEBUG:fiona.ogrext:Next index: 34
+DEBUG:fiona.ogrext:Next index: 35
+DEBUG:fiona.ogrext:Next index: 36
+DEBUG:fiona.ogrext:Next index: 37
+DEBUG:fiona.ogrext:Next index: 38
+DEBUG:fiona.ogrext:Next index: 39
+DEBUG:fiona.ogrext:Next index: 40
+DEBUG:fiona.ogrext:Next index: 41
+DEBUG:fiona.ogrext:Next index: 42
+DEBUG:fiona.ogrext:Next index: 43
+DEBUG:fiona.ogrext:Next index: 44
+DEBUG:fiona.ogrext:Next index: 45
+DEBUG:fiona.ogrext:Next index: 46
+DEBUG:fiona.ogrext:Next index: 47
+DEBUG:fiona.ogrext:Next index: 48
+DEBUG:fiona.ogrext:Next index: 49
+DEBUG:fiona.ogrext:Next index: 50
+DEBUG:fiona.ogrext:Next index: 51
+DEBUG:fiona.ogrext:Next index: 52
+DEBUG:fiona.ogrext:Next index: 53
+DEBUG:fiona.ogrext:Next index: 54
+DEBUG:fiona.ogrext:Next index: 55
+DEBUG:fiona.ogrext:Next index: 56
+DEBUG:fiona.ogrext:Next index: 57
+DEBUG:fiona.ogrext:Next index: 58
+DEBUG:fiona.ogrext:Next index: 59
+DEBUG:fiona.ogrext:Next index: 60
+DEBUG:fiona.ogrext:Next index: 61
+DEBUG:fiona.ogrext:Next index: 62
+DEBUG:fiona.ogrext:Next index: 63
+DEBUG:fiona.ogrext:Next index: 64
+DEBUG:fiona.ogrext:Next index: 65
+DEBUG:fiona.ogrext:Next index: 66
+DEBUG:fiona.ogrext:Next index: 67
+DEBUG:fiona.ogrext:Next index: 68
+DEBUG:fiona.ogrext:Next index: 69
+DEBUG:fiona.ogrext:Next index: 70
+DEBUG:fiona.ogrext:Next index: 71
+DEBUG:fiona.ogrext:Next index: 72
+DEBUG:fiona.ogrext:Next index: 73
+DEBUG:fiona.ogrext:Next index: 74
+DEBUG:fiona.ogrext:Next index: 75
+DEBUG:fiona.ogrext:Next index: 76
+DEBUG:fiona.ogrext:Next index: 77
+DEBUG:fiona.ogrext:Next index: 78
+DEBUG:fiona.ogrext:Next index: 79
+DEBUG:fiona.ogrext:Next index: 80
+DEBUG:fiona.ogrext:Next index: 81
+DEBUG:fiona.ogrext:Next index: 82
+DEBUG:fiona.ogrext:Next index: 83
+DEBUG:fiona.ogrext:Next index: 84
+DEBUG:fiona.ogrext:Next index: 85
+DEBUG:fiona.ogrext:Next index: 86
+DEBUG:fiona.ogrext:Next index: 87
+DEBUG:fiona.ogrext:Next index: 88
+DEBUG:fiona.ogrext:Next index: 89
+DEBUG:fiona.ogrext:Next index: 90
+DEBUG:fiona.ogrext:Next index: 91
+DEBUG:fiona.ogrext:Next index: 92
+DEBUG:fiona.ogrext:Next index: 93
+DEBUG:fiona.ogrext:Next index: 94
+DEBUG:fiona.ogrext:Next index: 95
+DEBUG:fiona.ogrext:Next index: 96
+DEBUG:fiona.ogrext:Next index: 97
+DEBUG:fiona.ogrext:Next index: 98
+DEBUG:fiona.ogrext:Next index: 99
+DEBUG:fiona.ogrext:Next index: 100
+DEBUG:fiona.ogrext:Next index: 101
+DEBUG:fiona.ogrext:Next index: 102
+DEBUG:fiona.ogrext:Next index: 103
+DEBUG:fiona.ogrext:Next index: 104
+DEBUG:fiona.ogrext:Next index: 105
+DEBUG:fiona.ogrext:Next index: 106
+DEBUG:fiona.ogrext:Next index: 107
+DEBUG:fiona.ogrext:Next index: 108
+DEBUG:fiona.ogrext:Next index: 109
+DEBUG:fiona.ogrext:Next index: 110
+DEBUG:fiona.ogrext:Next index: 111
+DEBUG:fiona.ogrext:Next index: 112
+DEBUG:fiona.ogrext:Next index: 113
+DEBUG:fiona.ogrext:Next index: 114
+DEBUG:fiona.ogrext:Next index: 115
+DEBUG:fiona.ogrext:Next index: 116
+DEBUG:fiona.ogrext:Next index: 117
+DEBUG:fiona.ogrext:Next index: 118
+DEBUG:fiona.ogrext:Next index: 119
+DEBUG:fiona.ogrext:Next index: 120
+DEBUG:fiona.ogrext:Next index: 121
+DEBUG:fiona.ogrext:Next index: 122
+DEBUG:fiona.ogrext:Next index: 123
+DEBUG:fiona.ogrext:Next index: 124
+DEBUG:fiona.ogrext:Next index: 125
+DEBUG:fiona.ogrext:Next index: 126
+DEBUG:fiona.ogrext:Next index: 127
+DEBUG:fiona.ogrext:Next index: 128
+DEBUG:fiona.ogrext:Next index: 129
+DEBUG:fiona.ogrext:Next index: 130
+DEBUG:fiona.ogrext:Next index: 131
+DEBUG:fiona.ogrext:Next index: 132
+DEBUG:fiona.ogrext:Next index: 133
+DEBUG:fiona.ogrext:Next index: 134
+DEBUG:fiona.ogrext:Next index: 135
+DEBUG:fiona.ogrext:Next index: 136
+DEBUG:fiona.ogrext:Next index: 137
+DEBUG:fiona.ogrext:Next index: 138
+DEBUG:fiona.ogrext:Next index: 139
+DEBUG:fiona.ogrext:Next index: 140
+DEBUG:fiona.ogrext:Next index: 141
+DEBUG:fiona.ogrext:Next index: 142
+DEBUG:fiona.ogrext:Next index: 143
+DEBUG:fiona.ogrext:Next index: 144
+DEBUG:fiona.ogrext:Next index: 145
+DEBUG:fiona.ogrext:Next index: 146
+DEBUG:fiona.ogrext:Next index: 147
+DEBUG:fiona.ogrext:Next index: 148
+DEBUG:fiona.ogrext:Next index: 149
+DEBUG:fiona.ogrext:Next index: 150
+DEBUG:fiona.ogrext:Next index: 151
+DEBUG:fiona.ogrext:Next index: 152
+DEBUG:fiona.ogrext:Next index: 153
+DEBUG:fiona.ogrext:Next index: 154
+DEBUG:fiona.ogrext:Next index: 155
+DEBUG:fiona.ogrext:Next index: 156
+DEBUG:fiona.ogrext:Next index: 157
+DEBUG:fiona.ogrext:Next index: 158
+DEBUG:fiona.ogrext:Next index: 159
+DEBUG:fiona.ogrext:Next index: 160
+DEBUG:fiona.collection:Flushed buffer
+DEBUG:fiona.collection:Stopped session
+INFO:root:Delineating watershed for point @ x = 440274.896900177 and y = 117615.9811000824
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): streamstats.usgs.gov:443
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "GET /streamstatsservices/watershed.geojson?rcode=VT&xlocation=440274.896900177&ylocation=117615.9811000824&crs=32145&includeparameters=True&includeflowtypes=False&includefeatures=True&simplify=True HTTP/1.1" 200 10674
+DEBUG:root:04300101000071 took 34.784 seconds for delineation attempt 0
+INFO:root:Calculating flowstats for VT20240524132708252000
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "POST /nssservices/regressionregions/bylocation HTTP/1.1" 500 149
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): streamstats.usgs.gov:443
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "POST /nssservices/regressionregions/bylocation HTTP/1.1" 500 149
+INFO:root:Run started 2024-05-24 13:29:23
+DEBUG:fiona.session:Could not import boto3, continuing with reduced functionality.
+DEBUG:fiona._env:GDAL_DATA found in environment.
+DEBUG:fiona._env:PROJ_DATA found in environment.
+DEBUG:fiona._env:GDAL_DATA found in environment.
+DEBUG:fiona._env:PROJ_DATA found in environment.
+DEBUG:fiona._env:GDAL_DATA found in environment.
+DEBUG:fiona._env:PROJ_DATA found in environment.
+DEBUG:fiona.ogrext:Got coordinate system
+DEBUG:fiona.ogrext:Got coordinate system
+DEBUG:fiona.crs:Matched. confidence=100, c_code=b'32145', c_name=b'EPSG'
+DEBUG:fiona.ogrext:OLC_FASTSETNEXTBYINDEX: 1
+DEBUG:fiona.ogrext:OLC_FASTFEATURECOUNT: 1
+DEBUG:fiona.ogrext:Next index: 0
+DEBUG:fiona.ogrext:Next index: 1
+DEBUG:fiona.ogrext:Next index: 2
+DEBUG:fiona.ogrext:Next index: 3
+DEBUG:fiona.ogrext:Next index: 4
+DEBUG:fiona.ogrext:Next index: 5
+DEBUG:fiona.ogrext:Next index: 6
+DEBUG:fiona.ogrext:Next index: 7
+DEBUG:fiona.ogrext:Next index: 8
+DEBUG:fiona.ogrext:Next index: 9
+DEBUG:fiona.ogrext:Next index: 10
+DEBUG:fiona.ogrext:Next index: 11
+DEBUG:fiona.ogrext:Next index: 12
+DEBUG:fiona.ogrext:Next index: 13
+DEBUG:fiona.ogrext:Next index: 14
+DEBUG:fiona.ogrext:Next index: 15
+DEBUG:fiona.ogrext:Next index: 16
+DEBUG:fiona.ogrext:Next index: 17
+DEBUG:fiona.ogrext:Next index: 18
+DEBUG:fiona.ogrext:Next index: 19
+DEBUG:fiona.ogrext:Next index: 20
+DEBUG:fiona.ogrext:Next index: 21
+DEBUG:fiona.ogrext:Next index: 22
+DEBUG:fiona.ogrext:Next index: 23
+DEBUG:fiona.ogrext:Next index: 24
+DEBUG:fiona.ogrext:Next index: 25
+DEBUG:fiona.ogrext:Next index: 26
+DEBUG:fiona.ogrext:Next index: 27
+DEBUG:fiona.ogrext:Next index: 28
+DEBUG:fiona.ogrext:Next index: 29
+DEBUG:fiona.ogrext:Next index: 30
+DEBUG:fiona.ogrext:Next index: 31
+DEBUG:fiona.ogrext:Next index: 32
+DEBUG:fiona.ogrext:Next index: 33
+DEBUG:fiona.ogrext:Next index: 34
+DEBUG:fiona.ogrext:Next index: 35
+DEBUG:fiona.ogrext:Next index: 36
+DEBUG:fiona.ogrext:Next index: 37
+DEBUG:fiona.ogrext:Next index: 38
+DEBUG:fiona.ogrext:Next index: 39
+DEBUG:fiona.ogrext:Next index: 40
+DEBUG:fiona.ogrext:Next index: 41
+DEBUG:fiona.ogrext:Next index: 42
+DEBUG:fiona.ogrext:Next index: 43
+DEBUG:fiona.ogrext:Next index: 44
+DEBUG:fiona.ogrext:Next index: 45
+DEBUG:fiona.ogrext:Next index: 46
+DEBUG:fiona.ogrext:Next index: 47
+DEBUG:fiona.ogrext:Next index: 48
+DEBUG:fiona.ogrext:Next index: 49
+DEBUG:fiona.ogrext:Next index: 50
+DEBUG:fiona.ogrext:Next index: 51
+DEBUG:fiona.ogrext:Next index: 52
+DEBUG:fiona.ogrext:Next index: 53
+DEBUG:fiona.ogrext:Next index: 54
+DEBUG:fiona.ogrext:Next index: 55
+DEBUG:fiona.ogrext:Next index: 56
+DEBUG:fiona.ogrext:Next index: 57
+DEBUG:fiona.ogrext:Next index: 58
+DEBUG:fiona.ogrext:Next index: 59
+DEBUG:fiona.ogrext:Next index: 60
+DEBUG:fiona.ogrext:Next index: 61
+DEBUG:fiona.ogrext:Next index: 62
+DEBUG:fiona.ogrext:Next index: 63
+DEBUG:fiona.ogrext:Next index: 64
+DEBUG:fiona.ogrext:Next index: 65
+DEBUG:fiona.ogrext:Next index: 66
+DEBUG:fiona.ogrext:Next index: 67
+DEBUG:fiona.ogrext:Next index: 68
+DEBUG:fiona.ogrext:Next index: 69
+DEBUG:fiona.ogrext:Next index: 70
+DEBUG:fiona.ogrext:Next index: 71
+DEBUG:fiona.ogrext:Next index: 72
+DEBUG:fiona.ogrext:Next index: 73
+DEBUG:fiona.ogrext:Next index: 74
+DEBUG:fiona.ogrext:Next index: 75
+DEBUG:fiona.ogrext:Next index: 76
+DEBUG:fiona.ogrext:Next index: 77
+DEBUG:fiona.ogrext:Next index: 78
+DEBUG:fiona.ogrext:Next index: 79
+DEBUG:fiona.ogrext:Next index: 80
+DEBUG:fiona.ogrext:Next index: 81
+DEBUG:fiona.ogrext:Next index: 82
+DEBUG:fiona.ogrext:Next index: 83
+DEBUG:fiona.ogrext:Next index: 84
+DEBUG:fiona.ogrext:Next index: 85
+DEBUG:fiona.ogrext:Next index: 86
+DEBUG:fiona.ogrext:Next index: 87
+DEBUG:fiona.ogrext:Next index: 88
+DEBUG:fiona.ogrext:Next index: 89
+DEBUG:fiona.ogrext:Next index: 90
+DEBUG:fiona.ogrext:Next index: 91
+DEBUG:fiona.ogrext:Next index: 92
+DEBUG:fiona.ogrext:Next index: 93
+DEBUG:fiona.ogrext:Next index: 94
+DEBUG:fiona.ogrext:Next index: 95
+DEBUG:fiona.ogrext:Next index: 96
+DEBUG:fiona.ogrext:Next index: 97
+DEBUG:fiona.ogrext:Next index: 98
+DEBUG:fiona.ogrext:Next index: 99
+DEBUG:fiona.ogrext:Next index: 100
+DEBUG:fiona.ogrext:Next index: 101
+DEBUG:fiona.ogrext:Next index: 102
+DEBUG:fiona.ogrext:Next index: 103
+DEBUG:fiona.ogrext:Next index: 104
+DEBUG:fiona.ogrext:Next index: 105
+DEBUG:fiona.ogrext:Next index: 106
+DEBUG:fiona.ogrext:Next index: 107
+DEBUG:fiona.ogrext:Next index: 108
+DEBUG:fiona.ogrext:Next index: 109
+DEBUG:fiona.ogrext:Next index: 110
+DEBUG:fiona.ogrext:Next index: 111
+DEBUG:fiona.ogrext:Next index: 112
+DEBUG:fiona.ogrext:Next index: 113
+DEBUG:fiona.ogrext:Next index: 114
+DEBUG:fiona.ogrext:Next index: 115
+DEBUG:fiona.ogrext:Next index: 116
+DEBUG:fiona.ogrext:Next index: 117
+DEBUG:fiona.ogrext:Next index: 118
+DEBUG:fiona.ogrext:Next index: 119
+DEBUG:fiona.ogrext:Next index: 120
+DEBUG:fiona.ogrext:Next index: 121
+DEBUG:fiona.ogrext:Next index: 122
+DEBUG:fiona.ogrext:Next index: 123
+DEBUG:fiona.ogrext:Next index: 124
+DEBUG:fiona.ogrext:Next index: 125
+DEBUG:fiona.ogrext:Next index: 126
+DEBUG:fiona.ogrext:Next index: 127
+DEBUG:fiona.ogrext:Next index: 128
+DEBUG:fiona.ogrext:Next index: 129
+DEBUG:fiona.ogrext:Next index: 130
+DEBUG:fiona.ogrext:Next index: 131
+DEBUG:fiona.ogrext:Next index: 132
+DEBUG:fiona.ogrext:Next index: 133
+DEBUG:fiona.ogrext:Next index: 134
+DEBUG:fiona.ogrext:Next index: 135
+DEBUG:fiona.ogrext:Next index: 136
+DEBUG:fiona.ogrext:Next index: 137
+DEBUG:fiona.ogrext:Next index: 138
+DEBUG:fiona.ogrext:Next index: 139
+DEBUG:fiona.ogrext:Next index: 140
+DEBUG:fiona.ogrext:Next index: 141
+DEBUG:fiona.ogrext:Next index: 142
+DEBUG:fiona.ogrext:Next index: 143
+DEBUG:fiona.ogrext:Next index: 144
+DEBUG:fiona.ogrext:Next index: 145
+DEBUG:fiona.ogrext:Next index: 146
+DEBUG:fiona.ogrext:Next index: 147
+DEBUG:fiona.ogrext:Next index: 148
+DEBUG:fiona.ogrext:Next index: 149
+DEBUG:fiona.ogrext:Next index: 150
+DEBUG:fiona.ogrext:Next index: 151
+DEBUG:fiona.ogrext:Next index: 152
+DEBUG:fiona.ogrext:Next index: 153
+DEBUG:fiona.ogrext:Next index: 154
+DEBUG:fiona.ogrext:Next index: 155
+DEBUG:fiona.ogrext:Next index: 156
+DEBUG:fiona.ogrext:Next index: 157
+DEBUG:fiona.ogrext:Next index: 158
+DEBUG:fiona.ogrext:Next index: 159
+DEBUG:fiona.ogrext:Next index: 160
+DEBUG:fiona.collection:Flushed buffer
+DEBUG:fiona.collection:Stopped session
+INFO:root:Delineating watershed for point @ x = 440274.896900177 and y = 117615.9811000824
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): streamstats.usgs.gov:443
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "GET /streamstatsservices/watershed.geojson?rcode=VT&xlocation=440274.896900177&ylocation=117615.9811000824&crs=32145&includeparameters=True&includeflowtypes=False&includefeatures=True&simplify=True HTTP/1.1" 200 10674
+DEBUG:root:04300101000071 took 37.752 seconds for delineation attempt 0
+INFO:root:Calculating flowstats for VT20240524132928036000
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): streamstats.usgs.gov:443
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "POST /nssservices/regressionregions/bylocation HTTP/1.1" 500 149
+INFO:root:Run started 2024-05-24 13:31:08
+DEBUG:fiona.session:Could not import boto3, continuing with reduced functionality.
+DEBUG:fiona._env:GDAL_DATA found in environment.
+DEBUG:fiona._env:PROJ_DATA found in environment.
+DEBUG:fiona._env:GDAL_DATA found in environment.
+DEBUG:fiona._env:PROJ_DATA found in environment.
+DEBUG:fiona._env:GDAL_DATA found in environment.
+DEBUG:fiona._env:PROJ_DATA found in environment.
+DEBUG:fiona.ogrext:Got coordinate system
+DEBUG:fiona.ogrext:Got coordinate system
+DEBUG:fiona.crs:Matched. confidence=100, c_code=b'32145', c_name=b'EPSG'
+DEBUG:fiona.ogrext:OLC_FASTSETNEXTBYINDEX: 1
+DEBUG:fiona.ogrext:OLC_FASTFEATURECOUNT: 1
+DEBUG:fiona.ogrext:Next index: 0
+DEBUG:fiona.ogrext:Next index: 1
+DEBUG:fiona.ogrext:Next index: 2
+DEBUG:fiona.ogrext:Next index: 3
+DEBUG:fiona.ogrext:Next index: 4
+DEBUG:fiona.ogrext:Next index: 5
+DEBUG:fiona.ogrext:Next index: 6
+DEBUG:fiona.ogrext:Next index: 7
+DEBUG:fiona.ogrext:Next index: 8
+DEBUG:fiona.ogrext:Next index: 9
+DEBUG:fiona.ogrext:Next index: 10
+DEBUG:fiona.ogrext:Next index: 11
+DEBUG:fiona.ogrext:Next index: 12
+DEBUG:fiona.ogrext:Next index: 13
+DEBUG:fiona.ogrext:Next index: 14
+DEBUG:fiona.ogrext:Next index: 15
+DEBUG:fiona.ogrext:Next index: 16
+DEBUG:fiona.ogrext:Next index: 17
+DEBUG:fiona.ogrext:Next index: 18
+DEBUG:fiona.ogrext:Next index: 19
+DEBUG:fiona.ogrext:Next index: 20
+DEBUG:fiona.ogrext:Next index: 21
+DEBUG:fiona.ogrext:Next index: 22
+DEBUG:fiona.ogrext:Next index: 23
+DEBUG:fiona.ogrext:Next index: 24
+DEBUG:fiona.ogrext:Next index: 25
+DEBUG:fiona.ogrext:Next index: 26
+DEBUG:fiona.ogrext:Next index: 27
+DEBUG:fiona.ogrext:Next index: 28
+DEBUG:fiona.ogrext:Next index: 29
+DEBUG:fiona.ogrext:Next index: 30
+DEBUG:fiona.ogrext:Next index: 31
+DEBUG:fiona.ogrext:Next index: 32
+DEBUG:fiona.ogrext:Next index: 33
+DEBUG:fiona.ogrext:Next index: 34
+DEBUG:fiona.ogrext:Next index: 35
+DEBUG:fiona.ogrext:Next index: 36
+DEBUG:fiona.ogrext:Next index: 37
+DEBUG:fiona.ogrext:Next index: 38
+DEBUG:fiona.ogrext:Next index: 39
+DEBUG:fiona.ogrext:Next index: 40
+DEBUG:fiona.ogrext:Next index: 41
+DEBUG:fiona.ogrext:Next index: 42
+DEBUG:fiona.ogrext:Next index: 43
+DEBUG:fiona.ogrext:Next index: 44
+DEBUG:fiona.ogrext:Next index: 45
+DEBUG:fiona.ogrext:Next index: 46
+DEBUG:fiona.ogrext:Next index: 47
+DEBUG:fiona.ogrext:Next index: 48
+DEBUG:fiona.ogrext:Next index: 49
+DEBUG:fiona.ogrext:Next index: 50
+DEBUG:fiona.ogrext:Next index: 51
+DEBUG:fiona.ogrext:Next index: 52
+DEBUG:fiona.ogrext:Next index: 53
+DEBUG:fiona.ogrext:Next index: 54
+DEBUG:fiona.ogrext:Next index: 55
+DEBUG:fiona.ogrext:Next index: 56
+DEBUG:fiona.ogrext:Next index: 57
+DEBUG:fiona.ogrext:Next index: 58
+DEBUG:fiona.ogrext:Next index: 59
+DEBUG:fiona.ogrext:Next index: 60
+DEBUG:fiona.ogrext:Next index: 61
+DEBUG:fiona.ogrext:Next index: 62
+DEBUG:fiona.ogrext:Next index: 63
+DEBUG:fiona.ogrext:Next index: 64
+DEBUG:fiona.ogrext:Next index: 65
+DEBUG:fiona.ogrext:Next index: 66
+DEBUG:fiona.ogrext:Next index: 67
+DEBUG:fiona.ogrext:Next index: 68
+DEBUG:fiona.ogrext:Next index: 69
+DEBUG:fiona.ogrext:Next index: 70
+DEBUG:fiona.ogrext:Next index: 71
+DEBUG:fiona.ogrext:Next index: 72
+DEBUG:fiona.ogrext:Next index: 73
+DEBUG:fiona.ogrext:Next index: 74
+DEBUG:fiona.ogrext:Next index: 75
+DEBUG:fiona.ogrext:Next index: 76
+DEBUG:fiona.ogrext:Next index: 77
+DEBUG:fiona.ogrext:Next index: 78
+DEBUG:fiona.ogrext:Next index: 79
+DEBUG:fiona.ogrext:Next index: 80
+DEBUG:fiona.ogrext:Next index: 81
+DEBUG:fiona.ogrext:Next index: 82
+DEBUG:fiona.ogrext:Next index: 83
+DEBUG:fiona.ogrext:Next index: 84
+DEBUG:fiona.ogrext:Next index: 85
+DEBUG:fiona.ogrext:Next index: 86
+DEBUG:fiona.ogrext:Next index: 87
+DEBUG:fiona.ogrext:Next index: 88
+DEBUG:fiona.ogrext:Next index: 89
+DEBUG:fiona.ogrext:Next index: 90
+DEBUG:fiona.ogrext:Next index: 91
+DEBUG:fiona.ogrext:Next index: 92
+DEBUG:fiona.ogrext:Next index: 93
+DEBUG:fiona.ogrext:Next index: 94
+DEBUG:fiona.ogrext:Next index: 95
+DEBUG:fiona.ogrext:Next index: 96
+DEBUG:fiona.ogrext:Next index: 97
+DEBUG:fiona.ogrext:Next index: 98
+DEBUG:fiona.ogrext:Next index: 99
+DEBUG:fiona.ogrext:Next index: 100
+DEBUG:fiona.ogrext:Next index: 101
+DEBUG:fiona.ogrext:Next index: 102
+DEBUG:fiona.ogrext:Next index: 103
+DEBUG:fiona.ogrext:Next index: 104
+DEBUG:fiona.ogrext:Next index: 105
+DEBUG:fiona.ogrext:Next index: 106
+DEBUG:fiona.ogrext:Next index: 107
+DEBUG:fiona.ogrext:Next index: 108
+DEBUG:fiona.ogrext:Next index: 109
+DEBUG:fiona.ogrext:Next index: 110
+DEBUG:fiona.ogrext:Next index: 111
+DEBUG:fiona.ogrext:Next index: 112
+DEBUG:fiona.ogrext:Next index: 113
+DEBUG:fiona.ogrext:Next index: 114
+DEBUG:fiona.ogrext:Next index: 115
+DEBUG:fiona.ogrext:Next index: 116
+DEBUG:fiona.ogrext:Next index: 117
+DEBUG:fiona.ogrext:Next index: 118
+DEBUG:fiona.ogrext:Next index: 119
+DEBUG:fiona.ogrext:Next index: 120
+DEBUG:fiona.ogrext:Next index: 121
+DEBUG:fiona.ogrext:Next index: 122
+DEBUG:fiona.ogrext:Next index: 123
+DEBUG:fiona.ogrext:Next index: 124
+DEBUG:fiona.ogrext:Next index: 125
+DEBUG:fiona.ogrext:Next index: 126
+DEBUG:fiona.ogrext:Next index: 127
+DEBUG:fiona.ogrext:Next index: 128
+DEBUG:fiona.ogrext:Next index: 129
+DEBUG:fiona.ogrext:Next index: 130
+DEBUG:fiona.ogrext:Next index: 131
+DEBUG:fiona.ogrext:Next index: 132
+DEBUG:fiona.ogrext:Next index: 133
+DEBUG:fiona.ogrext:Next index: 134
+DEBUG:fiona.ogrext:Next index: 135
+DEBUG:fiona.ogrext:Next index: 136
+DEBUG:fiona.ogrext:Next index: 137
+DEBUG:fiona.ogrext:Next index: 138
+DEBUG:fiona.ogrext:Next index: 139
+DEBUG:fiona.ogrext:Next index: 140
+DEBUG:fiona.ogrext:Next index: 141
+DEBUG:fiona.ogrext:Next index: 142
+DEBUG:fiona.ogrext:Next index: 143
+DEBUG:fiona.ogrext:Next index: 144
+DEBUG:fiona.ogrext:Next index: 145
+DEBUG:fiona.ogrext:Next index: 146
+DEBUG:fiona.ogrext:Next index: 147
+DEBUG:fiona.ogrext:Next index: 148
+DEBUG:fiona.ogrext:Next index: 149
+DEBUG:fiona.ogrext:Next index: 150
+DEBUG:fiona.ogrext:Next index: 151
+DEBUG:fiona.ogrext:Next index: 152
+DEBUG:fiona.ogrext:Next index: 153
+DEBUG:fiona.ogrext:Next index: 154
+DEBUG:fiona.ogrext:Next index: 155
+DEBUG:fiona.ogrext:Next index: 156
+DEBUG:fiona.ogrext:Next index: 157
+DEBUG:fiona.ogrext:Next index: 158
+DEBUG:fiona.ogrext:Next index: 159
+DEBUG:fiona.ogrext:Next index: 160
+DEBUG:fiona.collection:Flushed buffer
+DEBUG:fiona.collection:Stopped session
+INFO:root:Delineating watershed for point @ x = -73.23918451696217 and y = 43.556361683910374
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): streamstats.usgs.gov:443
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "GET /streamstatsservices/watershed.geojson?rcode=VT&xlocation=-73.23918451696217&ylocation=43.556361683910374&crs=4326&includeparameters=True&includeflowtypes=False&includefeatures=True&simplify=True HTTP/1.1" 200 3047
+DEBUG:root:04300101000071 took 35.033 seconds for delineation attempt 0
+INFO:root:Delineating watershed for point @ x = -73.15121625016384 and y = 43.40936993957847
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "GET /streamstatsservices/watershed.geojson?rcode=VT&xlocation=-73.15121625016384&ylocation=43.40936993957847&crs=4326&includeparameters=True&includeflowtypes=False&includefeatures=True&simplify=True HTTP/1.1" 200 9958
+DEBUG:root:04300101000046 took 37.019 seconds for delineation attempt 0
+INFO:root:Calculating flowstats for VT20240524133150203000
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): streamstats.usgs.gov:443
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "POST /nssservices/regressionregions/bylocation HTTP/1.1" 200 2217
+INFO:root:Run started 2024-05-24 13:33:23
+DEBUG:fiona.session:Could not import boto3, continuing with reduced functionality.
+DEBUG:fiona._env:GDAL_DATA found in environment.
+DEBUG:fiona._env:PROJ_DATA found in environment.
+DEBUG:fiona._env:GDAL_DATA found in environment.
+DEBUG:fiona._env:PROJ_DATA found in environment.
+DEBUG:fiona._env:GDAL_DATA found in environment.
+DEBUG:fiona._env:PROJ_DATA found in environment.
+DEBUG:fiona.ogrext:Got coordinate system
+DEBUG:fiona.ogrext:Got coordinate system
+DEBUG:fiona.crs:Matched. confidence=100, c_code=b'32145', c_name=b'EPSG'
+DEBUG:fiona.ogrext:OLC_FASTSETNEXTBYINDEX: 1
+DEBUG:fiona.ogrext:OLC_FASTFEATURECOUNT: 1
+DEBUG:fiona.ogrext:Next index: 0
+DEBUG:fiona.ogrext:Next index: 1
+DEBUG:fiona.ogrext:Next index: 2
+DEBUG:fiona.ogrext:Next index: 3
+DEBUG:fiona.ogrext:Next index: 4
+DEBUG:fiona.ogrext:Next index: 5
+DEBUG:fiona.ogrext:Next index: 6
+DEBUG:fiona.ogrext:Next index: 7
+DEBUG:fiona.ogrext:Next index: 8
+DEBUG:fiona.ogrext:Next index: 9
+DEBUG:fiona.ogrext:Next index: 10
+DEBUG:fiona.ogrext:Next index: 11
+DEBUG:fiona.ogrext:Next index: 12
+DEBUG:fiona.ogrext:Next index: 13
+DEBUG:fiona.ogrext:Next index: 14
+DEBUG:fiona.ogrext:Next index: 15
+DEBUG:fiona.ogrext:Next index: 16
+DEBUG:fiona.ogrext:Next index: 17
+DEBUG:fiona.ogrext:Next index: 18
+DEBUG:fiona.ogrext:Next index: 19
+DEBUG:fiona.ogrext:Next index: 20
+DEBUG:fiona.ogrext:Next index: 21
+DEBUG:fiona.ogrext:Next index: 22
+DEBUG:fiona.ogrext:Next index: 23
+DEBUG:fiona.ogrext:Next index: 24
+DEBUG:fiona.ogrext:Next index: 25
+DEBUG:fiona.ogrext:Next index: 26
+DEBUG:fiona.ogrext:Next index: 27
+DEBUG:fiona.ogrext:Next index: 28
+DEBUG:fiona.ogrext:Next index: 29
+DEBUG:fiona.ogrext:Next index: 30
+DEBUG:fiona.ogrext:Next index: 31
+DEBUG:fiona.ogrext:Next index: 32
+DEBUG:fiona.ogrext:Next index: 33
+DEBUG:fiona.ogrext:Next index: 34
+DEBUG:fiona.ogrext:Next index: 35
+DEBUG:fiona.ogrext:Next index: 36
+DEBUG:fiona.ogrext:Next index: 37
+DEBUG:fiona.ogrext:Next index: 38
+DEBUG:fiona.ogrext:Next index: 39
+DEBUG:fiona.ogrext:Next index: 40
+DEBUG:fiona.ogrext:Next index: 41
+DEBUG:fiona.ogrext:Next index: 42
+DEBUG:fiona.ogrext:Next index: 43
+DEBUG:fiona.ogrext:Next index: 44
+DEBUG:fiona.ogrext:Next index: 45
+DEBUG:fiona.ogrext:Next index: 46
+DEBUG:fiona.ogrext:Next index: 47
+DEBUG:fiona.ogrext:Next index: 48
+DEBUG:fiona.ogrext:Next index: 49
+DEBUG:fiona.ogrext:Next index: 50
+DEBUG:fiona.ogrext:Next index: 51
+DEBUG:fiona.ogrext:Next index: 52
+DEBUG:fiona.ogrext:Next index: 53
+DEBUG:fiona.ogrext:Next index: 54
+DEBUG:fiona.ogrext:Next index: 55
+DEBUG:fiona.ogrext:Next index: 56
+DEBUG:fiona.ogrext:Next index: 57
+DEBUG:fiona.ogrext:Next index: 58
+DEBUG:fiona.ogrext:Next index: 59
+DEBUG:fiona.ogrext:Next index: 60
+DEBUG:fiona.ogrext:Next index: 61
+DEBUG:fiona.ogrext:Next index: 62
+DEBUG:fiona.ogrext:Next index: 63
+DEBUG:fiona.ogrext:Next index: 64
+DEBUG:fiona.ogrext:Next index: 65
+DEBUG:fiona.ogrext:Next index: 66
+DEBUG:fiona.ogrext:Next index: 67
+DEBUG:fiona.ogrext:Next index: 68
+DEBUG:fiona.ogrext:Next index: 69
+DEBUG:fiona.ogrext:Next index: 70
+DEBUG:fiona.ogrext:Next index: 71
+DEBUG:fiona.ogrext:Next index: 72
+DEBUG:fiona.ogrext:Next index: 73
+DEBUG:fiona.ogrext:Next index: 74
+DEBUG:fiona.ogrext:Next index: 75
+DEBUG:fiona.ogrext:Next index: 76
+DEBUG:fiona.ogrext:Next index: 77
+DEBUG:fiona.ogrext:Next index: 78
+DEBUG:fiona.ogrext:Next index: 79
+DEBUG:fiona.ogrext:Next index: 80
+DEBUG:fiona.ogrext:Next index: 81
+DEBUG:fiona.ogrext:Next index: 82
+DEBUG:fiona.ogrext:Next index: 83
+DEBUG:fiona.ogrext:Next index: 84
+DEBUG:fiona.ogrext:Next index: 85
+DEBUG:fiona.ogrext:Next index: 86
+DEBUG:fiona.ogrext:Next index: 87
+DEBUG:fiona.ogrext:Next index: 88
+DEBUG:fiona.ogrext:Next index: 89
+DEBUG:fiona.ogrext:Next index: 90
+DEBUG:fiona.ogrext:Next index: 91
+DEBUG:fiona.ogrext:Next index: 92
+DEBUG:fiona.ogrext:Next index: 93
+DEBUG:fiona.ogrext:Next index: 94
+DEBUG:fiona.ogrext:Next index: 95
+DEBUG:fiona.ogrext:Next index: 96
+DEBUG:fiona.ogrext:Next index: 97
+DEBUG:fiona.ogrext:Next index: 98
+DEBUG:fiona.ogrext:Next index: 99
+DEBUG:fiona.ogrext:Next index: 100
+DEBUG:fiona.ogrext:Next index: 101
+DEBUG:fiona.ogrext:Next index: 102
+DEBUG:fiona.ogrext:Next index: 103
+DEBUG:fiona.ogrext:Next index: 104
+DEBUG:fiona.ogrext:Next index: 105
+DEBUG:fiona.ogrext:Next index: 106
+DEBUG:fiona.ogrext:Next index: 107
+DEBUG:fiona.ogrext:Next index: 108
+DEBUG:fiona.ogrext:Next index: 109
+DEBUG:fiona.ogrext:Next index: 110
+DEBUG:fiona.ogrext:Next index: 111
+DEBUG:fiona.ogrext:Next index: 112
+DEBUG:fiona.ogrext:Next index: 113
+DEBUG:fiona.ogrext:Next index: 114
+DEBUG:fiona.ogrext:Next index: 115
+DEBUG:fiona.ogrext:Next index: 116
+DEBUG:fiona.ogrext:Next index: 117
+DEBUG:fiona.ogrext:Next index: 118
+DEBUG:fiona.ogrext:Next index: 119
+DEBUG:fiona.ogrext:Next index: 120
+DEBUG:fiona.ogrext:Next index: 121
+DEBUG:fiona.ogrext:Next index: 122
+DEBUG:fiona.ogrext:Next index: 123
+DEBUG:fiona.ogrext:Next index: 124
+DEBUG:fiona.ogrext:Next index: 125
+DEBUG:fiona.ogrext:Next index: 126
+DEBUG:fiona.ogrext:Next index: 127
+DEBUG:fiona.ogrext:Next index: 128
+DEBUG:fiona.ogrext:Next index: 129
+DEBUG:fiona.ogrext:Next index: 130
+DEBUG:fiona.ogrext:Next index: 131
+DEBUG:fiona.ogrext:Next index: 132
+DEBUG:fiona.ogrext:Next index: 133
+DEBUG:fiona.ogrext:Next index: 134
+DEBUG:fiona.ogrext:Next index: 135
+DEBUG:fiona.ogrext:Next index: 136
+DEBUG:fiona.ogrext:Next index: 137
+DEBUG:fiona.ogrext:Next index: 138
+DEBUG:fiona.ogrext:Next index: 139
+DEBUG:fiona.ogrext:Next index: 140
+DEBUG:fiona.ogrext:Next index: 141
+DEBUG:fiona.ogrext:Next index: 142
+DEBUG:fiona.ogrext:Next index: 143
+DEBUG:fiona.ogrext:Next index: 144
+DEBUG:fiona.ogrext:Next index: 145
+DEBUG:fiona.ogrext:Next index: 146
+DEBUG:fiona.ogrext:Next index: 147
+DEBUG:fiona.ogrext:Next index: 148
+DEBUG:fiona.ogrext:Next index: 149
+DEBUG:fiona.ogrext:Next index: 150
+DEBUG:fiona.ogrext:Next index: 151
+DEBUG:fiona.ogrext:Next index: 152
+DEBUG:fiona.ogrext:Next index: 153
+DEBUG:fiona.ogrext:Next index: 154
+DEBUG:fiona.ogrext:Next index: 155
+DEBUG:fiona.ogrext:Next index: 156
+DEBUG:fiona.ogrext:Next index: 157
+DEBUG:fiona.ogrext:Next index: 158
+DEBUG:fiona.ogrext:Next index: 159
+DEBUG:fiona.ogrext:Next index: 160
+DEBUG:fiona.collection:Flushed buffer
+DEBUG:fiona.collection:Stopped session
+INFO:root:Delineating watershed for point @ x = -73.23918451696217 and y = 43.556361683910374
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): streamstats.usgs.gov:443
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "GET /streamstatsservices/watershed.geojson?rcode=VT&xlocation=-73.23918451696217&ylocation=43.556361683910374&crs=4326&includeparameters=True&includeflowtypes=False&includefeatures=True&simplify=True HTTP/1.1" 200 11493
+DEBUG:root:04300101000071 took 40.643 seconds for delineation attempt 0
+INFO:root:Calculating flowstats for VT20240524133330008000
+DEBUG:urllib3.connectionpool:https://streamstats.usgs.gov:443 "POST /nssservices/regressionregions/bylocation HTTP/1.1" 200 2502
+INFO:root:Run started 2024-05-24 13:34:29
+DEBUG:fiona.session:Could not import boto3, continuing with reduced functionality.
+DEBUG:fiona._env:GDAL_DATA found in environment.
+DEBUG:fiona._env:PROJ_DATA found in environment.
+DEBUG:fiona._env:GDAL_DATA found in environment.
+DEBUG:fiona._env:PROJ_DATA found in environment.
+DEBUG:fiona._env:GDAL_DATA found in environment.
+DEBUG:fiona._env:PROJ_DATA found in environment.
+DEBUG:fiona.ogrext:Got coordinate system
+DEBUG:fiona.ogrext:Got coordinate system
+DEBUG:fiona.crs:Matched. confidence=100, c_code=b'32145', c_name=b'EPSG'
+DEBUG:fiona.ogrext:OLC_FASTSETNEXTBYINDEX: 1
+DEBUG:fiona.ogrext:OLC_FASTFEATURECOUNT: 1
+DEBUG:fiona.ogrext:Next index: 0
+DEBUG:fiona.ogrext:Next index: 1
+DEBUG:fiona.ogrext:Next index: 2
+DEBUG:fiona.ogrext:Next index: 3
+DEBUG:fiona.ogrext:Next index: 4
+DEBUG:fiona.ogrext:Next index: 5
+DEBUG:fiona.ogrext:Next index: 6
+DEBUG:fiona.ogrext:Next index: 7
+DEBUG:fiona.ogrext:Next index: 8
+DEBUG:fiona.ogrext:Next index: 9
+DEBUG:fiona.ogrext:Next index: 10
+DEBUG:fiona.ogrext:Next index: 11
+DEBUG:fiona.ogrext:Next index: 12
+DEBUG:fiona.ogrext:Next index: 13
+DEBUG:fiona.ogrext:Next index: 14
+DEBUG:fiona.ogrext:Next index: 15
+DEBUG:fiona.ogrext:Next index: 16
+DEBUG:fiona.ogrext:Next index: 17
+DEBUG:fiona.ogrext:Next index: 18
+DEBUG:fiona.ogrext:Next index: 19
+DEBUG:fiona.ogrext:Next index: 20
+DEBUG:fiona.ogrext:Next index: 21
+DEBUG:fiona.ogrext:Next index: 22
+DEBUG:fiona.ogrext:Next index: 23
+DEBUG:fiona.ogrext:Next index: 24
+DEBUG:fiona.ogrext:Next index: 25
+DEBUG:fiona.ogrext:Next index: 26
+DEBUG:fiona.ogrext:Next index: 27
+DEBUG:fiona.ogrext:Next index: 28
+DEBUG:fiona.ogrext:Next index: 29
+DEBUG:fiona.ogrext:Next index: 30
+DEBUG:fiona.ogrext:Next index: 31
+DEBUG:fiona.ogrext:Next index: 32
+DEBUG:fiona.ogrext:Next index: 33
+DEBUG:fiona.ogrext:Next index: 34
+DEBUG:fiona.ogrext:Next index: 35
+DEBUG:fiona.ogrext:Next index: 36
+DEBUG:fiona.ogrext:Next index: 37
+DEBUG:fiona.ogrext:Next index: 38
+DEBUG:fiona.ogrext:Next index: 39
+DEBUG:fiona.ogrext:Next index: 40
+DEBUG:fiona.ogrext:Next index: 41
+DEBUG:fiona.ogrext:Next index: 42
+DEBUG:fiona.ogrext:Next index: 43
+DEBUG:fiona.ogrext:Next index: 44
+DEBUG:fiona.ogrext:Next index: 45
+DEBUG:fiona.ogrext:Next index: 46
+DEBUG:fiona.ogrext:Next index: 47
+DEBUG:fiona.ogrext:Next index: 48
+DEBUG:fiona.ogrext:Next index: 49
+DEBUG:fiona.ogrext:Next index: 50
+DEBUG:fiona.ogrext:Next index: 51
+DEBUG:fiona.ogrext:Next index: 52
+DEBUG:fiona.ogrext:Next index: 53
+DEBUG:fiona.ogrext:Next index: 54
+DEBUG:fiona.ogrext:Next index: 55
+DEBUG:fiona.ogrext:Next index: 56
+DEBUG:fiona.ogrext:Next index: 57
+DEBUG:fiona.ogrext:Next index: 58
+DEBUG:fiona.ogrext:Next index: 59
+DEBUG:fiona.ogrext:Next index: 60
+DEBUG:fiona.ogrext:Next index: 61
+DEBUG:fiona.ogrext:Next index: 62
+DEBUG:fiona.ogrext:Next index: 63
+DEBUG:fiona.ogrext:Next index: 64
+DEBUG:fiona.ogrext:Next index: 65
+DEBUG:fiona.ogrext:Next index: 66
+DEBUG:fiona.ogrext:Next index: 67
+DEBUG:fiona.ogrext:Next index: 68
+DEBUG:fiona.ogrext:Next index: 69
+DEBUG:fiona.ogrext:Next index: 70
+DEBUG:fiona.ogrext:Next index: 71
+DEBUG:fiona.ogrext:Next index: 72
+DEBUG:fiona.ogrext:Next index: 73
+DEBUG:fiona.ogrext:Next index: 74
+DEBUG:fiona.ogrext:Next index: 75
+DEBUG:fiona.ogrext:Next index: 76
+DEBUG:fiona.ogrext:Next index: 77
+DEBUG:fiona.ogrext:Next index: 78
+DEBUG:fiona.ogrext:Next index: 79
+DEBUG:fiona.ogrext:Next index: 80
+DEBUG:fiona.ogrext:Next index: 81
+DEBUG:fiona.ogrext:Next index: 82
+DEBUG:fiona.ogrext:Next index: 83
+DEBUG:fiona.ogrext:Next index: 84
+DEBUG:fiona.ogrext:Next index: 85
+DEBUG:fiona.ogrext:Next index: 86
+DEBUG:fiona.ogrext:Next index: 87
+DEBUG:fiona.ogrext:Next index: 88
+DEBUG:fiona.ogrext:Next index: 89
+DEBUG:fiona.ogrext:Next index: 90
+DEBUG:fiona.ogrext:Next index: 91
+DEBUG:fiona.ogrext:Next index: 92
+DEBUG:fiona.ogrext:Next index: 93
+DEBUG:fiona.ogrext:Next index: 94
+DEBUG:fiona.ogrext:Next index: 95
+DEBUG:fiona.ogrext:Next index: 96
+DEBUG:fiona.ogrext:Next index: 97
+DEBUG:fiona.ogrext:Next index: 98
+DEBUG:fiona.ogrext:Next index: 99
+DEBUG:fiona.ogrext:Next index: 100
+DEBUG:fiona.ogrext:Next index: 101
+DEBUG:fiona.ogrext:Next index: 102
+DEBUG:fiona.ogrext:Next index: 103
+DEBUG:fiona.ogrext:Next index: 104
+DEBUG:fiona.ogrext:Next index: 105
+DEBUG:fiona.ogrext:Next index: 106
+DEBUG:fiona.ogrext:Next index: 107
+DEBUG:fiona.ogrext:Next index: 108
+DEBUG:fiona.ogrext:Next index: 109
+DEBUG:fiona.ogrext:Next index: 110
+DEBUG:fiona.ogrext:Next index: 111
+DEBUG:fiona.ogrext:Next index: 112
+DEBUG:fiona.ogrext:Next index: 113
+DEBUG:fiona.ogrext:Next index: 114
+DEBUG:fiona.ogrext:Next index: 115
+DEBUG:fiona.ogrext:Next index: 116
+DEBUG:fiona.ogrext:Next index: 117
+DEBUG:fiona.ogrext:Next index: 118
+DEBUG:fiona.ogrext:Next index: 119
+DEBUG:fiona.ogrext:Next index: 120
+DEBUG:fiona.ogrext:Next index: 121
+DEBUG:fiona.ogrext:Next index: 122
+DEBUG:fiona.ogrext:Next index: 123
+DEBUG:fiona.ogrext:Next index: 124
+DEBUG:fiona.ogrext:Next index: 125
+DEBUG:fiona.ogrext:Next index: 126
+DEBUG:fiona.ogrext:Next index: 127
+DEBUG:fiona.ogrext:Next index: 128
+DEBUG:fiona.ogrext:Next index: 129
+DEBUG:fiona.ogrext:Next index: 130
+DEBUG:fiona.ogrext:Next index: 131
+DEBUG:fiona.ogrext:Next index: 132
+DEBUG:fiona.ogrext:Next index: 133
+DEBUG:fiona.ogrext:Next index: 134
+DEBUG:fiona.ogrext:Next index: 135
+DEBUG:fiona.ogrext:Next index: 136
+DEBUG:fiona.ogrext:Next index: 137
+DEBUG:fiona.ogrext:Next index: 138
+DEBUG:fiona.ogrext:Next index: 139
+DEBUG:fiona.ogrext:Next index: 140
+DEBUG:fiona.ogrext:Next index: 141
+DEBUG:fiona.ogrext:Next index: 142
+DEBUG:fiona.ogrext:Next index: 143
+DEBUG:fiona.ogrext:Next index: 144
+DEBUG:fiona.ogrext:Next index: 145
+DEBUG:fiona.ogrext:Next index: 146
+DEBUG:fiona.ogrext:Next index: 147
+DEBUG:fiona.ogrext:Next index: 148
+DEBUG:fiona.ogrext:Next index: 149
+DEBUG:fiona.ogrext:Next index: 150
+DEBUG:fiona.ogrext:Next index: 151
+DEBUG:fiona.ogrext:Next index: 152
+DEBUG:fiona.ogrext:Next index: 153
+DEBUG:fiona.ogrext:Next index: 154
+DEBUG:fiona.ogrext:Next index: 155
+DEBUG:fiona.ogrext:Next index: 156
+DEBUG:fiona.ogrext:Next index: 157
+DEBUG:fiona.ogrext:Next index: 158
+DEBUG:fiona.ogrext:Next index: 159
+DEBUG:fiona.ogrext:Next index: 160
+DEBUG:fiona.collection:Flushed buffer
+DEBUG:fiona.collection:Stopped session
+INFO:root:Run started 2024-05-24 13:36:03
+DEBUG:fiona.session:Could not import boto3, continuing with reduced functionality.
+DEBUG:fiona._env:GDAL_DATA found in environment.
+DEBUG:fiona._env:PROJ_DATA found in environment.
+DEBUG:fiona._env:GDAL_DATA found in environment.
+DEBUG:fiona._env:PROJ_DATA found in environment.
+DEBUG:fiona._env:GDAL_DATA found in environment.
+DEBUG:fiona._env:PROJ_DATA found in environment.
+DEBUG:fiona.ogrext:Got coordinate system
+DEBUG:fiona.ogrext:Got coordinate system
+DEBUG:fiona.crs:Matched. confidence=100, c_code=b'32145', c_name=b'EPSG'
+DEBUG:fiona.ogrext:OLC_FASTSETNEXTBYINDEX: 1
+DEBUG:fiona.ogrext:OLC_FASTFEATURECOUNT: 1
+DEBUG:fiona.ogrext:Next index: 0
+DEBUG:fiona.ogrext:Next index: 1
+DEBUG:fiona.ogrext:Next index: 2
+DEBUG:fiona.ogrext:Next index: 3
+DEBUG:fiona.ogrext:Next index: 4
+DEBUG:fiona.ogrext:Next index: 5
+DEBUG:fiona.ogrext:Next index: 6
+DEBUG:fiona.ogrext:Next index: 7
+DEBUG:fiona.ogrext:Next index: 8
+DEBUG:fiona.ogrext:Next index: 9
+DEBUG:fiona.ogrext:Next index: 10
+DEBUG:fiona.ogrext:Next index: 11
+DEBUG:fiona.ogrext:Next index: 12
+DEBUG:fiona.ogrext:Next index: 13
+DEBUG:fiona.ogrext:Next index: 14
+DEBUG:fiona.ogrext:Next index: 15
+DEBUG:fiona.ogrext:Next index: 16
+DEBUG:fiona.ogrext:Next index: 17
+DEBUG:fiona.ogrext:Next index: 18
+DEBUG:fiona.ogrext:Next index: 19
+DEBUG:fiona.ogrext:Next index: 20
+DEBUG:fiona.ogrext:Next index: 21
+DEBUG:fiona.ogrext:Next index: 22
+DEBUG:fiona.ogrext:Next index: 23
+DEBUG:fiona.ogrext:Next index: 24
+DEBUG:fiona.ogrext:Next index: 25
+DEBUG:fiona.ogrext:Next index: 26
+DEBUG:fiona.ogrext:Next index: 27
+DEBUG:fiona.ogrext:Next index: 28
+DEBUG:fiona.ogrext:Next index: 29
+DEBUG:fiona.ogrext:Next index: 30
+DEBUG:fiona.ogrext:Next index: 31
+DEBUG:fiona.ogrext:Next index: 32
+DEBUG:fiona.ogrext:Next index: 33
+DEBUG:fiona.ogrext:Next index: 34
+DEBUG:fiona.ogrext:Next index: 35
+DEBUG:fiona.ogrext:Next index: 36
+DEBUG:fiona.ogrext:Next index: 37
+DEBUG:fiona.ogrext:Next index: 38
+DEBUG:fiona.ogrext:Next index: 39
+DEBUG:fiona.ogrext:Next index: 40
+DEBUG:fiona.ogrext:Next index: 41
+DEBUG:fiona.ogrext:Next index: 42
+DEBUG:fiona.ogrext:Next index: 43
+DEBUG:fiona.ogrext:Next index: 44
+DEBUG:fiona.ogrext:Next index: 45
+DEBUG:fiona.ogrext:Next index: 46
+DEBUG:fiona.ogrext:Next index: 47
+DEBUG:fiona.ogrext:Next index: 48
+DEBUG:fiona.ogrext:Next index: 49
+DEBUG:fiona.ogrext:Next index: 50
+DEBUG:fiona.ogrext:Next index: 51
+DEBUG:fiona.ogrext:Next index: 52
+DEBUG:fiona.ogrext:Next index: 53
+DEBUG:fiona.ogrext:Next index: 54
+DEBUG:fiona.ogrext:Next index: 55
+DEBUG:fiona.ogrext:Next index: 56
+DEBUG:fiona.ogrext:Next index: 57
+DEBUG:fiona.ogrext:Next index: 58
+DEBUG:fiona.ogrext:Next index: 59
+DEBUG:fiona.ogrext:Next index: 60
+DEBUG:fiona.ogrext:Next index: 61
+DEBUG:fiona.ogrext:Next index: 62
+DEBUG:fiona.ogrext:Next index: 63
+DEBUG:fiona.ogrext:Next index: 64
+DEBUG:fiona.ogrext:Next index: 65
+DEBUG:fiona.ogrext:Next index: 66
+DEBUG:fiona.ogrext:Next index: 67
+DEBUG:fiona.ogrext:Next index: 68
+DEBUG:fiona.ogrext:Next index: 69
+DEBUG:fiona.ogrext:Next index: 70
+DEBUG:fiona.ogrext:Next index: 71
+DEBUG:fiona.ogrext:Next index: 72
+DEBUG:fiona.ogrext:Next index: 73
+DEBUG:fiona.ogrext:Next index: 74
+DEBUG:fiona.ogrext:Next index: 75
+DEBUG:fiona.ogrext:Next index: 76
+DEBUG:fiona.ogrext:Next index: 77
+DEBUG:fiona.ogrext:Next index: 78
+DEBUG:fiona.ogrext:Next index: 79
+DEBUG:fiona.ogrext:Next index: 80
+DEBUG:fiona.ogrext:Next index: 81
+DEBUG:fiona.ogrext:Next index: 82
+DEBUG:fiona.ogrext:Next index: 83
+DEBUG:fiona.ogrext:Next index: 84
+DEBUG:fiona.ogrext:Next index: 85
+DEBUG:fiona.ogrext:Next index: 86
+DEBUG:fiona.ogrext:Next index: 87
+DEBUG:fiona.ogrext:Next index: 88
+DEBUG:fiona.ogrext:Next index: 89
+DEBUG:fiona.ogrext:Next index: 90
+DEBUG:fiona.ogrext:Next index: 91
+DEBUG:fiona.ogrext:Next index: 92
+DEBUG:fiona.ogrext:Next index: 93
+DEBUG:fiona.ogrext:Next index: 94
+DEBUG:fiona.ogrext:Next index: 95
+DEBUG:fiona.ogrext:Next index: 96
+DEBUG:fiona.ogrext:Next index: 97
+DEBUG:fiona.ogrext:Next index: 98
+DEBUG:fiona.ogrext:Next index: 99
+DEBUG:fiona.ogrext:Next index: 100
+DEBUG:fiona.ogrext:Next index: 101
+DEBUG:fiona.ogrext:Next index: 102
+DEBUG:fiona.ogrext:Next index: 103
+DEBUG:fiona.ogrext:Next index: 104
+DEBUG:fiona.ogrext:Next index: 105
+DEBUG:fiona.ogrext:Next index: 106
+DEBUG:fiona.ogrext:Next index: 107
+DEBUG:fiona.ogrext:Next index: 108
+DEBUG:fiona.ogrext:Next index: 109
+DEBUG:fiona.ogrext:Next index: 110
+DEBUG:fiona.ogrext:Next index: 111
+DEBUG:fiona.ogrext:Next index: 112
+DEBUG:fiona.ogrext:Next index: 113
+DEBUG:fiona.ogrext:Next index: 114
+DEBUG:fiona.ogrext:Next index: 115
+DEBUG:fiona.ogrext:Next index: 116
+DEBUG:fiona.ogrext:Next index: 117
+DEBUG:fiona.ogrext:Next index: 118
+DEBUG:fiona.ogrext:Next index: 119
+DEBUG:fiona.ogrext:Next index: 120
+DEBUG:fiona.ogrext:Next index: 121
+DEBUG:fiona.ogrext:Next index: 122
+DEBUG:fiona.ogrext:Next index: 123
+DEBUG:fiona.ogrext:Next index: 124
+DEBUG:fiona.ogrext:Next index: 125
+DEBUG:fiona.ogrext:Next index: 126
+DEBUG:fiona.ogrext:Next index: 127
+DEBUG:fiona.ogrext:Next index: 128
+DEBUG:fiona.ogrext:Next index: 129
+DEBUG:fiona.ogrext:Next index: 130
+DEBUG:fiona.ogrext:Next index: 131
+DEBUG:fiona.ogrext:Next index: 132
+DEBUG:fiona.ogrext:Next index: 133
+DEBUG:fiona.ogrext:Next index: 134
+DEBUG:fiona.ogrext:Next index: 135
+DEBUG:fiona.ogrext:Next index: 136
+DEBUG:fiona.ogrext:Next index: 137
+DEBUG:fiona.ogrext:Next index: 138
+DEBUG:fiona.ogrext:Next index: 139
+DEBUG:fiona.ogrext:Next index: 140
+DEBUG:fiona.ogrext:Next index: 141
+DEBUG:fiona.ogrext:Next index: 142
+DEBUG:fiona.ogrext:Next index: 143
+DEBUG:fiona.ogrext:Next index: 144
+DEBUG:fiona.ogrext:Next index: 145
+DEBUG:fiona.ogrext:Next index: 146
+DEBUG:fiona.ogrext:Next index: 147
+DEBUG:fiona.ogrext:Next index: 148
+DEBUG:fiona.ogrext:Next index: 149
+DEBUG:fiona.ogrext:Next index: 150
+DEBUG:fiona.ogrext:Next index: 151
+DEBUG:fiona.ogrext:Next index: 152
+DEBUG:fiona.ogrext:Next index: 153
+DEBUG:fiona.ogrext:Next index: 154
+DEBUG:fiona.ogrext:Next index: 155
+DEBUG:fiona.ogrext:Next index: 156
+DEBUG:fiona.ogrext:Next index: 157
+DEBUG:fiona.ogrext:Next index: 158
+DEBUG:fiona.ogrext:Next index: 159
+DEBUG:fiona.ogrext:Next index: 160
+DEBUG:fiona.collection:Flushed buffer
+DEBUG:fiona.collection:Stopped session
+DEBUG:fiona._env:GDAL_DATA found in environment.
+DEBUG:fiona._env:PROJ_DATA found in environment.
+DEBUG:fiona._env:GDAL_DATA found in environment.
+DEBUG:fiona._env:PROJ_DATA found in environment.
+DEBUG:fiona.ogrext:Got coordinate system
+DEBUG:fiona.ogrext:Got coordinate system
+DEBUG:fiona.crs:Matched. confidence=100, c_code=b'32145', c_name=b'EPSG'
+DEBUG:fiona.ogrext:OLC_FASTSETNEXTBYINDEX: 1
+DEBUG:fiona.ogrext:OLC_FASTFEATURECOUNT: 1
+DEBUG:fiona.ogrext:Next index: 0
+DEBUG:fiona.ogrext:Next index: 1
+DEBUG:fiona.ogrext:Next index: 2
+DEBUG:fiona.ogrext:Next index: 3
+DEBUG:fiona.ogrext:Next index: 4
+DEBUG:fiona.ogrext:Next index: 5
+DEBUG:fiona.ogrext:Next index: 6
+DEBUG:fiona.ogrext:Next index: 7
+DEBUG:fiona.ogrext:Next index: 8
+DEBUG:fiona.ogrext:Next index: 9
+DEBUG:fiona.ogrext:Next index: 10
+DEBUG:fiona.ogrext:Next index: 11
+DEBUG:fiona.ogrext:Next index: 12
+DEBUG:fiona.ogrext:Next index: 13
+DEBUG:fiona.ogrext:Next index: 14
+DEBUG:fiona.ogrext:Next index: 15
+DEBUG:fiona.ogrext:Next index: 16
+DEBUG:fiona.ogrext:Next index: 17
+DEBUG:fiona.ogrext:Next index: 18
+DEBUG:fiona.ogrext:Next index: 19
+DEBUG:fiona.ogrext:Next index: 20
+DEBUG:fiona.ogrext:Next index: 21
+DEBUG:fiona.ogrext:Next index: 22
+DEBUG:fiona.ogrext:Next index: 23
+DEBUG:fiona.ogrext:Next index: 24
+DEBUG:fiona.ogrext:Next index: 25
+DEBUG:fiona.ogrext:Next index: 26
+DEBUG:fiona.ogrext:Next index: 27
+DEBUG:fiona.ogrext:Next index: 28
+DEBUG:fiona.ogrext:Next index: 29
+DEBUG:fiona.ogrext:Next index: 30
+DEBUG:fiona.ogrext:Next index: 31
+DEBUG:fiona.ogrext:Next index: 32
+DEBUG:fiona.ogrext:Next index: 33
+DEBUG:fiona.ogrext:Next index: 34
+DEBUG:fiona.ogrext:Next index: 35
+DEBUG:fiona.ogrext:Next index: 36
+DEBUG:fiona.ogrext:Next index: 37
+DEBUG:fiona.ogrext:Next index: 38
+DEBUG:fiona.ogrext:Next index: 39
+DEBUG:fiona.ogrext:Next index: 40
+DEBUG:fiona.ogrext:Next index: 41
+DEBUG:fiona.ogrext:Next index: 42
+DEBUG:fiona.ogrext:Next index: 43
+DEBUG:fiona.ogrext:Next index: 44
+DEBUG:fiona.ogrext:Next index: 45
+DEBUG:fiona.ogrext:Next index: 46
+DEBUG:fiona.ogrext:Next index: 47
+DEBUG:fiona.ogrext:Next index: 48
+DEBUG:fiona.ogrext:Next index: 49
+DEBUG:fiona.ogrext:Next index: 50
+DEBUG:fiona.ogrext:Next index: 51
+DEBUG:fiona.ogrext:Next index: 52
+DEBUG:fiona.ogrext:Next index: 53
+DEBUG:fiona.ogrext:Next index: 54
+DEBUG:fiona.ogrext:Next index: 55
+DEBUG:fiona.ogrext:Next index: 56
+DEBUG:fiona.ogrext:Next index: 57
+DEBUG:fiona.ogrext:Next index: 58
+DEBUG:fiona.ogrext:Next index: 59
+DEBUG:fiona.ogrext:Next index: 60
+DEBUG:fiona.ogrext:Next index: 61
+DEBUG:fiona.ogrext:Next index: 62
+DEBUG:fiona.ogrext:Next index: 63
+DEBUG:fiona.ogrext:Next index: 64
+DEBUG:fiona.ogrext:Next index: 65
+DEBUG:fiona.ogrext:Next index: 66
+DEBUG:fiona.ogrext:Next index: 67
+DEBUG:fiona.ogrext:Next index: 68
+DEBUG:fiona.ogrext:Next index: 69
+DEBUG:fiona.ogrext:Next index: 70
+DEBUG:fiona.ogrext:Next index: 71
+DEBUG:fiona.ogrext:Next index: 72
+DEBUG:fiona.ogrext:Next index: 73
+DEBUG:fiona.ogrext:Next index: 74
+DEBUG:fiona.ogrext:Next index: 75
+DEBUG:fiona.ogrext:Next index: 76
+DEBUG:fiona.ogrext:Next index: 77
+DEBUG:fiona.ogrext:Next index: 78
+DEBUG:fiona.ogrext:Next index: 79
+DEBUG:fiona.ogrext:Next index: 80
+DEBUG:fiona.ogrext:Next index: 81
+DEBUG:fiona.ogrext:Next index: 82
+DEBUG:fiona.ogrext:Next index: 83
+DEBUG:fiona.ogrext:Next index: 84
+DEBUG:fiona.ogrext:Next index: 85
+DEBUG:fiona.ogrext:Next index: 86
+DEBUG:fiona.ogrext:Next index: 87
+DEBUG:fiona.ogrext:Next index: 88
+DEBUG:fiona.ogrext:Next index: 89
+DEBUG:fiona.ogrext:Next index: 90
+DEBUG:fiona.ogrext:Next index: 91
+DEBUG:fiona.ogrext:Next index: 92
+DEBUG:fiona.ogrext:Next index: 93
+DEBUG:fiona.ogrext:Next index: 94
+DEBUG:fiona.ogrext:Next index: 95
+DEBUG:fiona.ogrext:Next index: 96
+DEBUG:fiona.ogrext:Next index: 97
+DEBUG:fiona.ogrext:Next index: 98
+DEBUG:fiona.ogrext:Next index: 99
+DEBUG:fiona.ogrext:Next index: 100
+DEBUG:fiona.ogrext:Next index: 101
+DEBUG:fiona.ogrext:Next index: 102
+DEBUG:fiona.ogrext:Next index: 103
+DEBUG:fiona.ogrext:Next index: 104
+DEBUG:fiona.ogrext:Next index: 105
+DEBUG:fiona.ogrext:Next index: 106
+DEBUG:fiona.ogrext:Next index: 107
+DEBUG:fiona.ogrext:Next index: 108
+DEBUG:fiona.ogrext:Next index: 109
+DEBUG:fiona.ogrext:Next index: 110
+DEBUG:fiona.ogrext:Next index: 111
+DEBUG:fiona.ogrext:Next index: 112
+DEBUG:fiona.ogrext:Next index: 113
+DEBUG:fiona.ogrext:Next index: 114
+DEBUG:fiona.ogrext:Next index: 115
+DEBUG:fiona.ogrext:Next index: 116
+DEBUG:fiona.ogrext:Next index: 117
+DEBUG:fiona.ogrext:Next index: 118
+DEBUG:fiona.ogrext:Next index: 119
+DEBUG:fiona.ogrext:Next index: 120
+DEBUG:fiona.ogrext:Next index: 121
+DEBUG:fiona.ogrext:Next index: 122
+DEBUG:fiona.ogrext:Next index: 123
+DEBUG:fiona.ogrext:Next index: 124
+DEBUG:fiona.ogrext:Next index: 125
+DEBUG:fiona.ogrext:Next index: 126
+DEBUG:fiona.ogrext:Next index: 127
+DEBUG:fiona.ogrext:Next index: 128
+DEBUG:fiona.ogrext:Next index: 129
+DEBUG:fiona.ogrext:Next index: 130
+DEBUG:fiona.ogrext:Next index: 131
+DEBUG:fiona.ogrext:Next index: 132
+DEBUG:fiona.ogrext:Next index: 133
+DEBUG:fiona.ogrext:Next index: 134
+DEBUG:fiona.ogrext:Next index: 135
+DEBUG:fiona.ogrext:Next index: 136
+DEBUG:fiona.ogrext:Next index: 137
+DEBUG:fiona.ogrext:Next index: 138
+DEBUG:fiona.ogrext:Next index: 139
+DEBUG:fiona.ogrext:Next index: 140
+DEBUG:fiona.ogrext:Next index: 141
+DEBUG:fiona.ogrext:Next index: 142
+DEBUG:fiona.ogrext:Next index: 143
+DEBUG:fiona.ogrext:Next index: 144
+DEBUG:fiona.ogrext:Next index: 145
+DEBUG:fiona.ogrext:Next index: 146
+DEBUG:fiona.ogrext:Next index: 147
+DEBUG:fiona.ogrext:Next index: 148
+DEBUG:fiona.ogrext:Next index: 149
+DEBUG:fiona.ogrext:Next index: 150
+DEBUG:fiona.ogrext:Next index: 151
+DEBUG:fiona.ogrext:Next index: 152
+DEBUG:fiona.ogrext:Next index: 153
+DEBUG:fiona.ogrext:Next index: 154
+DEBUG:fiona.ogrext:Next index: 155
+DEBUG:fiona.ogrext:Next index: 156
+DEBUG:fiona.ogrext:Next index: 157
+DEBUG:fiona.ogrext:Next index: 158
+DEBUG:fiona.ogrext:Next index: 159
+DEBUG:fiona.ogrext:Next index: 160
+DEBUG:fiona.collection:Flushed buffer
+DEBUG:fiona.collection:Stopped session

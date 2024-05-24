@@ -1,0 +1,11 @@
+{
+    "StreamStatsServiceURLS": {
+        "watershed": "https://streamstats.usgs.gov/streamstatsservices/watershed.geojson",
+        "basinCharacteristics": "https://prodwebb.streamstats.usgs.gov/streamstatsservices/parameters.json"
+    },
+    "NSSServiceURlS": {
+        "regressionRegions": "https://streamstats.usgs.gov/nssservices/regressionregions/bylocation",
+        "scenarios": "https://streamstats.usgs.gov/nssservices/scenarios",
+        "computeFlowStats": "https://streamstats.usgs.gov/nssservices/scenarios/estimate"
+    }
+}
