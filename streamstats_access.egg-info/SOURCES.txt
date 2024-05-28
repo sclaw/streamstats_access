@@ -1,5 +1,9 @@
 setup.py
 source/__init__.py
+source/api_client.py
+source/batch_query.py
+source/config.py
+source/endpoints.py
 source/streamstats_acces_async.py
 source/streamstats_access.py
 streamstats_access.egg-info/PKG-INFO

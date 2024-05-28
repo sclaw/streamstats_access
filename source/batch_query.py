@@ -30,7 +30,7 @@ class BatchQueryTool:
             input_file (str): Path to the input file.
             output_file (str): Path to the output file.
         """
-        self.api_client = USGSEndpoints()
+        self.api_client = None
         self.input_file = input_file
         self.output_file = output_file
         self.unique_field = unique_field
@@ -63,115 +63,81 @@ class BatchQueryTool:
         with open(self.output_file, 'w') as file:
             json.dump(results, file, indent=4)
 
-    async def process_pt(self, pt, semaphore, max_attempts=5):
+    async def process_pt(self, pt):
         """
         Processes a single point query by querying all necessary apis and saving the result.
         
         Args:
             pt (tuple): A tuple containing the query parameters.
         """
-        async with aiohttp.ClientSession() as sess:
-            api_client = USGSEndpoints()
-            api_client.session = sess
-            pt_id = pt[0]
-            x = pt[1]
-            y = pt[2]
-            async with semaphore:
-                print(f"Processing point {pt_id}...")
+        headers = {'Referer': 'https://streamstats.usgs.gov/ss/'}
 
-                # Delineate watershed
-                attempts = 0
-                working = True
-                while working:
-                    try:
-                        wshed_json = await api_client.get_watershed(self.rcode, x, y, self.tmp_crs)
-                        wshed_geom = wshed_json["featurecollection"][1]["feature"]["features"][0]["geometry"]
-                        working = False
-                    except Exception as e:
-                        print(f'Error on delination attempt {attempts}. Retrying...')
-                        if attempts == max_attempts:
-                            return None
-                        attempts += 1
-                        continue
+        pt_id = pt[0]
+        x = pt[1]
+        y = pt[2]
 
-                # Get regression regions
-                attempts = 0
-                working = True
-                while working:
-                    try:
-                        reg_json = await api_client.get_regression_regions(wshed_geom)
-                        reg_regions = ', '.join([sub['code'] for sub in reg_json])
-                        working = False
-                    except Exception as e:
-                        print(f'Error on regression region attempt {attempts}. Retrying...')
-                        if attempts == max_attempts:
-                            return None
-                        attempts += 1
-                        continue
+        print(f'{pt_id} - Delineating watershed')
+        # Delineate watershed
+        try:
+            wshed_json, delin_headers = await self.api_client.get_watershed(self.rcode, x, y, self.tmp_crs)
+            wshed_geom = wshed_json["featurecollection"][1]["feature"]["features"][0]["geometry"]
+            server_name = delin_headers['USGSWiM-HostName'].lower()
+        except Exception as e:
+            return (f'Error on delination attempt: {e}')
 
-                # Get scenarios
-                attempts = 0
-                working = True
-                while working:
-                    try:
-                        scenario_json = await api_client.get_scenarios(self.rcode, self.stat_group, reg_regions)
-                        scenarios = scenario_json[0]
-                        parameterCodes = ', '.join([sub['code'] for sub in scenario_json[0]["regressionRegions"][0]["parameters"]])
-                        working = False
-                    except Exception as e:
-                        print(f'Error on scenario attempt {attempts}. Retrying...')
-                        if attempts == max_attempts:
-                            return None
-                        attempts += 1
-                        continue
+        
+        print(f'{pt_id} - Getting regression regions')
+        # Get regression regions
+        try:
+            reg_json, _ = await self.api_client.get_regression_regions(wshed_geom)
+            reg_regions = ', '.join([sub['code'] for sub in reg_json])
+        except Exception as e:
+            return (f'Error on regression region attempt: {e}')
+        
+        print(f'{pt_id} - Getting scenarios')
+        # Get scenarios
+        try:
+            scenario_json, _ = await self.api_client.get_scenarios(self.rcode, self.stat_group, reg_regions)
+            scenarios = scenario_json[0]
+            parameterCodes = ', '.join([sub['code'] for sub in scenario_json[0]["regressionRegions"][0]["parameters"]])
+        except Exception as e:
+            return (f'Error on scenario attempt: {e}')
+        
+        print(f'{pt_id} - Getting basin characteristics')
+        # Get basin characteristics
+        try:
+            basin_char_json, _ = await self.api_client.get_basin_characteristics(self.rcode, wshed_json["workspaceID"], parameterCodes, server_name)
+        except Exception as e:
+            return (f'Error on basin characteristics attempt: {e}')
+        
+        print(f'{pt_id} - Getting flow statistics')
+        # Get flow statistics
+        for ind, x in enumerate(scenarios['regressionRegions'][0]['parameters']):
+            for p in basin_char_json['parameters']:
+                if x['code'].lower() == p['code'].lower():
+                    scenarios['regressionRegions'][0]['parameters'][ind]['value'] = p['value']
+        post_body = [scenarios]
+        try:
+            flow_stats_json, _ = await self.api_client.get_flow_statistics({'regions': self.rcode}, post_body)
+        except Exception as e:
+            return (f'Error on flow statistics attempt: {e}')
+        
+        print(f"{pt_id} - Finished processing")
 
-                # Get basin characteristics
-                attempts = 0
-                working = True
-                while working:
-                    try:
-                        basin_char_json = await api_client.get_basin_characteristics(self.rcode, wshed_json["workspaceID"], parameterCodes)
-                        working = False
-                    except Exception as e:
-                        print(f'Error on basin characteristics attempt {attempts}. Retrying...')
-                        if attempts == max_attempts:
-                            return None
-                        attempts += 1
-                        continue
+        
 
-                # Get flow statistics
-                for ind, x in enumerate(scenarios['regressionRegions'][0]['parameters']): # from step 3 & step 4
-                    for p in basin_char_json['parameters']:
-                        if x['code'].lower() == p['code'].lower():
-                            scenarios['regressionRegions'][0]['parameters'][ind]['value'] = p['value']
-                post_body = [scenarios]
-                attempts = 0
-                working = True
-                while working:
-                    try:
-                        flow_stats_json = await api_client.get_flow_statistics({'regions': self.rcode}, post_body)
-                        working = False
-                    except Exception as e:
-                        print(f'Error on flow statistics attempt {attempts}. Retrying...')
-                        if attempts == max_attempts:
-                            return None
-                        attempts += 1
-                        continue
-                print(f"Finished processing point {pt_id}.")
-                [print(i) for i in basin_char_json['parameters']]
-            return None
-
-    async def _process_batch_async(self, max_concurrency):
+    async def _process_batch_async(self, max_concurrency=10):
         """
         Processes the batch queries by querying the API for each entry in the input file and saving 
         the results.
         """
+        print('Initiating batch query')
+        self.api_client = USGSEndpoints(max_concurrency)
         input_data = await self.load_input()
-        semaphore = asyncio.Semaphore(max_concurrency)
         results = []
         tasks = []
         for item in input_data:
-            task = asyncio.create_task(self.process_pt(item, semaphore))
+            task = asyncio.create_task(self.process_pt(item))
             tasks.append(task)
         results = await asyncio.gather(*tasks)
         await self.save_output(results)

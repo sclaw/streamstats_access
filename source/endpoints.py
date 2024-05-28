@@ -66,7 +66,7 @@ class USGSEndpoints(APIClient):
         url = config['NSSServiceURlS']['scenarios']
         return await self.get(url, params)
     
-    async def get_basin_characteristics(self, rcode, workspace_id, parameters):
+    async def get_basin_characteristics(self, rcode, workspace_id, parameters, host_name):
         """
         Fetches basin characteristics from the USGS API.
         
@@ -83,7 +83,7 @@ class USGSEndpoints(APIClient):
             'workspaceID': str(workspace_id),
             'includeparameters': parameters
         }
-        url = config['StreamStatsServiceURLS']['basinCharacteristics']
+        url = config['StreamStatsServiceURLS']['basinCharacteristics'].format(host_name)
         return await self.get(url, params)
     
     async def get_flow_statistics(self, rcode, scenarios):
