@@ -11,15 +11,15 @@ class APIClient:
         session (aiohttp.ClientSession): An instance of aiohttp ClientSession.
     """
 
-    def __init__(self, max_concurrency=10):
+    def __init__(self):
         """
         Initializes the APIClient with an API key and creates an aiohttp ClientSession.
 
         Args:
             api_key (str): The API key for the USGS API.
         """
-        self.max_concurrency = max_concurrency
-        self.semaphore = asyncio.Semaphore(self.max_concurrency)
+        return None
+
 
     async def get(self, url, params=None):
         """
@@ -35,8 +35,7 @@ class APIClient:
         Raises:
             aiohttp.ClientError: If the request fails.
         """
-        async with self.semaphore as s, aiohttp.ClientSession() as c:
-            print('making request')
+        async with aiohttp.ClientSession() as c:
             async with c.get(url, params=params) as response:
                 response.raise_for_status()
                 json = await response.json()
@@ -56,7 +55,7 @@ class APIClient:
         Raises:
             aiohttp.ClientError: If the request fails.
         """
-        async with self.semaphore as s, self.session as c:
+        async with aiohttp.ClientSession() as c:
             async with c.post(url, params=params, json=json) as response:
                 response.raise_for_status()
                 json = await response.json()

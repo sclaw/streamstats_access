@@ -81,7 +81,7 @@ class USGSEndpoints(APIClient):
         params = {
             'rcode': str(rcode),
             'workspaceID': str(workspace_id),
-            'includeparameters': parameters
+            'includeparameters': (parameters)
         }
         url = config['StreamStatsServiceURLS']['basinCharacteristics'].format(host_name)
         return await self.get(url, params)
