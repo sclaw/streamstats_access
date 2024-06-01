@@ -1,6 +1,6 @@
 {
     "StreamStatsServiceURLS": {
-        "watershed": "https://streamstats.usgs.gov/streamstatsservices/watershed.geojson",
+        "watershed": "https://{}.streamstats.usgs.gov/streamstatsservices/watershed.geojson",
         "basinCharacteristics": "https://{}.streamstats.usgs.gov/streamstatsservices/parameters.json"
     },
     "NSSServiceURlS": {
