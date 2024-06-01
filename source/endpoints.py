@@ -6,6 +6,7 @@ This module contains classes and methods to interact with specific USGS API endp
 
 from .api_client import APIClient
 from .config import config
+import asyncio
 
 class USGSEndpoints(APIClient):
     """
@@ -28,9 +29,13 @@ class USGSEndpoints(APIClient):
             'rcode': str(rcode),
             'xlocation': str(x),
             'ylocation': str(y),
-            'crs': str(crs)
+            'crs': str(crs),
+            'simplify': 'true',
+            'includeparameters': 'true',
+            'includeflowtypes': 'false',
+            'includefeatures': 'true'
         }
-        url = config['StreamStatsServiceURLS']['watershed']
+        url = config['StreamStatsServiceURLS']['watershed'].format(self.server_name)
         return await self.get(url, params)
     
     async def get_regression_regions(self, delineated_basin):
@@ -66,7 +71,7 @@ class USGSEndpoints(APIClient):
         url = config['NSSServiceURlS']['scenarios']
         return await self.get(url, params)
     
-    async def get_basin_characteristics(self, rcode, workspace_id, parameters, host_name):
+    async def _get_basin_characteristics_async(self, rcode, workspace_id=None, parameters=None):
         """
         Fetches basin characteristics from the USGS API.
         
@@ -78,12 +83,15 @@ class USGSEndpoints(APIClient):
         Returns:
             dict: The JSON response from the API containing basin characteristics.
         """
-        params = {
-            'rcode': str(rcode),
-            'workspaceID': str(workspace_id),
-            'includeparameters': (parameters)
-        }
-        url = config['StreamStatsServiceURLS']['basinCharacteristics'].format(host_name)
+        if parameters is None and workspace_id is None:
+            params = {'rcode': str(rcode)}
+        else:
+            params = {
+                'rcode': str(rcode),
+                'workspaceID': str(workspace_id),
+                'includeparameters': (parameters)
+            }
+        url = config['StreamStatsServiceURLS']['basinCharacteristics'].format(self.server_name)
         return await self.get(url, params)
     
     async def get_flow_statistics(self, rcode, scenarios):
@@ -100,3 +108,16 @@ class USGSEndpoints(APIClient):
         url = config['NSSServiceURlS']['computeFlowStats']
         return await self.post(url, params=rcode, json=scenarios)
 
+    def get_basin_characteristics(self, rcode, workspace_id=None, parameters=None):
+        """
+        Fetches basin characteristics from the USGS API.
+        
+        Args:
+            rcode (str): The region code.
+            workspace_id (str): The workspace ID.
+            parameters (dict): The parameters.
+        
+        Returns:
+            dict: The JSON response from the API containing basin characteristics.
+        """
+        return asyncio.run(self._get_basin_characteristics_async(rcode, workspace_id, parameters))
