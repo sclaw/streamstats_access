@@ -1,6 +1,6 @@
 # streamstats_access: Python access to the USGS Streamstats API
+<img src="images/logo_nobg_txt.png" alt="StreamStats API Python library" width="350" align="right">
 
-![ProbHAND Logo](/images/logo_nobg_txt.png)
 
 ## Overview
 
