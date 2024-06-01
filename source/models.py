@@ -65,14 +65,13 @@ class Point:
 
     def wshed_gdf(self):
         gdf = gpd.GeoDataFrame.from_features(self.wshed_json['featurecollection'][1]['feature']['features'])
-        gdf = gdf.drop(columns=['NAME'])
         gdf[self.unique_id_label] = self.id
         gdf = gdf.set_index(self.unique_id_label)
         return gdf
     
     def pt_gdf(self):
         gdf = gpd.GeoDataFrame.from_features(self.wshed_json['featurecollection'][0]['feature']['features'])
-        gdf = gdf.drop(columns=['NAME', 'FID'])
+        gdf = gdf.drop(columns=['FID'])
         gdf[self.unique_id_label] = self.id
         gdf = gdf.set_index(self.unique_id_label)
         return gdf
