@@ -51,7 +51,7 @@ class BatchQueryTool:
         point_list = [(i, in_file.loc[i].geometry.x, in_file.loc[i].geometry.y, 0) for i in in_file.index]
         return point_list
 
-async def point_worker(in_q, out_q, server_name, max_retries=5):
+async def point_worker(in_q, out_q, server_name, max_retries=3):
     """
     Processes a single point query by querying all necessary apis and saving the result.
     
