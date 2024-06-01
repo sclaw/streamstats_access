@@ -132,7 +132,7 @@ async def _process_batch_async(in_path, out_path, rcode, unique_field, parallel=
     q = asyncio.Queue()
     out_q = asyncio.Queue()
 
-    for item in input_data[:2]:
+    for item in input_data:
         q.put_nowait(item)
     
     if parallel:
