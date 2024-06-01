@@ -1,10 +1,19 @@
-# streamstats_access: Python access to the USGS Streamstats API
-<img src="images/logo_nobg_txt.png" alt="StreamStats API Python library" width="350" align="right">
+<table>
+<tr>
+<td>
 
+# streamstats_access: Python access to the USGS Streamstats API
 
 ## Overview
 
 This library provides allows users access to most functionality of the USGS Streamstats application from within Python.  The Streamstats app includes a suite of GIS-based hydrologic tools that are useful for water resources planning/management, engineering, and design purposes.
+
+</td>
+<td>
+<img src="images/logo_nobg_txt.png" alt="StreamStats API Python library" width="330" align="right">
+</td>
+</tr>
+</table>
 
 ## Key Features
 
