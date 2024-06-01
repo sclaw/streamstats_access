@@ -1,6 +1,6 @@
 # streamstats_access: Python access to the USGS Streamstats API
 
-![ProbHAND Logo](/images/logo.jpg)
+![ProbHAND Logo](/images/logo_nobg_txt.png)
 
 ## Overview
 
@@ -30,7 +30,7 @@ To install and run the probHAND model, you may use either pip or Anaconda:
 ## Usage
 
 
-
+## Speed Comparison
 
 ## License
 
