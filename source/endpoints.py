@@ -15,15 +15,16 @@ class USGSEndpoints(APIClient):
     
     async def get_watershed(self, rcode, x, y, crs):
         """
-        Fetches earthquake data from the USGS API.
+        Fetches watershed data from the USGS API.
         
         Args:
-            start_time (str): The start time for the query.
-            end_time (str): The end time for the query.
-            min_magnitude (float): The minimum magnitude of earthquakes to fetch.
+            rcode (str): The region code.
+            x (float): The x-coordinate (longitude) of the point.
+            y (float): The y-coordinate (latitude) of the point.
+            crs (str): The coordinate reference system.
         
         Returns:
-            dict: The JSON response from the API containing earthquake data.
+            tuple: A tuple containing the JSON response from the API and the response headers.
         """
         params = {
             'rcode': str(rcode),
@@ -46,7 +47,7 @@ class USGSEndpoints(APIClient):
             delineated_basin (dict): The delineated basin geometry.
         
         Returns:
-            dict: The JSON response from the API containing regression regions.
+            tuple: A tuple containing the JSON response from the API and the response headers.
         """
         url = config['NSSServiceURlS']['regressionRegions']
         return await self.post(url, json=delineated_basin)
@@ -58,10 +59,10 @@ class USGSEndpoints(APIClient):
         Args:
             rcode (str): The region code.
             stat_group (str): The statistic group.
-            regression_regions (dict): The regression regions.
+            regression_regions (str): The regression regions codes as a comma-separated string.
         
         Returns:
-            dict: The JSON response from the API containing scenarios.
+            tuple: A tuple containing the JSON response from the API and the response headers.
         """
         params = {
             'regions': str(rcode),
@@ -77,11 +78,11 @@ class USGSEndpoints(APIClient):
         
         Args:
             rcode (str): The region code.
-            workspace_id (str): The workspace ID.
-            parameters (dict): The parameters.
+            workspace_id (str, optional): The workspace ID. Defaults to None.
+            parameters (str, optional): The parameters to include. Defaults to None.
         
         Returns:
-            dict: The JSON response from the API containing basin characteristics.
+            tuple: A tuple containing the JSON response from the API and the response headers.
         """
         if parameters is None and workspace_id is None:
             params = {'rcode': str(rcode)}
@@ -99,23 +100,23 @@ class USGSEndpoints(APIClient):
         Fetches flow statistics from the USGS API.
         
         Args:
-            rcode (str): The region code.
-            scenarios (dict): The scenarios.
+            rcode (dict): The region code.
+            scenarios (list): The scenarios.
         
         Returns:
-            dict: The JSON response from the API containing flow statistics.
+            tuple: A tuple containing the JSON response from the API and the response headers.
         """
         url = config['NSSServiceURlS']['computeFlowStats']
         return await self.post(url, params=rcode, json=scenarios)
 
     def get_basin_characteristics(self, rcode, workspace_id=None, parameters=None):
         """
-        Fetches basin characteristics from the USGS API.
+        Fetches basin characteristics from the USGS API synchronously.
         
         Args:
             rcode (str): The region code.
-            workspace_id (str): The workspace ID.
-            parameters (dict): The parameters.
+            workspace_id (str, optional): The workspace ID. Defaults to None.
+            parameters (str, optional): The parameters to include. Defaults to None.
         
         Returns:
             dict: The JSON response from the API containing basin characteristics.

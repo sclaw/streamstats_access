@@ -13,7 +13,7 @@ class APIClient:
         Initializes the APIClient with an API key and creates an aiohttp ClientSession.
 
         Args:
-            api_key (str): The API key for the USGS API.
+            server_name (str): Which USGS server to send requests to (prodweba or prodwebb).
         """
         self.server_name = server_name
 
@@ -23,11 +23,12 @@ class APIClient:
         Fetches data from the specified API endpoint with given parameters.
 
         Args:
-            endpoint (str): The endpoint to query.
-            params (dict): The query parameters.
+            url (str): The URL to fetch data from.
+            params (dict, optional): The query parameters. Defaults to None.
+            headers (dict, optional): The request headers. Defaults to None.
 
         Returns:
-            dict: The JSON response from the API.
+            tuple: A tuple containing the JSON response from the API (dict) and response headers (aiohttp.ClientResponse.headers).
 
         Raises:
             aiohttp.ClientError: If the request fails.
@@ -43,11 +44,12 @@ class APIClient:
         Posts data to the specified API endpoint.
 
         Args:
-            endpoint (str): The endpoint to post to.
-            data (dict): The data to post.
+            url (str): The URL to post data to.
+            params (dict, optional): The query parameters. Defaults to None.
+            json (dict, optional): The JSON payload to send in the request body. Defaults to None.
 
         Returns:
-            dict: The JSON response from the API.
+            tuple: A tuple containing the JSON response from the API (dict) and response headers (aiohttp.ClientResponse.headers).
 
         Raises:
             aiohttp.ClientError: If the request fails.

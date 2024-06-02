@@ -61,7 +61,7 @@ async def point_worker(in_q, out_q, server_name, max_retries=3):
 
     while not in_q.empty():
         pt = in_q.get_nowait()
-        if pt.attempts > max_retries:
+         if pt.attempts > max_retries:
             out_q.put_nowait(pt)
         pt.set_server_name(server_name)
 
@@ -70,6 +70,7 @@ async def point_worker(in_q, out_q, server_name, max_retries=3):
         try:
             await pt._delineate_watershed_async()
         except Exception as e:
+            pt.attempts += 1
             in_q.put_nowait(pt)
             continue
 
@@ -79,6 +80,7 @@ async def point_worker(in_q, out_q, server_name, max_retries=3):
         try:
             await pt._get_regression_regions_async()
         except Exception as e:
+            pt.attempts += 1
             in_q.put_nowait(pt)
             continue
         
@@ -87,6 +89,7 @@ async def point_worker(in_q, out_q, server_name, max_retries=3):
         try:
             await pt._get_scenarios_async()
         except Exception as e:
+            pt.attempts += 1
             in_q.put_nowait(pt)
             continue
         
@@ -105,6 +108,7 @@ async def point_worker(in_q, out_q, server_name, max_retries=3):
                 else:
                     working = False
         except Exception as e:
+            pt.attempts += 1
             in_q.put_nowait(pt)
             continue
         
@@ -113,6 +117,7 @@ async def point_worker(in_q, out_q, server_name, max_retries=3):
         try:
             await pt._get_flow_statistics_async()
         except Exception as e:
+            pt.attempts += 1
             in_q.put_nowait(pt)
             continue
         

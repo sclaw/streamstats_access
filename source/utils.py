@@ -6,10 +6,14 @@ from .models import Point
 
 def load_datasource(in_path, rcode, unique_field):
     """
-    Loads the input file containing batch queries.
-    
+    Exports data from the output queue to a GeoPackage file.
+
+    Args:
+        out_path (str): The path to the output GeoPackage file.
+        out_q (queue.Queue): The output queue containing the data to export.
+
     Returns:
-        list: A list of queries from the input file.
+        None
     """
     in_file = gpd.read_file(in_path)
     in_file = in_file.to_crs(epsg=4326)
@@ -26,7 +30,7 @@ def export_data(out_path, out_q):
 
     # put all watersheds into a geodataframe
     keep_fields = [i['code'] for i in q[0].basin_char_json['parameters']]
-    keep_fields.extend(['OBJECTID', 'HYDROID', 'WarningMsg', 'HUCID', 'Edited', 'geometry'])
+    keep_fields.extend(['OBJECTID', 'WarningMsg', 'HUCID', 'Edited', 'geometry'])
     wshed = [i.wshed_gdf() for i in q]
     wshed = gpd.GeoDataFrame(pd.concat(wshed, ignore_index=False))
     wshed = wshed[keep_fields]
