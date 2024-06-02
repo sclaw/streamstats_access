@@ -28,14 +28,25 @@ To install and run the probHAND model, you may use either pip or Anaconda:
     ```
 
 
-## Usage
+## Example Usage
+
+See samples folder for data and scripts.
+
+```python
+import streamstats_access as ssa
+import os
 
 
-## Speed Comparison
+IN_PATH = os.path.join(os.path.dirname(__file__), 'vt_test.gpkg')
+OUT_PATH = os.path.join(os.path.dirname(__file__), 'out_pts.gpkg')
+
+
+ssa.process_batch(IN_PATH, OUT_PATH, rcode='VT', unique_field='UID')
+```
 
 ## License
 
-
+This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Contact
 
