@@ -20,7 +20,7 @@ async def point_worker(in_q, out_q, server_name, max_retries=3):
     """
     while not in_q.empty():
         pt = in_q.get_nowait()
-        logging.info(f'{server_name}: Processing {pt} | Attempt: {pt.attempt}')
+        logging.info(f'{server_name}: Processing {pt} | Attempt: {pt.attempts}')
         if pt.attempts > max_retries:
             logging.info(f'{server_name}: Too many tries ({pt.attempts}) {pt}')
             out_q.put_nowait(pt)
