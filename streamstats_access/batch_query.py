@@ -6,9 +6,7 @@ queries using the USGS Streamstats API.
 """
 
 import asyncio
-from .endpoints import USGSEndpoints
 from .utils import load_datasource, export_data
-import geopandas as gpd
 import os
 import logging
 
