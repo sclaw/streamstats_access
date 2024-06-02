@@ -2,6 +2,7 @@ import geopandas as gpd
 import pandas as pd
 import sqlite3
 from .models import Point
+import logging
 
 
 def load_datasource(in_path, rcode, unique_field):
@@ -15,6 +16,7 @@ def load_datasource(in_path, rcode, unique_field):
     Returns:
         None
     """
+    logging.info('Importing data')
     in_file = gpd.read_file(in_path)
     in_file = in_file.to_crs(epsg=4326)
     crs = in_file.crs.srs.split(':')[1]
@@ -23,6 +25,17 @@ def load_datasource(in_path, rcode, unique_field):
     return point_list
 
 def export_data(out_path, out_q):
+    """
+    Exports data from the output queue to a GeoPackage file.
+
+    Args:
+        out_path (str): The path to the output GeoPackage file.
+        out_q (queue.Queue): The output queue containing the data to export.
+
+    Returns:
+        None
+    """
+    logging.info('Exporting data')
     # convert q to list
     q = list()
     while not out_q.empty():
