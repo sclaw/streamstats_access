@@ -5,11 +5,11 @@
 
 ## Overview
 
-This library provides users access to most functionality of the USGS Streamstats application from within Python.  The Streamstats app includes a suite of GIS-based hydrologic tools that are useful for water resources planning/management, engineering, and design purposes.
+This library provides users access to functionality of the USGS StreamStats application from within Python.  The StreamStats app includes a suite of GIS-based hydrologic tools that are useful for water resources planning/management, engineering, and design purposes.
 
 ## Key Features
 
-- **Watershed Delineation:** Use streamstats GIS services to delineate watershed polygons from an outlet point.
+- **Watershed Delineation:** Use streamStats GIS services to delineate watershed polygons from an outlet point.
 - **Basin Characteristics:** Retrieve basin characteristics such as drainage area, percent wetlands, slope, mean annual precipitation, etc from a delineated watershed.
 - **Flow Statistics:** Use basin characteristics to derive USGS flow frequency estimates.
 - **A Better Batch Point Tool:**   Submit large batches of points at once.  This library mimics the functionality of the StreamStats batch tool.
@@ -19,7 +19,7 @@ This library provides users access to most functionality of the USGS Streamstats
 
 ## Installation
 
-To install and run the probHAND model, you may use either pip or Anaconda:
+To install this package, use pip:
 
 1. Pip Installation:
     ```sh
