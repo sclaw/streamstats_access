@@ -5,14 +5,17 @@
 
 ## Overview
 
-This library provides allows users access to most functionality of the USGS Streamstats application from within Python.  The Streamstats app includes a suite of GIS-based hydrologic tools that are useful for water resources planning/management, engineering, and design purposes.
+This library provides users access to most functionality of the USGS Streamstats application from within Python.  The Streamstats app includes a suite of GIS-based hydrologic tools that are useful for water resources planning/management, engineering, and design purposes.
 
 ## Key Features
 
 - **Watershed Delineation:** Use streamstats GIS services to delineate watershed polygons from an outlet point.
-- **Basin Characteristics:** Retrieve basin characteristics such as drainage area, percent wetlands, slope, mean annual precipitation from a delineated watershed.
-- **Flow Statistics:** Use basin characteristics to access USGS flow frequency estimates.
-- **Batch Point Tool:** Submit large batches of points at once, and avoid the 250 point limit of the USGS Streamstats Batch Tool.  The library implements asynchronous requests offering 2x speed compared to the batch tool (plus no queue wait times)!
+- **Basin Characteristics:** Retrieve basin characteristics such as drainage area, percent wetlands, slope, mean annual precipitation, etc from a delineated watershed.
+- **Flow Statistics:** Use basin characteristics to derive USGS flow frequency estimates.
+- **A Better Batch Point Tool:**   Submit large batches of points at once.  This library mimics the functionality of the StreamStats batch tool.
+  - Avoid the 250 point limit of the USGS Streamstats Batch Tool.
+  - The library implements asynchronous requests offering 2x speed compared to the batch tool.
+  - Avoid the queue.  The library directly queries USGS API endpoints, meaning you don't need to wait in the batch point queue.
 
 ## Installation
 
@@ -22,11 +25,10 @@ To install and run the probHAND model, you may use either pip or Anaconda:
     ```sh
     pip install streamstats_access
     ```
-2. Anaconda Installation:
+2. Anaconda Installation (coming soon!):
     ```bash
     conda install conda_forge:streamstats_access
     ```
-
 
 ## Example Usage
 
