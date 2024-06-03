@@ -3,6 +3,7 @@ import aiohttp
 class APIClient:
     """
     APIClient is a client for interacting with the USGS Streamstats API.
+    Very simple get and post methods for low-level functionality.
 
     Attributes:
         session (aiohttp.ClientSession): An instance of aiohttp ClientSession.
@@ -10,7 +11,7 @@ class APIClient:
 
     def __init__(self, server_name='prodweba'):
         """
-        Initializes the APIClient with an API key and creates an aiohttp ClientSession.
+        Initializes the APIClient with the name of the server to be queried.
 
         Args:
             server_name (str): Which USGS server to send requests to (prodweba or prodwebb).
