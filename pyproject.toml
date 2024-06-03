@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "streamstats_access"
-version = "0.1.3"
+version = "0.1.8"
 description = "A Python package to access and process data from the USGS StreamStats API."
 authors = [
     { name="Scott Lawson", email="scott.lawson@uvm.edu" }
@@ -23,25 +23,24 @@ classifiers = [
     "Programming Language :: Python :: 3.10",
     "Topic :: Scientific/Engineering :: GIS",
 ]
+dependencies = [
+    "aiohttp >= 3.8.1",
+    "geopandas >= 0.9.0",
+    "pandas >= 1.3.0",
+]
 
 [project.urls]
 "Homepage" = "https://github.com/sclaw/streamstats_access"
 "Bug Tracker" = "https://github.com/sclaw/streamstats_access/issues"
 
-[dependencies]
-aiohttp = "^3.8.1"
-geopandas = "^0.9.0"
-pandas = "^1.3.0"
-
-[optional-dependencies]
+[project.optional-dependencies]
 dev = [
-    "black",
-    "flake8",
-    "pytest",
+    "twine",
+    "build"
 ]
 
-[tool.setuptools.packages]
-find = {where = ["streamstats_access"]}
+[tool.setuptools]
+packages = ["streamstats_access"]
 
 [tool.black]
 line-length = 88
