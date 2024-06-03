@@ -1,5 +1,6 @@
 *working*
 *__pycache__*
+,vscode
 *.log
 /sample/vermont/out_pts.gpkg
 streamstats_access.egg-info
