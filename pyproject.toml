@@ -1,0 +1,47 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "streamstats-access"
+version = "0.1.0"
+description = "A Python package to access and process data from the USGS StreamStats API."
+authors = [
+    { name="Scott Lawson", email="scott.lawson@uvm.edu" }
+]
+license = { file="LICENSE" }
+readme = "README.md"
+keywords = ["USGS", "StreamStats", "API", "Geospatial", "Hydrology", "statistics", "watershed characteristics", "water resources", "data retrieval"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Topic :: Scientific/Engineering :: GIS",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/sclaw/streamstats_access"
+"Bug Tracker" = "https://github.com/sclaw/streamstats_access/issues"
+
+[dependencies]
+aiohttp = "^3.8.1"
+geopandas = "^0.9.0"
+pandas = "^1.3.0"
+
+[optional-dependencies]
+dev = [
+    "black",
+    "flake8",
+    "pytest",
+]
+
+[tool.setuptools.packages]
+find = {where = ["streamstats_access"]}
+
+[tool.black]
+line-length = 88
