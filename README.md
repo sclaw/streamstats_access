@@ -7,6 +7,8 @@
 
 This library provides users access to functionality of the USGS StreamStats application from within Python.  The StreamStats app includes a suite of GIS-based hydrologic tools that are useful for water resources planning/management, engineering, and design purposes.
 
+**_NOTE:_**  This is a community package and has no affiliation the U.S. Geological Survey, Web Informatics and Mapping team, or StreamStats team.  While efforts have been made to mimic Batch Processor functionality and formats, results received from this package may differ from results returned by the StreamStats Batch Processor. The Batch Processor contains additional features and technicalities that may not be represented in this package.
+
 ## Key Features
 
 - **Watershed Delineation:** Use streamStats GIS services to delineate watershed polygons from an outlet point.
