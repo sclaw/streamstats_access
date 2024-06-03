@@ -23,11 +23,11 @@ To install and run the probHAND model, you may use either pip or Anaconda:
 
 1. Pip Installation:
     ```sh
-    pip install streamstats_access
+    pip install streamstats-access
     ```
 2. Anaconda Installation (coming soon!):
     ```bash
-    conda install conda_forge:streamstats_access
+    # conda install conda_forge:streamstats_access
     ```
 
 ## Example Usage
