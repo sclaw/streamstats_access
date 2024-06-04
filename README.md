@@ -14,7 +14,7 @@ This library provides users access to functionality of the USGS StreamStats appl
 - **Watershed Delineation:** Use streamStats GIS services to delineate watershed polygons from an outlet point.
 - **Basin Characteristics:** Retrieve basin characteristics such as drainage area, percent wetlands, slope, mean annual precipitation, etc from a delineated watershed.
 - **Flow Statistics:** Use basin characteristics to derive USGS flow frequency estimates.
-- **A Local Batch Point Tool:**   Submit large batches of points at once.  This library mimics the functionality of the StreamStats batch tool.
+- **A Local Batch Point Tool:**   Submit large batches of points at once. This library mimics the functionality of the StreamStats batch tool.
   - Avoid the 250 point limit of the USGS Streamstats Batch Tool.
   - The library implements asynchronous requests offering potentially 2x speed compared to the batch tool.
   - Avoid the queue.  The library directly queries USGS API endpoints, meaning you don't need to wait in the batch point queue.
