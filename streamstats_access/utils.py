@@ -21,6 +21,8 @@ def load_datasource(in_path, rcode, unique_field):
     in_file = in_file.to_crs(epsg=4326)
     crs = in_file.crs.srs.split(':')[1]
     in_file = in_file.set_index(unique_field)
+    in_file = in_file.explode(index_parts=False)
+    in_file = in_file[~in_file.index.duplicated(keep='first')]
     point_list = [Point(rcode, in_file.loc[i].geometry.x, in_file.loc[i].geometry.y, crs, i, unique_field) for i in in_file.index]
     return point_list
 
