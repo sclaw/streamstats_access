@@ -44,7 +44,11 @@ def export_data(out_path, out_q):
         q.append(out_q.get_nowait())
 
     # put all watersheds into a geodataframe
-    keep_fields = [i['code'] for i in q[0].basin_char_json['parameters']]
+    keep_fields = set()
+    for i in q:
+        if i.basin_char_json is not None:
+            keep_fields.update([j['code'] for j in i.basin_char_json['parameters']])
+    keep_fields = list(keep_fields)
     keep_fields.extend(['OBJECTID', 'WarningMsg', 'HUCID', 'Edited', 'geometry'])
     wshed = [i.wshed_gdf() for i in q]
     wshed = gpd.GeoDataFrame(pd.concat(wshed, ignore_index=False))

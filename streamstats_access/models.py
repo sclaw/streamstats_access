@@ -151,7 +151,10 @@ class Point:
         Returns:
             geopandas.GeoDataFrame: The GeoDataFrame containing the watershed data.
         """
-        gdf = gpd.GeoDataFrame.from_features(self.wshed_json['featurecollection'][1]['feature']['features'])
+        try:
+            gdf = gpd.GeoDataFrame.from_features(self.wshed_json['featurecollection'][1]['feature']['features'])
+        except (KeyError, IndexError, TypeError):
+            return None
         gdf[self.unique_id_label] = self.id
         gdf = gdf.set_index(self.unique_id_label)
         return gdf
@@ -163,7 +166,10 @@ class Point:
         Returns:
             geopandas.GeoDataFrame: The GeoDataFrame containing the outlet point data.
         """
-        gdf = gpd.GeoDataFrame.from_features(self.wshed_json['featurecollection'][0]['feature']['features'])
+        try:
+            gdf = gpd.GeoDataFrame.from_features(self.wshed_json['featurecollection'][0]['feature']['features'])
+        except (KeyError, IndexError, TypeError):
+            return None
         gdf = gdf.drop(columns=['FID'])
         gdf[self.unique_id_label] = self.id
         gdf = gdf.set_index(self.unique_id_label)
@@ -176,7 +182,10 @@ class Point:
         Returns:
             pandas.DataFrame: The DataFrame containing the basin characteristics data.
         """
-        df = pd.json_normalize(self.basin_char_json['parameters'])
+        try:
+            df = pd.json_normalize(self.basin_char_json['parameters'])
+        except (KeyError, IndexError, TypeError):
+            return None
         df = df.drop(columns=['name', 'ID'])
         df = df.rename(columns={'description': 'StatName', 'code': 'StatLabel', 'value': 'Value', 'units': 'Units'})
         df[self.unique_id_label] = self.id
@@ -190,7 +199,10 @@ class Point:
         Returns:
             pandas.DataFrame: The DataFrame containing the flow statistics data.
         """
-        df = pd.json_normalize(self.flow_stats[0]['regressionRegions'][0]['results'])
+        try:
+            df = pd.json_normalize(self.flow_stats[0]['regressionRegions'][0]['results'])
+        except (KeyError, IndexError, TypeError):
+            return None
         df = df.drop(columns=['id'])
         rename_dict = {'name': 'StatName', 'code': 'StatLabel', 'value': 'Value', 'units': 'Units', 'equivalentYears': 'Years', 'intervalBounds.lower': 'Pll', 'intervalBounds.upper': 'Plu'}
         df = df.rename(columns=rename_dict)
